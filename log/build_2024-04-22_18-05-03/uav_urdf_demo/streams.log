@@ -1,0 +1,29 @@
+[0.015s] Invoking command in '/home/ccl/ROS2_UAV/build/uav_urdf_demo': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ROS2_UAV/build/uav_urdf_demo -- -j8 -l8
+[0.059s] [35m[1mScanning dependencies of target command_publisher[0m
+[0.074s] [ 50%] Built target state_publisher
+[0.086s] [ 75%] [32mBuilding CXX object CMakeFiles/command_publisher.dir/src/command_publisher.cpp.o[0m
+[2.060s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:60:38: error: ‘Int64’ is not a member of ‘std_msgs::msg’
+[2.060s]    60 |     rclcpp::Publisher<std_msgs::msg::Int64>::SharedPtr publisher;
+[2.060s]       |                                      ^~~~~
+[2.061s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:60:43: error: template argument 1 is invalid
+[2.061s]    60 |     rclcpp::Publisher<std_msgs::msg::Int64>::SharedPtr publisher;
+[2.061s]       |                                           ^
+[2.061s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:60:46: error: expected ‘;’ at end of member declaration
+[2.061s]    60 |     rclcpp::Publisher<std_msgs::msg::Int64>::SharedPtr publisher;
+[2.061s]       |                                              ^~~~~~~~~
+[2.061s]       |                                                       ;
+[2.061s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:60:56: error: ‘publisher’ does not name a type
+[2.061s]    60 |     rclcpp::Publisher<std_msgs::msg::Int64>::SharedPtr publisher;
+[2.061s]       |                                                        ^~~~~~~~~
+[2.061s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:62:2: error: expected ‘;’ after class definition
+[2.061s]    62 | }
+[2.061s]       |  ^
+[2.061s]       |  ;
+[2.062s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp: In constructor ‘CommandPublisher::CommandPublisher()’:
+[2.062s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:10:9: error: ‘publisher’ was not declared in this scope
+[2.062s]    10 |         publisher = this->create_publisher<std_msgs::msg::Int16>("/cmd_direction", 10);
+[2.062s]       |         ^~~~~~~~~
+[2.062s] make[2]: *** [CMakeFiles/command_publisher.dir/build.make:63: CMakeFiles/command_publisher.dir/src/command_publisher.cpp.o] Error 1
+[2.062s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/command_publisher.dir/all] Error 2
+[2.062s] make: *** [Makefile:141: all] Error 2
+[2.063s] Invoked command in '/home/ccl/ROS2_UAV/build/uav_urdf_demo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ROS2_UAV/build/uav_urdf_demo -- -j8 -l8

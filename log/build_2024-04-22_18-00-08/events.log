@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.001123] (-) JobUnselected: {'identifier': 'learning_tf2_cpp'}
+[0.001340] (-) JobUnselected: {'identifier': 'uav_tf2_test'}
+[0.001422] (uav_urdf_demo) JobQueued: {'identifier': 'uav_urdf_demo', 'dependencies': OrderedDict()}
+[0.001474] (uav_urdf_demo) JobStarted: {'identifier': 'uav_urdf_demo'}
+[0.010663] (uav_urdf_demo) JobProgress: {'identifier': 'uav_urdf_demo', 'progress': 'cmake'}
+[0.011649] (uav_urdf_demo) JobProgress: {'identifier': 'uav_urdf_demo', 'progress': 'build'}
+[0.012407] (uav_urdf_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ccl/ROS2_UAV/build/uav_urdf_demo', '--', '-j8', '-l8'], 'cwd': '/home/ccl/ROS2_UAV/build/uav_urdf_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ccl'), ('LC_TIME', 'en_US.UTF-8'), ('GIO_MODULE_DIR', '/home/ccl/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1674'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/ccl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/157/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/ccl/.nvm/versions/node/v20.11.1/bin'), ('NVM_INC', '/home/ccl/.nvm/versions/node/v20.11.1/include/node'), ('GTK_IM_MODULE_FILE', '/home/ccl/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/157/usr/share/code/code'), ('MANAGERPID', '1572'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22899'), ('NVM_DIR', '/home/ccl/.nvm'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ccl'), ('JOURNAL_STREAM', '8:51098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'ccl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/ccl/.nvm/versions/node/v20.11.1/bin:/home/ccl/ardupilot/Tools/autotest:/usr/lib/ccache:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/ccl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ccl/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1717,unix/ubuntu:/tmp/.ICE-unix/1717'), ('GTK_EXE_PREFIX', '/snap/code/157/usr'), ('INVOCATION_ID', 'cabaa2b973c1490e8f819080811eb6f9'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/157/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9e64f6363a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ccl/snap/code/157/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ccl/ROS2_UAV/build/uav_urdf_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/ccl/snap/code/157/.local/share:/home/ccl/snap/code/157:/snap/code/157/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.057709] (uav_urdf_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target command_publisher\x1b[0m\n'}
+[0.058510] (uav_urdf_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target state_publisher\x1b[0m\n'}
+[0.072723] (uav_urdf_demo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/command_publisher.dir/src/command_publisher.cpp.o\x1b[0m\n'}
+[0.093919] (uav_urdf_demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/state_publisher.dir/src/state_publisher.cpp.o\x1b[0m\n'}
+[0.100172] (-) TimerEvent: {}
+[0.200573] (-) TimerEvent: {}
+[0.300918] (-) TimerEvent: {}
+[0.401269] (-) TimerEvent: {}
+[0.501611] (-) TimerEvent: {}
+[0.534553] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:6:33: error: \xe2\x80\x98rclcpp\xe2\x80\x99 has not been declared\n'}
+[0.534809] (uav_urdf_demo) StderrLine: {'line': b'    6 | class CommandPublisher : public rclcpp::Node {\n'}
+[0.534875] (uav_urdf_demo) StderrLine: {'line': b'      |                                 ^~~~~~\n'}
+[0.534929] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:6:41: error: expected \xe2\x80\x98{\xe2\x80\x99 before \xe2\x80\x98Node\xe2\x80\x99\n'}
+[0.534992] (uav_urdf_demo) StderrLine: {'line': b'    6 | class CommandPublisher : public rclcpp::Node {\n'}
+[0.535044] (uav_urdf_demo) StderrLine: {'line': b'      |                                         ^~~~\n'}
+[0.535201] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:7:1: error: expected primary-expression before \xe2\x80\x98public\xe2\x80\x99\n'}
+[0.535328] (uav_urdf_demo) StderrLine: {'line': b'    7 | public:\n'}
+[0.535503] (uav_urdf_demo) StderrLine: {'line': b'      | ^~~~~~\n'}
+[0.535605] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:7:1: error: expected \xe2\x80\x98}\xe2\x80\x99 before \xe2\x80\x98public\xe2\x80\x99\n'}
+[0.535711] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:6:46: note: to match this \xe2\x80\x98{\xe2\x80\x99\n'}
+[0.535816] (uav_urdf_demo) StderrLine: {'line': b'    6 | class CommandPublisher : public rclcpp::Node {\n'}
+[0.535919] (uav_urdf_demo) StderrLine: {'line': b'      |                                              ^\n'}
+[0.536021] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:59:1: error: expected unqualified-id before \xe2\x80\x98private\xe2\x80\x99\n'}
+[0.536124] (uav_urdf_demo) StderrLine: {'line': b'   59 | private:\n'}
+[0.536255] (uav_urdf_demo) StderrLine: {'line': b'      | ^~~~~~~\n'}
+[0.536359] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:62:1: error: expected declaration before \xe2\x80\x98}\xe2\x80\x99 token\n'}
+[0.536461] (uav_urdf_demo) StderrLine: {'line': b'   62 | }\n'}
+[0.536563] (uav_urdf_demo) StderrLine: {'line': b'      | ^\n'}
+[0.536713] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp: In function \xe2\x80\x98int main(int, char**)\xe2\x80\x99:\n'}
+[0.536781] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:65:5: error: \xe2\x80\x98rclcpp\xe2\x80\x99 has not been declared\n'}
+[0.536837] (uav_urdf_demo) StderrLine: {'line': b'   65 |     rclcpp::init(agrc, argv);\n'}
+[0.536889] (uav_urdf_demo) StderrLine: {'line': b'      |     ^~~~~~\n'}
+[0.536941] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:65:18: error: \xe2\x80\x98agrc\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98argc\xe2\x80\x99?\n'}
+[0.536994] (uav_urdf_demo) StderrLine: {'line': b'   65 |     rclcpp::init(agrc, argv);\n'}
+[0.537045] (uav_urdf_demo) StderrLine: {'line': b'      |                  ^~~~\n'}
+[0.537096] (uav_urdf_demo) StderrLine: {'line': b'      |                  argc\n'}
+[0.537146] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:66:5: error: \xe2\x80\x98rclcpp\xe2\x80\x99 has not been declared\n'}
+[0.537197] (uav_urdf_demo) StderrLine: {'line': b'   66 |     rclcpp::spin(std::make_shared<CommandPublisher>());\n'}
+[0.537247] (uav_urdf_demo) StderrLine: {'line': b'      |     ^~~~~~\n'}
+[0.537302] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:67:5: error: \xe2\x80\x98rclcpp\xe2\x80\x99 has not been declared\n'}
+[0.537352] (uav_urdf_demo) StderrLine: {'line': b'   67 |     rclcpp::shutdown();\n'}
+[0.537403] (uav_urdf_demo) StderrLine: {'line': b'      |     ^~~~~~\n'}
+[0.537453] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:64:14: warning: unused parameter \xe2\x80\x98argc\xe2\x80\x99 [-Wunused-parameter]\n'}
+[0.537505] (uav_urdf_demo) StderrLine: {'line': b'   64 | int main(int argc, char* argv[]) {\n'}
+[0.537555] (uav_urdf_demo) StderrLine: {'line': b'      |          ~~~~^~~~\n'}
+[0.537605] (uav_urdf_demo) StderrLine: {'line': b'In file included from /usr/include/c++/9/unordered_map:42,\n'}
+[0.537679] (uav_urdf_demo) StderrLine: {'line': b'                 from /usr/include/c++/9/functional:61,\n'}
+[0.537738] (uav_urdf_demo) StderrLine: {'line': b'                 from /usr/include/c++/9/pstl/glue_algorithm_defs.h:13,\n'}
+[0.537793] (uav_urdf_demo) StderrLine: {'line': b'                 from /usr/include/c++/9/algorithm:71,\n'}
+[0.537846] (uav_urdf_demo) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18,\n'}
+[0.537899] (uav_urdf_demo) StderrLine: {'line': b'                 from /opt/ros/galactic/include/std_msgs/msg/detail/int16__struct.hpp:8,\n'}
+[0.537949] (uav_urdf_demo) StderrLine: {'line': b'                 from /opt/ros/galactic/include/std_msgs/msg/int16.hpp:7,\n'}
+[0.538001] (uav_urdf_demo) StderrLine: {'line': b'                 from /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:4:\n'}
+[0.538051] (uav_urdf_demo) StderrLine: {'line': b'/usr/include/c++/9/ext/aligned_buffer.h: In instantiation of \xe2\x80\x98struct __gnu_cxx::__aligned_buffer<CommandPublisher>\xe2\x80\x99:\n'}
+[0.538103] (uav_urdf_demo) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr_base.h:535:35:   required from \xe2\x80\x98class std::_Sp_counted_ptr_inplace<CommandPublisher, std::allocator<CommandPublisher>, __gnu_cxx::_S_atomic>::_Impl\xe2\x80\x99\n'}
+[0.538163] (uav_urdf_demo) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr_base.h:596:13:   required from \xe2\x80\x98class std::_Sp_counted_ptr_inplace<CommandPublisher, std::allocator<CommandPublisher>, __gnu_cxx::_S_atomic>\xe2\x80\x99\n'}
+[0.538255] (uav_urdf_demo) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr_base.h:676:43:   required from \xe2\x80\x98std::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = CommandPublisher; _Alloc = std::allocator<CommandPublisher>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\xe2\x80\x99\n'}
+[0.538315] (uav_urdf_demo) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:   required from \xe2\x80\x98std::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<CommandPublisher>; _Args = {}; _Tp = CommandPublisher; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\xe2\x80\x99\n'}
+[0.538372] (uav_urdf_demo) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h:359:59:   required from \xe2\x80\x98std::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<CommandPublisher>; _Args = {}; _Tp = CommandPublisher]\xe2\x80\x99\n'}
+[0.538427] (uav_urdf_demo) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h:701:14:   required from \xe2\x80\x98std::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = CommandPublisher; _Alloc = std::allocator<CommandPublisher>; _Args = {}]\xe2\x80\x99\n'}
+[0.538480] (uav_urdf_demo) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h:717:39:   required from \xe2\x80\x98std::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = CommandPublisher; _Args = {}]\xe2\x80\x99\n'}
+[0.538532] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:66:53:   required from here\n'}
+[0.538586] (uav_urdf_demo) StderrLine: {'line': b'/usr/include/c++/9/ext/aligned_buffer.h:91:28: error: invalid application of \xe2\x80\x98sizeof\xe2\x80\x99 to incomplete type \xe2\x80\x98CommandPublisher\xe2\x80\x99\n'}
+[0.538664] (uav_urdf_demo) StderrLine: {'line': b'   91 |     : std::aligned_storage<sizeof(_Tp), __alignof__(_Tp)>\n'}
+[0.538724] (uav_urdf_demo) StderrLine: {'line': b'      |                            ^~~~~~~~~~~\n'}
+[0.538778] (uav_urdf_demo) StderrLine: {'line': b'/usr/include/c++/9/ext/aligned_buffer.h:91:28: error: invalid application of \xe2\x80\x98sizeof\xe2\x80\x99 to incomplete type \xe2\x80\x98CommandPublisher\xe2\x80\x99\n'}
+[0.538832] (uav_urdf_demo) StderrLine: {'line': b'make[2]: *** [CMakeFiles/command_publisher.dir/build.make:63: CMakeFiles/command_publisher.dir/src/command_publisher.cpp.o] Error 1\n'}
+[0.538884] (uav_urdf_demo) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/command_publisher.dir/all] Error 2\n'}
+[0.538940] (uav_urdf_demo) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[0.601738] (-) TimerEvent: {}
+[0.702112] (-) TimerEvent: {}
+[0.802455] (-) TimerEvent: {}
+[0.902937] (-) TimerEvent: {}
+[1.003280] (-) TimerEvent: {}
+[1.103623] (-) TimerEvent: {}
+[1.204032] (-) TimerEvent: {}
+[1.304409] (-) TimerEvent: {}
+[1.404742] (-) TimerEvent: {}
+[1.505185] (-) TimerEvent: {}
+[1.605494] (-) TimerEvent: {}
+[1.705907] (-) TimerEvent: {}
+[1.806357] (-) TimerEvent: {}
+[1.906921] (-) TimerEvent: {}
+[2.007311] (-) TimerEvent: {}
+[2.107782] (-) TimerEvent: {}
+[2.208099] (-) TimerEvent: {}
+[2.308460] (-) TimerEvent: {}
+[2.408827] (-) TimerEvent: {}
+[2.509167] (-) TimerEvent: {}
+[2.609625] (-) TimerEvent: {}
+[2.710003] (-) TimerEvent: {}
+[2.810352] (-) TimerEvent: {}
+[2.910661] (-) TimerEvent: {}
+[3.010962] (-) TimerEvent: {}
+[3.111372] (-) TimerEvent: {}
+[3.211681] (-) TimerEvent: {}
+[3.312081] (-) TimerEvent: {}
+[3.322003] (uav_urdf_demo) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable state_publisher\x1b[0m\n'}
+[3.412189] (-) TimerEvent: {}
+[3.512529] (-) TimerEvent: {}
+[3.522727] (uav_urdf_demo) StdoutLine: {'line': b'[ 75%] Built target state_publisher\n'}
+[3.523433] (uav_urdf_demo) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.525018] (uav_urdf_demo) CommandEnded: {'returncode': 2}
+[3.567911] (uav_urdf_demo) JobEnded: {'identifier': 'uav_urdf_demo', 'rc': 2}
+[3.569631] (-) EventReactorShutdown: {}

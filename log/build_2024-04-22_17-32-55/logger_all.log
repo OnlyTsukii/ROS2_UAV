@@ -1,0 +1,260 @@
+[0.142s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.143s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f848c06d040>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f848c06d040>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f848c00c3a0>)
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.177s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ccl/ROS2_UAV'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(learning_tf2_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(learning_tf2_cpp) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(learning_tf2_cpp) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(learning_tf2_cpp) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(learning_tf2_cpp) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(learning_tf2_cpp) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(learning_tf2_cpp) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(learning_tf2_cpp) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(learning_tf2_cpp) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'learning_tf2_cpp' with type 'ros.ament_cmake' and name 'learning_tf2_cpp'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(uav_tf2_test) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(uav_tf2_test) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(uav_tf2_test) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(uav_tf2_test) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(uav_tf2_test) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(uav_tf2_test) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(uav_tf2_test) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(uav_tf2_test) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(uav_tf2_test) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'uav_tf2_test' with type 'ros.ament_cmake' and name 'uav_tf2_test'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(uav_urdf_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(uav_urdf_demo) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(uav_urdf_demo) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(uav_urdf_demo) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(uav_urdf_demo) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(uav_urdf_demo) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(uav_urdf_demo) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(uav_urdf_demo) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(uav_urdf_demo) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'uav_urdf_demo' with type 'ros.ament_cmake' and name 'uav_urdf_demo'
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.209s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 274 installed packages in /opt/ros/galactic
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'learning_tf2_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ccl/ROS2_UAV/build/learning_tf2_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ccl/ROS2_UAV/install/learning_tf2_cpp', 'merge_install': False, 'path': '/home/ccl/ROS2_UAV/learning_tf2_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'uav_tf2_test' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'uav_tf2_test' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'uav_tf2_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'uav_tf2_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'uav_tf2_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'uav_tf2_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'uav_tf2_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'uav_tf2_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'uav_tf2_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'uav_tf2_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ccl/ROS2_UAV/build/uav_tf2_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ccl/ROS2_UAV/install/uav_tf2_test', 'merge_install': False, 'path': '/home/ccl/ROS2_UAV/uav_tf2_test', 'symlink_install': False, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'uav_urdf_demo' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'uav_urdf_demo' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'uav_urdf_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'uav_urdf_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'uav_urdf_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'uav_urdf_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'uav_urdf_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'uav_urdf_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'uav_urdf_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'uav_urdf_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ccl/ROS2_UAV/build/uav_urdf_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ccl/ROS2_UAV/install/uav_urdf_demo', 'merge_install': False, 'path': '/home/ccl/ROS2_UAV/uav_urdf_demo', 'symlink_install': False, 'test_result_base': None}
+[0.248s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.249s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.250s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ccl/ROS2_UAV/learning_tf2_cpp' with build type 'ament_cmake'
+[0.250s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ccl/ROS2_UAV/learning_tf2_cpp'
+[0.251s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.252s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.252s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.256s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ccl/ROS2_UAV/uav_tf2_test' with build type 'ament_cmake'
+[0.256s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ccl/ROS2_UAV/uav_tf2_test'
+[0.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.262s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ccl/ROS2_UAV/uav_urdf_demo' with build type 'ament_cmake'
+[0.262s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ccl/ROS2_UAV/uav_urdf_demo'
+[0.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ccl/ROS2_UAV/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ccl/ROS2_UAV/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/ccl/ROS2_UAV/install/learning_tf2_cpp
+[0.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ccl/ROS2_UAV/build/uav_tf2_test': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ccl/ROS2_UAV/uav_tf2_test -DCMAKE_INSTALL_PREFIX=/home/ccl/ROS2_UAV/install/uav_tf2_test
+[0.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ccl/ROS2_UAV/build/uav_urdf_demo': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ccl/ROS2_UAV/uav_urdf_demo -DCMAKE_INSTALL_PREFIX=/home/ccl/ROS2_UAV/install/uav_urdf_demo
+[2.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ccl/ROS2_UAV/build/uav_tf2_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ccl/ROS2_UAV/uav_tf2_test -DCMAKE_INSTALL_PREFIX=/home/ccl/ROS2_UAV/install/uav_tf2_test
+[2.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ccl/ROS2_UAV/build/uav_tf2_test': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ROS2_UAV/build/uav_tf2_test -- -j8 -l8
+[2.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ccl/ROS2_UAV/build/uav_urdf_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ccl/ROS2_UAV/uav_urdf_demo -DCMAKE_INSTALL_PREFIX=/home/ccl/ROS2_UAV/install/uav_urdf_demo
+[2.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ccl/ROS2_UAV/build/uav_urdf_demo': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ROS2_UAV/build/uav_urdf_demo -- -j8 -l8
+[2.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ccl/ROS2_UAV/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ccl/ROS2_UAV/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/ccl/ROS2_UAV/install/learning_tf2_cpp
+[2.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ccl/ROS2_UAV/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ROS2_UAV/build/learning_tf2_cpp -- -j8 -l8
+[17.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ccl/ROS2_UAV/build/uav_urdf_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ROS2_UAV/build/uav_urdf_demo -- -j8 -l8
+[17.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ccl/ROS2_UAV/build/uav_urdf_demo': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ROS2_UAV/build/uav_urdf_demo
+[17.967s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_urdf_demo)
+[17.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ccl/ROS2_UAV/build/uav_urdf_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ROS2_UAV/build/uav_urdf_demo
+[17.992s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_urdf_demo' for CMake module files
+[17.993s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_urdf_demo' for CMake config files
+[17.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_urdf_demo', 'cmake_prefix_path')
+[17.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/hook/cmake_prefix_path.ps1'
+[18.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/hook/cmake_prefix_path.dsv'
+[18.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/hook/cmake_prefix_path.sh'
+[18.004s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_urdf_demo/lib'
+[18.004s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_urdf_demo/bin'
+[18.004s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_urdf_demo/lib/pkgconfig/uav_urdf_demo.pc'
+[18.005s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_urdf_demo/lib/python3.8/site-packages'
+[18.005s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_urdf_demo/bin'
+[18.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/package.ps1'
+[18.007s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/package.dsv'
+[18.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/package.sh'
+[18.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/package.bash'
+[18.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/package.zsh'
+[18.015s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ccl/ROS2_UAV/install/uav_urdf_demo/share/colcon-core/packages/uav_urdf_demo)
+[18.046s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_urdf_demo)
+[18.046s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_urdf_demo' for CMake module files
+[18.047s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_urdf_demo' for CMake config files
+[18.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_urdf_demo', 'cmake_prefix_path')
+[18.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/hook/cmake_prefix_path.ps1'
+[18.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/hook/cmake_prefix_path.dsv'
+[18.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/hook/cmake_prefix_path.sh'
+[18.050s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_urdf_demo/lib'
+[18.050s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_urdf_demo/bin'
+[18.050s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_urdf_demo/lib/pkgconfig/uav_urdf_demo.pc'
+[18.050s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_urdf_demo/lib/python3.8/site-packages'
+[18.050s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_urdf_demo/bin'
+[18.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/package.ps1'
+[18.051s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/package.dsv'
+[18.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/package.sh'
+[18.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/package.bash'
+[18.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/package.zsh'
+[18.054s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ccl/ROS2_UAV/install/uav_urdf_demo/share/colcon-core/packages/uav_urdf_demo)
+[20.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ccl/ROS2_UAV/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ROS2_UAV/build/learning_tf2_cpp -- -j8 -l8
+[20.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ccl/ROS2_UAV/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ROS2_UAV/build/learning_tf2_cpp
+[20.429s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_tf2_cpp)
+[20.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ccl/ROS2_UAV/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ROS2_UAV/build/learning_tf2_cpp
+[20.429s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/learning_tf2_cpp' for CMake module files
+[20.430s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/learning_tf2_cpp' for CMake config files
+[20.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_tf2_cpp', 'cmake_prefix_path')
+[20.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/hook/cmake_prefix_path.ps1'
+[20.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/hook/cmake_prefix_path.dsv'
+[20.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/hook/cmake_prefix_path.sh'
+[20.432s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/lib'
+[20.432s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/bin'
+[20.432s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/lib/pkgconfig/learning_tf2_cpp.pc'
+[20.432s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/lib/python3.8/site-packages'
+[20.432s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/bin'
+[20.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/package.ps1'
+[20.433s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv'
+[20.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/package.sh'
+[20.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/package.bash'
+[20.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/package.zsh'
+[20.434s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/colcon-core/packages/learning_tf2_cpp)
+[20.470s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_tf2_cpp)
+[20.471s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/learning_tf2_cpp' for CMake module files
+[20.471s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/learning_tf2_cpp' for CMake config files
+[20.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_tf2_cpp', 'cmake_prefix_path')
+[20.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/hook/cmake_prefix_path.ps1'
+[20.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/hook/cmake_prefix_path.dsv'
+[20.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/hook/cmake_prefix_path.sh'
+[20.473s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/lib'
+[20.474s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/bin'
+[20.474s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/lib/pkgconfig/learning_tf2_cpp.pc'
+[20.474s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/lib/python3.8/site-packages'
+[20.474s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/bin'
+[20.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/package.ps1'
+[20.475s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv'
+[20.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/package.sh'
+[20.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/package.bash'
+[20.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/package.zsh'
+[20.476s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/colcon-core/packages/learning_tf2_cpp)
+[20.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ccl/ROS2_UAV/build/uav_tf2_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ROS2_UAV/build/uav_tf2_test -- -j8 -l8
+[20.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ccl/ROS2_UAV/build/uav_tf2_test': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ROS2_UAV/build/uav_tf2_test
+[20.810s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_tf2_test)
+[20.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ccl/ROS2_UAV/build/uav_tf2_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ROS2_UAV/build/uav_tf2_test
+[20.811s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_tf2_test' for CMake module files
+[20.812s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_tf2_test' for CMake config files
+[20.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_tf2_test', 'cmake_prefix_path')
+[20.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/hook/cmake_prefix_path.ps1'
+[20.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/hook/cmake_prefix_path.dsv'
+[20.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/hook/cmake_prefix_path.sh'
+[20.813s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_tf2_test/lib'
+[20.813s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_tf2_test/bin'
+[20.813s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_tf2_test/lib/pkgconfig/uav_tf2_test.pc'
+[20.814s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_tf2_test/lib/python3.8/site-packages'
+[20.814s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_tf2_test/bin'
+[20.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/package.ps1'
+[20.814s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/package.dsv'
+[20.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/package.sh'
+[20.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/package.bash'
+[20.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/package.zsh'
+[20.815s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ccl/ROS2_UAV/install/uav_tf2_test/share/colcon-core/packages/uav_tf2_test)
+[20.862s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_tf2_test)
+[20.862s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_tf2_test' for CMake module files
+[20.863s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_tf2_test' for CMake config files
+[20.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_tf2_test', 'cmake_prefix_path')
+[20.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/hook/cmake_prefix_path.ps1'
+[20.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/hook/cmake_prefix_path.dsv'
+[20.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/hook/cmake_prefix_path.sh'
+[20.865s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_tf2_test/lib'
+[20.865s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_tf2_test/bin'
+[20.865s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_tf2_test/lib/pkgconfig/uav_tf2_test.pc'
+[20.865s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_tf2_test/lib/python3.8/site-packages'
+[20.865s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ROS2_UAV/install/uav_tf2_test/bin'
+[20.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/package.ps1'
+[20.866s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/package.dsv'
+[20.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/package.sh'
+[20.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/package.bash'
+[20.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/package.zsh'
+[20.868s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ccl/ROS2_UAV/install/uav_tf2_test/share/colcon-core/packages/uav_tf2_test)
+[20.868s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.868s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.868s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[20.869s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.884s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[20.884s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[20.884s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.927s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.927s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ccl/ROS2_UAV/install/local_setup.ps1'
+[20.928s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ccl/ROS2_UAV/install/_local_setup_util_ps1.py'
+[20.930s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ccl/ROS2_UAV/install/setup.ps1'
+[20.931s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ccl/ROS2_UAV/install/local_setup.sh'
+[20.932s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ccl/ROS2_UAV/install/_local_setup_util_sh.py'
+[20.932s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ccl/ROS2_UAV/install/setup.sh'
+[20.933s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ccl/ROS2_UAV/install/local_setup.bash'
+[20.934s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ccl/ROS2_UAV/install/setup.bash'
+[20.935s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ccl/ROS2_UAV/install/local_setup.zsh'
+[20.935s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ccl/ROS2_UAV/install/setup.zsh'

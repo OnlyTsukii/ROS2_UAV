@@ -1,0 +1,41 @@
+[0.015s] Invoking command in '/home/ccl/ROS2_UAV/build/uav_urdf_demo': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ROS2_UAV/build/uav_urdf_demo -- -j8 -l8
+[0.062s] [35m[1mScanning dependencies of target state_publisher[0m
+[0.089s] [ 50%] Built target command_publisher
+[0.096s] [ 75%] [32mBuilding CXX object CMakeFiles/state_publisher.dir/src/state_publisher.cpp.o[0m
+[2.272s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/state_publisher.cpp:107:13: error: ‘Subcription’ in namespace ‘rclcpp’ does not name a template type; did you mean ‘Subscription’?
+[2.272s]   107 |     rclcpp::Subcription<std_msgs::msg::Int16>::SharedPtr subscriber;
+[2.272s]       |             ^~~~~~~~~~~
+[2.272s]       |             Subscription
+[2.272s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/state_publisher.cpp: In constructor ‘StatePublisher::StatePublisher()’:
+[2.272s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/state_publisher.cpp:20:9: error: ‘subscriber’ was not declared in this scope
+[2.272s]    20 |         subscriber = create_subscriber<std_msgs::msg::Int16>(
+[2.272s]       |         ^~~~~~~~~~
+[2.272s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/state_publisher.cpp:20:22: error: ‘create_subscriber’ was not declared in this scope; did you mean ‘create_subscription’?
+[2.272s]    20 |         subscriber = create_subscriber<std_msgs::msg::Int16>(
+[2.272s]       |                      ^~~~~~~~~~~~~~~~~
+[2.273s]       |                      create_subscription
+[2.273s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/state_publisher.cpp:20:60: error: expected primary-expression before ‘>’ token
+[2.273s]    20 |         subscriber = create_subscriber<std_msgs::msg::Int16>(
+[2.273s]       |                                                            ^
+[2.273s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/state_publisher.cpp:21:13: warning: left operand of comma operator has no effect [-Wunused-value]
+[2.273s]    21 |             "cmd_direction", 10,
+[2.273s]       |             ^~~~~~~~~~~~~~~
+[2.273s] In file included from /home/ccl/ROS2_UAV/uav_urdf_demo/src/state_publisher.cpp:1:
+[2.273s] /usr/include/c++/9/functional: In instantiation of ‘struct std::_Bind_check_arity<void (StatePublisher::*)(std::shared_ptr<std_msgs::msg::Int16_<std::allocator<void> > >), StatePublisher*>’:
+[2.273s] /usr/include/c++/9/functional:787:12:   required from ‘struct std::_Bind_helper<false, void (StatePublisher::*)(std::shared_ptr<std_msgs::msg::Int16_<std::allocator<void> > >), StatePublisher*>’
+[2.273s] /usr/include/c++/9/functional:808:5:   required by substitution of ‘template<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (StatePublisher::*)(std::shared_ptr<std_msgs::msg::Int16_<std::allocator<void> > >); _BoundArgs = {StatePublisher*}]’
+[2.273s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/state_publisher.cpp:22:58:   required from here
+[2.273s] /usr/include/c++/9/functional:775:7: error: static assertion failed: Wrong number of arguments for pointer-to-member
+[2.273s]   774 |       static_assert(_Varargs::value
+[2.273s]       |                               ~~~~~
+[2.273s]   775 |       ? sizeof...(_BoundArgs) >= _Arity::value + 1
+[2.273s]       |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.273s]   776 |       : sizeof...(_BoundArgs) == _Arity::value + 1,
+[2.273s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.274s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/state_publisher.cpp:22:58: warning: right operand of comma operator has no effect [-Wunused-value]
+[2.274s]    22 |             std::bind(&StatePublisher::cmd_callback, this)
+[2.274s]       |                                                          ^
+[2.275s] make[2]: *** [CMakeFiles/state_publisher.dir/build.make:63: CMakeFiles/state_publisher.dir/src/state_publisher.cpp.o] Error 1
+[2.275s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/state_publisher.dir/all] Error 2
+[2.276s] make: *** [Makefile:141: all] Error 2
+[2.278s] Invoked command in '/home/ccl/ROS2_UAV/build/uav_urdf_demo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ROS2_UAV/build/uav_urdf_demo -- -j8 -l8

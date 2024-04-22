@@ -1,0 +1,67 @@
+[35m[1mScanning dependencies of target command_publisher[0m
+[35m[1mScanning dependencies of target state_publisher[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/command_publisher.dir/src/command_publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/state_publisher.dir/src/state_publisher.cpp.o[0m
+/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:6:33: error: ‘rclcpp’ has not been declared
+    6 | class CommandPublisher : public rclcpp::Node {
+      |                                 ^~~~~~
+/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:6:41: error: expected ‘{’ before ‘Node’
+    6 | class CommandPublisher : public rclcpp::Node {
+      |                                         ^~~~
+/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:7:1: error: expected primary-expression before ‘public’
+    7 | public:
+      | ^~~~~~
+/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:7:1: error: expected ‘}’ before ‘public’
+/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:6:46: note: to match this ‘{’
+    6 | class CommandPublisher : public rclcpp::Node {
+      |                                              ^
+/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:59:1: error: expected unqualified-id before ‘private’
+   59 | private:
+      | ^~~~~~~
+/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:62:1: error: expected declaration before ‘}’ token
+   62 | }
+      | ^
+/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp: In function ‘int main(int, char**)’:
+/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:65:5: error: ‘rclcpp’ has not been declared
+   65 |     rclcpp::init(agrc, argv);
+      |     ^~~~~~
+/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:65:18: error: ‘agrc’ was not declared in this scope; did you mean ‘argc’?
+   65 |     rclcpp::init(agrc, argv);
+      |                  ^~~~
+      |                  argc
+/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:66:5: error: ‘rclcpp’ has not been declared
+   66 |     rclcpp::spin(std::make_shared<CommandPublisher>());
+      |     ^~~~~~
+/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:67:5: error: ‘rclcpp’ has not been declared
+   67 |     rclcpp::shutdown();
+      |     ^~~~~~
+/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:64:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+   64 | int main(int argc, char* argv[]) {
+      |          ~~~~^~~~
+In file included from /usr/include/c++/9/unordered_map:42,
+                 from /usr/include/c++/9/functional:61,
+                 from /usr/include/c++/9/pstl/glue_algorithm_defs.h:13,
+                 from /usr/include/c++/9/algorithm:71,
+                 from /opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18,
+                 from /opt/ros/galactic/include/std_msgs/msg/detail/int16__struct.hpp:8,
+                 from /opt/ros/galactic/include/std_msgs/msg/int16.hpp:7,
+                 from /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:4:
+/usr/include/c++/9/ext/aligned_buffer.h: In instantiation of ‘struct __gnu_cxx::__aligned_buffer<CommandPublisher>’:
+/usr/include/c++/9/bits/shared_ptr_base.h:535:35:   required from ‘class std::_Sp_counted_ptr_inplace<CommandPublisher, std::allocator<CommandPublisher>, __gnu_cxx::_S_atomic>::_Impl’
+/usr/include/c++/9/bits/shared_ptr_base.h:596:13:   required from ‘class std::_Sp_counted_ptr_inplace<CommandPublisher, std::allocator<CommandPublisher>, __gnu_cxx::_S_atomic>’
+/usr/include/c++/9/bits/shared_ptr_base.h:676:43:   required from ‘std::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = CommandPublisher; _Alloc = std::allocator<CommandPublisher>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]’
+/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:   required from ‘std::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<CommandPublisher>; _Args = {}; _Tp = CommandPublisher; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]’
+/usr/include/c++/9/bits/shared_ptr.h:359:59:   required from ‘std::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<CommandPublisher>; _Args = {}; _Tp = CommandPublisher]’
+/usr/include/c++/9/bits/shared_ptr.h:701:14:   required from ‘std::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = CommandPublisher; _Alloc = std::allocator<CommandPublisher>; _Args = {}]’
+/usr/include/c++/9/bits/shared_ptr.h:717:39:   required from ‘std::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = CommandPublisher; _Args = {}]’
+/home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:66:53:   required from here
+/usr/include/c++/9/ext/aligned_buffer.h:91:28: error: invalid application of ‘sizeof’ to incomplete type ‘CommandPublisher’
+   91 |     : std::aligned_storage<sizeof(_Tp), __alignof__(_Tp)>
+      |                            ^~~~~~~~~~~
+/usr/include/c++/9/ext/aligned_buffer.h:91:28: error: invalid application of ‘sizeof’ to incomplete type ‘CommandPublisher’
+make[2]: *** [CMakeFiles/command_publisher.dir/build.make:63: CMakeFiles/command_publisher.dir/src/command_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/command_publisher.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 75%] [32m[1mLinking CXX executable state_publisher[0m
+[ 75%] Built target state_publisher
+make: *** [Makefile:141: all] Error 2

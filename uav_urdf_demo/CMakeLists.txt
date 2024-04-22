@@ -12,6 +12,7 @@ find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(tf2_ros REQUIRED)
+find_package(std_msgs REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -42,10 +43,23 @@ ament_target_dependencies(
   rclcpp
   tf2_ros
   tf2
+  std_msgs
 )
 
 install(
   TARGETS state_publisher
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+add_executable(command_publisher src/command_publisher.cpp)
+ament_target_dependencies(
+  command_publisher
+  rclcpp
+  std_msgs
+)
+
+install(
+  TARGETS command_publisher
   DESTINATION lib/${PROJECT_NAME}
 )
 

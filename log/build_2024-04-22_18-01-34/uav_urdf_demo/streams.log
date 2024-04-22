@@ -1,0 +1,68 @@
+[0.011s] Invoking command in '/home/ccl/ROS2_UAV/build/uav_urdf_demo': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ROS2_UAV/build/uav_urdf_demo -- -j8 -l8
+[0.057s] [35m[1mScanning dependencies of target command_publisher[0m
+[0.058s] [35m[1mScanning dependencies of target state_publisher[0m
+[0.091s] [ 50%] [32mBuilding CXX object CMakeFiles/command_publisher.dir/src/command_publisher.cpp.o[0m
+[0.091s] [ 50%] [32mBuilding CXX object CMakeFiles/state_publisher.dir/src/state_publisher.cpp.o[0m
+[2.119s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:61:38: error: ‘Int64’ is not a member of ‘std_msgs::msg’
+[2.119s]    61 |     rclcpp::Publisher<std_msgs::msg::Int64>::SharedPtr publisher;
+[2.119s]       |                                      ^~~~~
+[2.119s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:61:43: error: template argument 1 is invalid
+[2.119s]    61 |     rclcpp::Publisher<std_msgs::msg::Int64>::SharedPtr publisher;
+[2.119s]       |                                           ^
+[2.119s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:61:46: error: expected ‘;’ at end of member declaration
+[2.119s]    61 |     rclcpp::Publisher<std_msgs::msg::Int64>::SharedPtr publisher;
+[2.119s]       |                                              ^~~~~~~~~
+[2.119s]       |                                                       ;
+[2.119s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:61:56: error: ‘publisher’ does not name a type
+[2.119s]    61 |     rclcpp::Publisher<std_msgs::msg::Int64>::SharedPtr publisher;
+[2.120s]       |                                                        ^~~~~~~~~
+[2.120s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:63:2: error: expected ‘;’ after class definition
+[2.120s]    63 | }
+[2.120s]       |  ^
+[2.120s]       |  ;
+[2.120s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp: In constructor ‘CommandPublisher::CommandPublisher()’:
+[2.120s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:10:9: error: ‘publisher’ was not declared in this scope
+[2.120s]    10 |         publisher = this->create_publisher<std_msgs::msg::Int16>("/cmd_direction", 10);
+[2.120s]       |         ^~~~~~~~~
+[2.120s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:33:41: error: expected ‘;’ before ‘publisher’
+[2.120s]    33 |                             cmd.data = 0
+[2.120s]       |                                         ^
+[2.121s]       |                                         ;
+[2.121s]    34 |                             publisher->publisher(cmd);
+[2.121s]       |                             ~~~~~~~~~    
+[2.121s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:38:41: error: expected ‘;’ before ‘publisher’
+[2.121s]    38 |                             cmd.data = 1
+[2.121s]       |                                         ^
+[2.121s]       |                                         ;
+[2.122s]    39 |                             publisher->publisher(cmd);
+[2.122s]       |                             ~~~~~~~~~    
+[2.122s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:43:41: error: expected ‘;’ before ‘publisher’
+[2.122s]    43 |                             cmd.data = 2
+[2.122s]       |                                         ^
+[2.122s]       |                                         ;
+[2.122s]    44 |                             publisher->publisher(cmd);
+[2.122s]       |                             ~~~~~~~~~    
+[2.122s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:48:41: error: expected ‘;’ before ‘publisher’
+[2.122s]    48 |                             cmd.data = 3
+[2.122s]       |                                         ^
+[2.122s]       |                                         ;
+[2.122s]    49 |                             publisher->publisher(cmd);
+[2.122s]       |                             ~~~~~~~~~    
+[2.122s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:22:13: warning: unused variable ‘i’ [-Wunused-variable]
+[2.122s]    22 |         int i = 0;
+[2.122s]       |             ^
+[2.122s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp: In function ‘int main(int, char**)’:
+[2.122s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:66:18: error: ‘agrc’ was not declared in this scope; did you mean ‘argc’?
+[2.123s]    66 |     rclcpp::init(agrc, argv);
+[2.123s]       |                  ^~~~
+[2.123s]       |                  argc
+[2.123s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/command_publisher.cpp:65:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+[2.123s]    65 | int main(int argc, char* argv[]) {
+[2.123s]       |          ~~~~^~~~
+[2.123s] make[2]: *** [CMakeFiles/command_publisher.dir/build.make:63: CMakeFiles/command_publisher.dir/src/command_publisher.cpp.o] Error 1
+[2.123s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/command_publisher.dir/all] Error 2
+[2.123s] make[1]: *** Waiting for unfinished jobs....
+[3.376s] [ 75%] [32m[1mLinking CXX executable state_publisher[0m
+[3.580s] [ 75%] Built target state_publisher
+[3.581s] make: *** [Makefile:141: all] Error 2
+[3.583s] Invoked command in '/home/ccl/ROS2_UAV/build/uav_urdf_demo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ROS2_UAV/build/uav_urdf_demo -- -j8 -l8

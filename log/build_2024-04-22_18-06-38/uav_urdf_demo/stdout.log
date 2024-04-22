@@ -1,0 +1,30 @@
+[35m[1mScanning dependencies of target command_publisher[0m
+[ 50%] Built target state_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/command_publisher.dir/src/command_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable command_publisher[0m
+[100%] Built target command_publisher
+-- Install configuration: ""
+-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/launch
+-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/launch/uav_urdf.launch.py
+-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/urdf
+-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/urdf/refrence.urdf.xml
+-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/urdf/uav.urdf.xml
+-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/lib/uav_urdf_demo/state_publisher
+-- Set runtime path of "/home/ccl/ROS2_UAV/install/uav_urdf_demo/lib/uav_urdf_demo/state_publisher" to ""
+-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/lib/uav_urdf_demo/command_publisher
+-- Set runtime path of "/home/ccl/ROS2_UAV/install/uav_urdf_demo/lib/uav_urdf_demo/command_publisher" to ""
+-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/ament_index/resource_index/package_run_dependencies/uav_urdf_demo
+-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/ament_index/resource_index/parent_prefix_path/uav_urdf_demo
+-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/environment/ament_prefix_path.sh
+-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/environment/path.sh
+-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/environment/path.dsv
+-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/local_setup.bash
+-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/local_setup.sh
+-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/local_setup.zsh
+-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/local_setup.dsv
+-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/package.dsv
+-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/ament_index/resource_index/packages/uav_urdf_demo
+-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/cmake/uav_urdf_demoConfig.cmake
+-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/cmake/uav_urdf_demoConfig-version.cmake
+-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/package.xml

@@ -1,0 +1,6 @@
+Invoking command in '/home/ccl/ROS2_UAV/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ccl/ROS2_UAV/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/ccl/ROS2_UAV/install/learning_tf2_cpp
+Invoked command in '/home/ccl/ROS2_UAV/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ccl/ROS2_UAV/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/ccl/ROS2_UAV/install/learning_tf2_cpp
+Invoking command in '/home/ccl/ROS2_UAV/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ROS2_UAV/build/learning_tf2_cpp -- -j8 -l8
+Invoked command in '/home/ccl/ROS2_UAV/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ROS2_UAV/build/learning_tf2_cpp -- -j8 -l8
+Invoking command in '/home/ccl/ROS2_UAV/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ROS2_UAV/build/learning_tf2_cpp
+Invoked command in '/home/ccl/ROS2_UAV/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ROS2_UAV/build/learning_tf2_cpp

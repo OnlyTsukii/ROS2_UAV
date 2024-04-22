@@ -1,0 +1,6 @@
+Invoking command in '/home/ccl/ROS2_UAV/build/uav_tf2_test': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ccl/ROS2_UAV/uav_tf2_test -DCMAKE_INSTALL_PREFIX=/home/ccl/ROS2_UAV/install/uav_tf2_test
+Invoked command in '/home/ccl/ROS2_UAV/build/uav_tf2_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ccl/ROS2_UAV/uav_tf2_test -DCMAKE_INSTALL_PREFIX=/home/ccl/ROS2_UAV/install/uav_tf2_test
+Invoking command in '/home/ccl/ROS2_UAV/build/uav_tf2_test': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ROS2_UAV/build/uav_tf2_test -- -j8 -l8
+Invoked command in '/home/ccl/ROS2_UAV/build/uav_tf2_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ROS2_UAV/build/uav_tf2_test -- -j8 -l8
+Invoking command in '/home/ccl/ROS2_UAV/build/uav_tf2_test': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ROS2_UAV/build/uav_tf2_test
+Invoked command in '/home/ccl/ROS2_UAV/build/uav_tf2_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ROS2_UAV/build/uav_tf2_test

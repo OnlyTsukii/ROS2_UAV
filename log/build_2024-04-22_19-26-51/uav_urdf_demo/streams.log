@@ -1,0 +1,16 @@
+[0.017s] Invoking command in '/home/ccl/ROS2_UAV/build/uav_urdf_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ROS2_UAV/build/uav_urdf_demo -- -j8 -l8
+[0.056s] [35m[1mScanning dependencies of target command_publisher[0m
+[0.057s] [35m[1mScanning dependencies of target state_publisher[0m
+[0.083s] [ 25%] [32mBuilding CXX object CMakeFiles/command_publisher.dir/src/command_publisher.cpp.o[0m
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/state_publisher.dir/src/state_publisher.cpp.o[0m
+[0.214s] [ 75%] [32m[1mLinking CXX executable command_publisher[0m
+[0.367s] [ 75%] Built target command_publisher
+[3.455s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/state_publisher.cpp: In member function ‘void StatePublisher::cmd_callback(std::shared_ptr<std_msgs::msg::Int16_<std::allocator<void> > >)’:
+[3.455s] /home/ccl/ROS2_UAV/uav_urdf_demo/src/state_publisher.cpp:90:29: error: expected ‘;’ before ‘do’
+[3.455s]    90 |             yaw = -1 * angle
+[3.455s]       |                             ^
+[3.455s]       |                             ;
+[3.456s] make[2]: *** [CMakeFiles/state_publisher.dir/build.make:63: CMakeFiles/state_publisher.dir/src/state_publisher.cpp.o] Error 1
+[3.456s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/state_publisher.dir/all] Error 2
+[3.456s] make: *** [Makefile:141: all] Error 2
+[3.459s] Invoked command in '/home/ccl/ROS2_UAV/build/uav_urdf_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ROS2_UAV/build/uav_urdf_demo -- -j8 -l8

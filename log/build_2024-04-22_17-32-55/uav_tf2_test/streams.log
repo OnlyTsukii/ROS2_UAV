@@ -1,0 +1,120 @@
+[0.038s] Invoking command in '/home/ccl/ROS2_UAV/build/uav_tf2_test': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ccl/ROS2_UAV/uav_tf2_test -DCMAKE_INSTALL_PREFIX=/home/ccl/ROS2_UAV/install/uav_tf2_test
+[0.178s] -- The C compiler identification is GNU 9.4.0
+[0.234s] -- The CXX compiler identification is GNU 9.4.0
+[0.243s] -- Check for working C compiler: /usr/lib/ccache/cc
+[0.324s] -- Check for working C compiler: /usr/lib/ccache/cc -- works
+[0.326s] -- Detecting C compiler ABI info
+[0.383s] -- Detecting C compiler ABI info - done
+[0.390s] -- Detecting C compile features
+[0.390s] -- Detecting C compile features - done
+[0.392s] -- Check for working CXX compiler: /usr/lib/ccache/c++
+[0.472s] -- Check for working CXX compiler: /usr/lib/ccache/c++ -- works
+[0.473s] -- Detecting CXX compiler ABI info
+[0.543s] -- Detecting CXX compiler ABI info - done
+[0.550s] -- Detecting CXX compile features
+[0.550s] -- Detecting CXX compile features - done
+[0.551s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.570s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.570s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.640s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.669s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.674s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.785s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.807s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.880s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.961s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.018s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.021s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.040s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.043s] -- Looking for pthread.h
+[1.120s] -- Looking for pthread.h - found
+[1.121s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.204s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.204s] -- Looking for pthread_create in pthreads
+[1.252s] -- Looking for pthread_create in pthreads - not found
+[1.252s] -- Looking for pthread_create in pthread
+[1.306s] -- Looking for pthread_create in pthread - found
+[1.309s] -- Found Threads: TRUE  
+[1.417s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[1.425s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[1.668s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.747s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.748s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.749s] -- Configured cppcheck include dirs: 
+[1.749s] -- Configured cppcheck exclude dirs and/or files: 
+[1.750s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.750s] -- Configured cpplint exclude dirs and/or files: 
+[1.751s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.752s] -- Added test 'lint_cmake' to check CMake code style
+[1.752s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.754s] -- Added test 'uncrustify' to check C / C++ code style
+[1.754s] -- Configured uncrustify additional arguments: 
+[1.754s] -- Added test 'xmllint' to check XML markup files
+[1.759s] -- Configuring done
+[1.786s] -- Generating done
+[1.788s] -- Build files have been written to: /home/ccl/ROS2_UAV/build/uav_tf2_test
+[1.795s] Invoked command in '/home/ccl/ROS2_UAV/build/uav_tf2_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ccl/ROS2_UAV/uav_tf2_test -DCMAKE_INSTALL_PREFIX=/home/ccl/ROS2_UAV/install/uav_tf2_test
+[1.798s] Invoking command in '/home/ccl/ROS2_UAV/build/uav_tf2_test': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ROS2_UAV/build/uav_tf2_test -- -j8 -l8
+[1.836s] [35m[1mScanning dependencies of target camera_node[0m
+[1.836s] [35m[1mScanning dependencies of target lidar_node[0m
+[1.836s] [35m[1mScanning dependencies of target uav_node[0m
+[1.837s] [35m[1mScanning dependencies of target lidar_tf2_broadcaster[0m
+[1.843s] [35m[1mScanning dependencies of target tf2_listener[0m
+[1.846s] [35m[1mScanning dependencies of target camera_tf2_broadcaster[0m
+[1.850s] [35m[1mScanning dependencies of target uav_tf2_broadcaster[0m
+[1.891s] [  7%] [32mBuilding CXX object CMakeFiles/lidar_node.dir/src/lidar_node.cpp.o[0m
+[1.894s] [ 14%] [32mBuilding CXX object CMakeFiles/uav_node.dir/src/uav_node.cpp.o[0m
+[1.904s] [ 21%] [32mBuilding CXX object CMakeFiles/camera_tf2_broadcaster.dir/src/camera_tf2_broadcaster.cpp.o[0m
+[1.913s] [ 28%] [32mBuilding CXX object CMakeFiles/lidar_tf2_broadcaster.dir/src/lidar_tf2_broadcaster.cpp.o[0m
+[1.946s] [ 35%] [32mBuilding CXX object CMakeFiles/camera_node.dir/src/camera_node.cpp.o[0m
+[1.964s] [ 42%] [32mBuilding CXX object CMakeFiles/uav_tf2_broadcaster.dir/src/uav_tf2_broadcaster.cpp.o[0m
+[1.981s] [ 50%] [32mBuilding CXX object CMakeFiles/tf2_listener.dir/src/tf2_listener.cpp.o[0m
+[15.447s] [ 57%] [32m[1mLinking CXX executable tf2_listener[0m
+[15.985s] [ 64%] [32m[1mLinking CXX executable uav_node[0m
+[16.061s] [ 64%] Built target tf2_listener
+[16.483s] [ 64%] Built target uav_node
+[16.706s] [ 78%] [32m[1mLinking CXX executable camera_node[0m
+[16.706s] [ 78%] [32m[1mLinking CXX executable lidar_node[0m
+[17.004s] [ 78%] Built target camera_node
+[17.183s] [ 78%] Built target lidar_node
+[19.536s] [ 85%] [32m[1mLinking CXX executable lidar_tf2_broadcaster[0m
+[19.737s] [ 92%] [32m[1mLinking CXX executable camera_tf2_broadcaster[0m
+[19.913s] [ 92%] Built target lidar_tf2_broadcaster
+[20.109s] [ 92%] Built target camera_tf2_broadcaster
+[20.121s] [100%] [32m[1mLinking CXX executable uav_tf2_broadcaster[0m
+[20.432s] [100%] Built target uav_tf2_broadcaster
+[20.473s] Invoked command in '/home/ccl/ROS2_UAV/build/uav_tf2_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ROS2_UAV/build/uav_tf2_test -- -j8 -l8
+[20.521s] Invoking command in '/home/ccl/ROS2_UAV/build/uav_tf2_test': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ROS2_UAV/build/uav_tf2_test
+[20.529s] -- Install configuration: ""
+[20.529s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/camera_node
+[20.531s] -- Set runtime path of "/home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/camera_node" to ""
+[20.531s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/lidar_node
+[20.532s] -- Set runtime path of "/home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/lidar_node" to ""
+[20.532s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/uav_node
+[20.533s] -- Set runtime path of "/home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/uav_node" to ""
+[20.533s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/camera_tf2_broadcaster
+[20.537s] -- Set runtime path of "/home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/camera_tf2_broadcaster" to ""
+[20.538s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/uav_tf2_broadcaster
+[20.542s] -- Set runtime path of "/home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/uav_tf2_broadcaster" to ""
+[20.542s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/lidar_tf2_broadcaster
+[20.545s] -- Set runtime path of "/home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/lidar_tf2_broadcaster" to ""
+[20.545s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/tf2_listener
+[20.546s] -- Set runtime path of "/home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/tf2_listener" to ""
+[20.546s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/launch
+[20.546s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/launch/uav_tf2_test.launch.py
+[20.547s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/ament_index/resource_index/package_run_dependencies/uav_tf2_test
+[20.547s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/ament_index/resource_index/parent_prefix_path/uav_tf2_test
+[20.548s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/environment/ament_prefix_path.sh
+[20.548s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/environment/ament_prefix_path.dsv
+[20.548s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/environment/path.sh
+[20.548s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/environment/path.dsv
+[20.548s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/local_setup.bash
+[20.549s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/local_setup.sh
+[20.549s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/local_setup.zsh
+[20.549s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/local_setup.dsv
+[20.549s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/package.dsv
+[20.550s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/ament_index/resource_index/packages/uav_tf2_test
+[20.550s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/cmake/uav_tf2_testConfig.cmake
+[20.550s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/cmake/uav_tf2_testConfig-version.cmake
+[20.550s] -- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/package.xml
+[20.553s] Invoked command in '/home/ccl/ROS2_UAV/build/uav_tf2_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ROS2_UAV/build/uav_tf2_test

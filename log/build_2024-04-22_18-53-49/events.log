@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.000541] (-) JobUnselected: {'identifier': 'learning_tf2_cpp'}
+[0.000581] (-) JobUnselected: {'identifier': 'uav_tf2_test'}
+[0.000772] (uav_urdf_demo) JobQueued: {'identifier': 'uav_urdf_demo', 'dependencies': OrderedDict()}
+[0.000813] (uav_urdf_demo) JobStarted: {'identifier': 'uav_urdf_demo'}
+[0.010466] (uav_urdf_demo) JobProgress: {'identifier': 'uav_urdf_demo', 'progress': 'cmake'}
+[0.011181] (uav_urdf_demo) JobProgress: {'identifier': 'uav_urdf_demo', 'progress': 'build'}
+[0.012058] (uav_urdf_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ccl/ROS2_UAV/build/uav_urdf_demo', '--', '-j8', '-l8'], 'cwd': '/home/ccl/ROS2_UAV/build/uav_urdf_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ccl'), ('LC_TIME', 'en_US.UTF-8'), ('GIO_MODULE_DIR', '/home/ccl/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1674'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/ccl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/157/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/ccl/.nvm/versions/node/v20.11.1/bin'), ('NVM_INC', '/home/ccl/.nvm/versions/node/v20.11.1/include/node'), ('GTK_IM_MODULE_FILE', '/home/ccl/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/157/usr/share/code/code'), ('MANAGERPID', '1572'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22899'), ('NVM_DIR', '/home/ccl/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ccl/ROS2_UAV/install'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ccl'), ('JOURNAL_STREAM', '8:51098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'ccl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/ccl/.nvm/versions/node/v20.11.1/bin:/home/ccl/ardupilot/Tools/autotest:/usr/lib/ccache:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/ccl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ccl/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1717,unix/ubuntu:/tmp/.ICE-unix/1717'), ('GTK_EXE_PREFIX', '/snap/code/157/usr'), ('INVOCATION_ID', 'cabaa2b973c1490e8f819080811eb6f9'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/157/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9e64f6363a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ccl/snap/code/157/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/ccl/ROS2_UAV/install/uav_urdf_demo:/home/ccl/ROS2_UAV/install/uav_tf2_test:/home/ccl/ROS2_UAV/install/learning_tf2_cpp:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ccl/ROS2_UAV/build/uav_urdf_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/ccl/snap/code/157/.local/share:/home/ccl/snap/code/157:/snap/code/157/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ccl/ROS2_UAV/install/uav_urdf_demo:/home/ccl/ROS2_UAV/install/uav_tf2_test:/home/ccl/ROS2_UAV/install/learning_tf2_cpp:/opt/ros/galactic')]), 'shell': False}
+[0.056816] (uav_urdf_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target command_publisher\x1b[0m\n'}
+[0.057119] (uav_urdf_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target state_publisher\x1b[0m\n'}
+[0.084275] (uav_urdf_demo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/command_publisher.dir/src/command_publisher.cpp.o\x1b[0m\n'}
+[0.090218] (uav_urdf_demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/state_publisher.dir/src/state_publisher.cpp.o\x1b[0m\n'}
+[0.099935] (-) TimerEvent: {}
+[0.200295] (-) TimerEvent: {}
+[0.300680] (-) TimerEvent: {}
+[0.404420] (-) TimerEvent: {}
+[0.504933] (-) TimerEvent: {}
+[0.605416] (-) TimerEvent: {}
+[0.705979] (-) TimerEvent: {}
+[0.806399] (-) TimerEvent: {}
+[0.906734] (-) TimerEvent: {}
+[1.007218] (-) TimerEvent: {}
+[1.107555] (-) TimerEvent: {}
+[1.207888] (-) TimerEvent: {}
+[1.308234] (-) TimerEvent: {}
+[1.408683] (-) TimerEvent: {}
+[1.509034] (-) TimerEvent: {}
+[1.609405] (-) TimerEvent: {}
+[1.709804] (-) TimerEvent: {}
+[1.810158] (-) TimerEvent: {}
+[1.910519] (-) TimerEvent: {}
+[2.010978] (-) TimerEvent: {}
+[2.111356] (-) TimerEvent: {}
+[2.211871] (-) TimerEvent: {}
+[2.312252] (-) TimerEvent: {}
+[2.412602] (-) TimerEvent: {}
+[2.512931] (-) TimerEvent: {}
+[2.613308] (-) TimerEvent: {}
+[2.713663] (-) TimerEvent: {}
+[2.813993] (-) TimerEvent: {}
+[2.914324] (-) TimerEvent: {}
+[3.014671] (-) TimerEvent: {}
+[3.115007] (-) TimerEvent: {}
+[3.152825] (uav_urdf_demo) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable command_publisher\x1b[0m\n'}
+[3.215130] (-) TimerEvent: {}
+[3.308115] (uav_urdf_demo) StdoutLine: {'line': b'[ 75%] Built target command_publisher\n'}
+[3.315238] (-) TimerEvent: {}
+[3.415621] (-) TimerEvent: {}
+[3.515994] (-) TimerEvent: {}
+[3.616415] (-) TimerEvent: {}
+[3.716965] (-) TimerEvent: {}
+[3.817431] (-) TimerEvent: {}
+[3.917903] (-) TimerEvent: {}
+[4.018287] (-) TimerEvent: {}
+[4.118712] (-) TimerEvent: {}
+[4.219106] (-) TimerEvent: {}
+[4.319544] (-) TimerEvent: {}
+[4.420500] (-) TimerEvent: {}
+[4.521181] (-) TimerEvent: {}
+[4.621713] (-) TimerEvent: {}
+[4.722196] (-) TimerEvent: {}
+[4.822707] (-) TimerEvent: {}
+[4.923069] (-) TimerEvent: {}
+[5.023503] (-) TimerEvent: {}
+[5.123855] (-) TimerEvent: {}
+[5.224252] (-) TimerEvent: {}
+[5.324840] (-) TimerEvent: {}
+[5.425276] (-) TimerEvent: {}
+[5.525656] (-) TimerEvent: {}
+[5.626049] (-) TimerEvent: {}
+[5.726374] (-) TimerEvent: {}
+[5.826823] (-) TimerEvent: {}
+[5.927225] (-) TimerEvent: {}
+[6.027583] (-) TimerEvent: {}
+[6.128040] (-) TimerEvent: {}
+[6.228413] (-) TimerEvent: {}
+[6.254421] (uav_urdf_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable state_publisher\x1b[0m\n'}
+[6.328536] (-) TimerEvent: {}
+[6.428900] (-) TimerEvent: {}
+[6.529265] (-) TimerEvent: {}
+[6.581529] (uav_urdf_demo) StdoutLine: {'line': b'[100%] Built target state_publisher\n'}
+[6.591438] (uav_urdf_demo) CommandEnded: {'returncode': 0}
+[6.621320] (uav_urdf_demo) JobProgress: {'identifier': 'uav_urdf_demo', 'progress': 'install'}
+[6.629458] (-) TimerEvent: {}
+[6.631966] (uav_urdf_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ccl/ROS2_UAV/build/uav_urdf_demo'], 'cwd': '/home/ccl/ROS2_UAV/build/uav_urdf_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ccl'), ('LC_TIME', 'en_US.UTF-8'), ('GIO_MODULE_DIR', '/home/ccl/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1674'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/ccl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/157/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/ccl/.nvm/versions/node/v20.11.1/bin'), ('NVM_INC', '/home/ccl/.nvm/versions/node/v20.11.1/include/node'), ('GTK_IM_MODULE_FILE', '/home/ccl/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/157/usr/share/code/code'), ('MANAGERPID', '1572'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22899'), ('NVM_DIR', '/home/ccl/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ccl/ROS2_UAV/install'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ccl'), ('JOURNAL_STREAM', '8:51098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'ccl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/ccl/.nvm/versions/node/v20.11.1/bin:/home/ccl/ardupilot/Tools/autotest:/usr/lib/ccache:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/ccl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ccl/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1717,unix/ubuntu:/tmp/.ICE-unix/1717'), ('GTK_EXE_PREFIX', '/snap/code/157/usr'), ('INVOCATION_ID', 'cabaa2b973c1490e8f819080811eb6f9'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/157/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9e64f6363a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ccl/snap/code/157/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/ccl/ROS2_UAV/install/uav_urdf_demo:/home/ccl/ROS2_UAV/install/uav_tf2_test:/home/ccl/ROS2_UAV/install/learning_tf2_cpp:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ccl/ROS2_UAV/build/uav_urdf_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/ccl/snap/code/157/.local/share:/home/ccl/snap/code/157:/snap/code/157/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ccl/ROS2_UAV/install/uav_urdf_demo:/home/ccl/ROS2_UAV/install/uav_tf2_test:/home/ccl/ROS2_UAV/install/learning_tf2_cpp:/opt/ros/galactic')]), 'shell': False}
+[6.638890] (uav_urdf_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.639249] (uav_urdf_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/launch\n'}
+[6.639352] (uav_urdf_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/launch/uav_urdf.launch.py\n'}
+[6.639413] (uav_urdf_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/urdf\n'}
+[6.639522] (uav_urdf_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/urdf/refrence.urdf.xml\n'}
+[6.639625] (uav_urdf_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/urdf/uav.urdf.xml\n'}
+[6.639795] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/lib/uav_urdf_demo/state_publisher\n'}
+[6.643507] (uav_urdf_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/ccl/ROS2_UAV/install/uav_urdf_demo/lib/uav_urdf_demo/state_publisher" to ""\n'}
+[6.643876] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/lib/uav_urdf_demo/command_publisher\n'}
+[6.645277] (uav_urdf_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/ccl/ROS2_UAV/install/uav_urdf_demo/lib/uav_urdf_demo/command_publisher" to ""\n'}
+[6.646006] (uav_urdf_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/ament_index/resource_index/package_run_dependencies/uav_urdf_demo\n'}
+[6.646250] (uav_urdf_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/ament_index/resource_index/parent_prefix_path/uav_urdf_demo\n'}
+[6.646516] (uav_urdf_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/environment/ament_prefix_path.sh\n'}
+[6.646591] (uav_urdf_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/environment/ament_prefix_path.dsv\n'}
+[6.646648] (uav_urdf_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/environment/path.sh\n'}
+[6.646751] (uav_urdf_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/environment/path.dsv\n'}
+[6.646813] (uav_urdf_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/local_setup.bash\n'}
+[6.646867] (uav_urdf_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/local_setup.sh\n'}
+[6.646921] (uav_urdf_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/local_setup.zsh\n'}
+[6.646996] (uav_urdf_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/local_setup.dsv\n'}
+[6.647051] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/package.dsv\n'}
+[6.647106] (uav_urdf_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/ament_index/resource_index/packages/uav_urdf_demo\n'}
+[6.647160] (uav_urdf_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/cmake/uav_urdf_demoConfig.cmake\n'}
+[6.647221] (uav_urdf_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/cmake/uav_urdf_demoConfig-version.cmake\n'}
+[6.647276] (uav_urdf_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/package.xml\n'}
+[6.648705] (uav_urdf_demo) CommandEnded: {'returncode': 0}
+[6.696254] (uav_urdf_demo) JobEnded: {'identifier': 'uav_urdf_demo', 'rc': 0}
+[6.697339] (-) EventReactorShutdown: {}

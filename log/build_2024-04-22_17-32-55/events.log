@@ -1,0 +1,536 @@
+[0.000000] (-) TimerEvent: {}
+[0.000362] (learning_tf2_cpp) JobQueued: {'identifier': 'learning_tf2_cpp', 'dependencies': OrderedDict()}
+[0.000388] (uav_tf2_test) JobQueued: {'identifier': 'uav_tf2_test', 'dependencies': OrderedDict()}
+[0.000417] (uav_urdf_demo) JobQueued: {'identifier': 'uav_urdf_demo', 'dependencies': OrderedDict()}
+[0.001186] (learning_tf2_cpp) JobStarted: {'identifier': 'learning_tf2_cpp'}
+[0.008879] (uav_tf2_test) JobStarted: {'identifier': 'uav_tf2_test'}
+[0.014414] (uav_urdf_demo) JobStarted: {'identifier': 'uav_urdf_demo'}
+[0.033487] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'cmake'}
+[0.033589] (learning_tf2_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/ccl/ROS2_UAV/learning_tf2_cpp', '-DCMAKE_INSTALL_PREFIX=/home/ccl/ROS2_UAV/install/learning_tf2_cpp'], 'cwd': '/home/ccl/ROS2_UAV/build/learning_tf2_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ccl'), ('LC_TIME', 'en_US.UTF-8'), ('GIO_MODULE_DIR', '/home/ccl/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1674'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/ccl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/157/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/ccl/.nvm/versions/node/v20.11.1/bin'), ('NVM_INC', '/home/ccl/.nvm/versions/node/v20.11.1/include/node'), ('GTK_IM_MODULE_FILE', '/home/ccl/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/157/usr/share/code/code'), ('MANAGERPID', '1572'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22899'), ('NVM_DIR', '/home/ccl/.nvm'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ccl'), ('JOURNAL_STREAM', '8:51098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'ccl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/ccl/.nvm/versions/node/v20.11.1/bin:/home/ccl/ardupilot/Tools/autotest:/usr/lib/ccache:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/ccl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ccl/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1717,unix/ubuntu:/tmp/.ICE-unix/1717'), ('GTK_EXE_PREFIX', '/snap/code/157/usr'), ('INVOCATION_ID', 'cabaa2b973c1490e8f819080811eb6f9'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/157/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9e64f6363a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ccl/snap/code/157/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ccl/ROS2_UAV/build/learning_tf2_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/ccl/snap/code/157/.local/share:/home/ccl/snap/code/157:/snap/code/157/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.041469] (uav_tf2_test) JobProgress: {'identifier': 'uav_tf2_test', 'progress': 'cmake'}
+[0.043125] (uav_tf2_test) Command: {'cmd': ['/usr/bin/cmake', '/home/ccl/ROS2_UAV/uav_tf2_test', '-DCMAKE_INSTALL_PREFIX=/home/ccl/ROS2_UAV/install/uav_tf2_test'], 'cwd': '/home/ccl/ROS2_UAV/build/uav_tf2_test', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ccl'), ('LC_TIME', 'en_US.UTF-8'), ('GIO_MODULE_DIR', '/home/ccl/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1674'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/ccl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/157/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/ccl/.nvm/versions/node/v20.11.1/bin'), ('NVM_INC', '/home/ccl/.nvm/versions/node/v20.11.1/include/node'), ('GTK_IM_MODULE_FILE', '/home/ccl/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/157/usr/share/code/code'), ('MANAGERPID', '1572'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22899'), ('NVM_DIR', '/home/ccl/.nvm'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ccl'), ('JOURNAL_STREAM', '8:51098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'ccl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/ccl/.nvm/versions/node/v20.11.1/bin:/home/ccl/ardupilot/Tools/autotest:/usr/lib/ccache:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/ccl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ccl/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1717,unix/ubuntu:/tmp/.ICE-unix/1717'), ('GTK_EXE_PREFIX', '/snap/code/157/usr'), ('INVOCATION_ID', 'cabaa2b973c1490e8f819080811eb6f9'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/157/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9e64f6363a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ccl/snap/code/157/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ccl/ROS2_UAV/build/uav_tf2_test'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/ccl/snap/code/157/.local/share:/home/ccl/snap/code/157:/snap/code/157/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.047142] (uav_urdf_demo) JobProgress: {'identifier': 'uav_urdf_demo', 'progress': 'cmake'}
+[0.047200] (uav_urdf_demo) Command: {'cmd': ['/usr/bin/cmake', '/home/ccl/ROS2_UAV/uav_urdf_demo', '-DCMAKE_INSTALL_PREFIX=/home/ccl/ROS2_UAV/install/uav_urdf_demo'], 'cwd': '/home/ccl/ROS2_UAV/build/uav_urdf_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ccl'), ('LC_TIME', 'en_US.UTF-8'), ('GIO_MODULE_DIR', '/home/ccl/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1674'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/ccl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/157/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/ccl/.nvm/versions/node/v20.11.1/bin'), ('NVM_INC', '/home/ccl/.nvm/versions/node/v20.11.1/include/node'), ('GTK_IM_MODULE_FILE', '/home/ccl/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/157/usr/share/code/code'), ('MANAGERPID', '1572'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22899'), ('NVM_DIR', '/home/ccl/.nvm'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ccl'), ('JOURNAL_STREAM', '8:51098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'ccl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/ccl/.nvm/versions/node/v20.11.1/bin:/home/ccl/ardupilot/Tools/autotest:/usr/lib/ccache:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/ccl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ccl/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1717,unix/ubuntu:/tmp/.ICE-unix/1717'), ('GTK_EXE_PREFIX', '/snap/code/157/usr'), ('INVOCATION_ID', 'cabaa2b973c1490e8f819080811eb6f9'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/157/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9e64f6363a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ccl/snap/code/157/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ccl/ROS2_UAV/build/uav_urdf_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/ccl/snap/code/157/.local/share:/home/ccl/snap/code/157:/snap/code/157/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.099946] (-) TimerEvent: {}
+[0.186634] (uav_urdf_demo) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.187037] (learning_tf2_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.187188] (uav_tf2_test) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.200004] (-) TimerEvent: {}
+[0.242163] (learning_tf2_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.242434] (uav_tf2_test) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.242989] (uav_urdf_demo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.251424] (uav_urdf_demo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc\n'}
+[0.251684] (uav_tf2_test) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc\n'}
+[0.251754] (learning_tf2_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc\n'}
+[0.300280] (-) TimerEvent: {}
+[0.332800] (uav_tf2_test) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc -- works\n'}
+[0.333077] (uav_urdf_demo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc -- works\n'}
+[0.333243] (learning_tf2_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc -- works\n'}
+[0.335178] (uav_tf2_test) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.336122] (learning_tf2_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.336570] (uav_urdf_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.388317] (uav_urdf_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.388732] (learning_tf2_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.392027] (uav_tf2_test) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.394452] (uav_urdf_demo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.395127] (uav_urdf_demo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.395750] (learning_tf2_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.395963] (learning_tf2_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.398921] (learning_tf2_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++\n'}
+[0.399127] (uav_tf2_test) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.399230] (uav_urdf_demo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++\n'}
+[0.399322] (uav_tf2_test) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.400380] (-) TimerEvent: {}
+[0.400783] (uav_tf2_test) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++\n'}
+[0.480783] (uav_tf2_test) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ -- works\n'}
+[0.481031] (uav_urdf_demo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ -- works\n'}
+[0.481100] (learning_tf2_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ -- works\n'}
+[0.481582] (uav_tf2_test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.481716] (learning_tf2_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.481971] (uav_urdf_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500599] (-) TimerEvent: {}
+[0.545523] (uav_urdf_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.545946] (learning_tf2_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.551362] (uav_tf2_test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.552513] (uav_urdf_demo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.552758] (uav_urdf_demo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.553005] (learning_tf2_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.553270] (learning_tf2_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.555056] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.555151] (uav_urdf_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.558602] (uav_tf2_test) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.558930] (uav_tf2_test) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.560321] (uav_tf2_test) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.578689] (uav_urdf_demo) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.578900] (uav_urdf_demo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.579137] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.579252] (learning_tf2_cpp) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.579307] (uav_tf2_test) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.579363] (uav_tf2_test) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.600727] (-) TimerEvent: {}
+[0.647912] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[0.648392] (uav_tf2_test) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[0.648502] (uav_urdf_demo) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[0.675977] (learning_tf2_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.676415] (uav_urdf_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.677928] (uav_tf2_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.681757] (uav_urdf_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.681956] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.682518] (uav_tf2_test) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.700953] (-) TimerEvent: {}
+[0.791137] (uav_urdf_demo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.792603] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.793573] (uav_tf2_test) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.801034] (-) TimerEvent: {}
+[0.815859] (uav_tf2_test) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[0.816099] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[0.816212] (uav_urdf_demo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[0.888268] (learning_tf2_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.888423] (uav_tf2_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.888487] (uav_urdf_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.901133] (-) TimerEvent: {}
+[0.969409] (uav_tf2_test) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.969561] (uav_urdf_demo) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.969630] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[1.001257] (-) TimerEvent: {}
+[1.026390] (uav_tf2_test) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[1.026574] (uav_urdf_demo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[1.026678] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[1.029429] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.029565] (uav_urdf_demo) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.029732] (uav_tf2_test) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.048627] (uav_urdf_demo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.048794] (uav_tf2_test) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.048860] (learning_tf2_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.051265] (uav_urdf_demo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.051674] (uav_tf2_test) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.051750] (learning_tf2_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.101366] (-) TimerEvent: {}
+[1.129014] (uav_tf2_test) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.129296] (learning_tf2_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.129381] (uav_urdf_demo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.129441] (uav_tf2_test) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.129574] (uav_urdf_demo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.129630] (learning_tf2_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.201491] (-) TimerEvent: {}
+[1.212317] (uav_urdf_demo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.212529] (uav_urdf_demo) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.212627] (uav_tf2_test) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.213203] (uav_tf2_test) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.213317] (learning_tf2_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.213470] (learning_tf2_cpp) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.254896] (uav_urdf_demo) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.255184] (uav_urdf_demo) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.256050] (learning_tf2_cpp) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.256192] (learning_tf2_cpp) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.260979] (uav_tf2_test) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.261164] (uav_tf2_test) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.301688] (-) TimerEvent: {}
+[1.307606] (learning_tf2_cpp) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.307766] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.307828] (uav_urdf_demo) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.308860] (uav_urdf_demo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.314638] (uav_tf2_test) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.317787] (uav_tf2_test) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.401869] (-) TimerEvent: {}
+[1.425925] (uav_tf2_test) StdoutLine: {'line': b'-- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)\n'}
+[1.426104] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)\n'}
+[1.427050] (uav_urdf_demo) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[1.434018] (uav_tf2_test) StdoutLine: {'line': b'-- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)\n'}
+[1.434252] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)\n'}
+[1.482909] (uav_urdf_demo) StdoutLine: {'line': b'-- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)\n'}
+[1.490756] (uav_urdf_demo) StdoutLine: {'line': b'-- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)\n'}
+[1.502027] (-) TimerEvent: {}
+[1.602447] (-) TimerEvent: {}
+[1.676656] (uav_tf2_test) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[1.677884] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found turtlesim: 1.3.4 (/opt/ros/galactic/share/turtlesim/cmake)\n'}
+[1.702652] (-) TimerEvent: {}
+[1.725317] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[1.726941] (uav_urdf_demo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[1.755583] (uav_tf2_test) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.757345] (uav_tf2_test) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.757512] (uav_tf2_test) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.757574] (uav_tf2_test) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.758937] (uav_tf2_test) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.759039] (uav_tf2_test) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.759768] (uav_tf2_test) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.760579] (uav_tf2_test) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.761088] (uav_tf2_test) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.762395] (uav_tf2_test) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.762558] (uav_tf2_test) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.763134] (uav_tf2_test) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.767501] (uav_tf2_test) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.781933] (uav_urdf_demo) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.783289] (uav_urdf_demo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.783409] (uav_urdf_demo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.783466] (uav_urdf_demo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.784488] (uav_urdf_demo) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.784582] (uav_urdf_demo) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.784940] (uav_urdf_demo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.785483] (uav_urdf_demo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.785732] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.785863] (uav_urdf_demo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.786927] (uav_urdf_demo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.787015] (uav_urdf_demo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.787346] (uav_urdf_demo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.790762] (uav_urdf_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.794440] (uav_tf2_test) StdoutLine: {'line': b'-- Generating done\n'}
+[1.796446] (uav_tf2_test) StdoutLine: {'line': b'-- Build files have been written to: /home/ccl/ROS2_UAV/build/uav_tf2_test\n'}
+[1.799550] (uav_urdf_demo) StdoutLine: {'line': b'-- Generating done\n'}
+[1.800915] (uav_urdf_demo) StdoutLine: {'line': b'-- Build files have been written to: /home/ccl/ROS2_UAV/build/uav_urdf_demo\n'}
+[1.802768] (-) TimerEvent: {}
+[1.803738] (uav_tf2_test) CommandEnded: {'returncode': 0}
+[1.804348] (uav_tf2_test) JobProgress: {'identifier': 'uav_tf2_test', 'progress': 'build'}
+[1.805272] (uav_tf2_test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ccl/ROS2_UAV/build/uav_tf2_test', '--', '-j8', '-l8'], 'cwd': '/home/ccl/ROS2_UAV/build/uav_tf2_test', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ccl'), ('LC_TIME', 'en_US.UTF-8'), ('GIO_MODULE_DIR', '/home/ccl/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1674'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/ccl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/157/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/ccl/.nvm/versions/node/v20.11.1/bin'), ('NVM_INC', '/home/ccl/.nvm/versions/node/v20.11.1/include/node'), ('GTK_IM_MODULE_FILE', '/home/ccl/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/157/usr/share/code/code'), ('MANAGERPID', '1572'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22899'), ('NVM_DIR', '/home/ccl/.nvm'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ccl'), ('JOURNAL_STREAM', '8:51098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'ccl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/ccl/.nvm/versions/node/v20.11.1/bin:/home/ccl/ardupilot/Tools/autotest:/usr/lib/ccache:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/ccl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ccl/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1717,unix/ubuntu:/tmp/.ICE-unix/1717'), ('GTK_EXE_PREFIX', '/snap/code/157/usr'), ('INVOCATION_ID', 'cabaa2b973c1490e8f819080811eb6f9'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/157/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9e64f6363a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ccl/snap/code/157/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ccl/ROS2_UAV/build/uav_tf2_test'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/ccl/snap/code/157/.local/share:/home/ccl/snap/code/157:/snap/code/157/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[1.808918] (uav_urdf_demo) CommandEnded: {'returncode': 0}
+[1.809761] (uav_urdf_demo) JobProgress: {'identifier': 'uav_urdf_demo', 'progress': 'build'}
+[1.811468] (uav_urdf_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ccl/ROS2_UAV/build/uav_urdf_demo', '--', '-j8', '-l8'], 'cwd': '/home/ccl/ROS2_UAV/build/uav_urdf_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ccl'), ('LC_TIME', 'en_US.UTF-8'), ('GIO_MODULE_DIR', '/home/ccl/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1674'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/ccl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/157/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/ccl/.nvm/versions/node/v20.11.1/bin'), ('NVM_INC', '/home/ccl/.nvm/versions/node/v20.11.1/include/node'), ('GTK_IM_MODULE_FILE', '/home/ccl/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/157/usr/share/code/code'), ('MANAGERPID', '1572'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22899'), ('NVM_DIR', '/home/ccl/.nvm'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ccl'), ('JOURNAL_STREAM', '8:51098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'ccl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/ccl/.nvm/versions/node/v20.11.1/bin:/home/ccl/ardupilot/Tools/autotest:/usr/lib/ccache:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/ccl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ccl/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1717,unix/ubuntu:/tmp/.ICE-unix/1717'), ('GTK_EXE_PREFIX', '/snap/code/157/usr'), ('INVOCATION_ID', 'cabaa2b973c1490e8f819080811eb6f9'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/157/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9e64f6363a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ccl/snap/code/157/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ccl/ROS2_UAV/build/uav_urdf_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/ccl/snap/code/157/.local/share:/home/ccl/snap/code/157:/snap/code/157/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[1.812778] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.812924] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.813030] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.836279] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.836453] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.839878] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.844447] (uav_tf2_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_node\x1b[0m\n'}
+[1.844657] (uav_tf2_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lidar_node\x1b[0m\n'}
+[1.845276] (uav_tf2_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_node\x1b[0m\n'}
+[1.845750] (uav_tf2_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lidar_tf2_broadcaster\x1b[0m\n'}
+[1.846796] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.851068] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.851917] (uav_tf2_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tf2_listener\x1b[0m\n'}
+[1.854673] (uav_tf2_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_tf2_broadcaster\x1b[0m\n'}
+[1.854941] (uav_urdf_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target state_publisher\x1b[0m\n'}
+[1.858713] (uav_tf2_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_tf2_broadcaster\x1b[0m\n'}
+[1.876737] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.876948] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.880117] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.883638] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.899790] (uav_tf2_test) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/lidar_node.dir/src/lidar_node.cpp.o\x1b[0m\n'}
+[1.902778] (uav_tf2_test) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/uav_node.dir/src/uav_node.cpp.o\x1b[0m\n'}
+[1.902947] (-) TimerEvent: {}
+[1.903595] (learning_tf2_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[1.906119] (learning_tf2_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/ccl/ROS2_UAV/build/learning_tf2_cpp\n'}
+[1.911232] (uav_urdf_demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/state_publisher.dir/src/state_publisher.cpp.o\x1b[0m\n'}
+[1.912792] (uav_tf2_test) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/camera_tf2_broadcaster.dir/src/camera_tf2_broadcaster.cpp.o\x1b[0m\n'}
+[1.922049] (uav_tf2_test) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/lidar_tf2_broadcaster.dir/src/lidar_tf2_broadcaster.cpp.o\x1b[0m\n'}
+[1.933418] (learning_tf2_cpp) CommandEnded: {'returncode': 0}
+[1.935188] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'build'}
+[1.935389] (learning_tf2_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ccl/ROS2_UAV/build/learning_tf2_cpp', '--', '-j8', '-l8'], 'cwd': '/home/ccl/ROS2_UAV/build/learning_tf2_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ccl'), ('LC_TIME', 'en_US.UTF-8'), ('GIO_MODULE_DIR', '/home/ccl/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1674'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/ccl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/157/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/ccl/.nvm/versions/node/v20.11.1/bin'), ('NVM_INC', '/home/ccl/.nvm/versions/node/v20.11.1/include/node'), ('GTK_IM_MODULE_FILE', '/home/ccl/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/157/usr/share/code/code'), ('MANAGERPID', '1572'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22899'), ('NVM_DIR', '/home/ccl/.nvm'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ccl'), ('JOURNAL_STREAM', '8:51098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'ccl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/ccl/.nvm/versions/node/v20.11.1/bin:/home/ccl/ardupilot/Tools/autotest:/usr/lib/ccache:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/ccl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ccl/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1717,unix/ubuntu:/tmp/.ICE-unix/1717'), ('GTK_EXE_PREFIX', '/snap/code/157/usr'), ('INVOCATION_ID', 'cabaa2b973c1490e8f819080811eb6f9'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/157/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9e64f6363a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ccl/snap/code/157/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ccl/ROS2_UAV/build/learning_tf2_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/ccl/snap/code/157/.local/share:/home/ccl/snap/code/157:/snap/code/157/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[1.954395] (uav_tf2_test) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/camera_node.dir/src/camera_node.cpp.o\x1b[0m\n'}
+[1.973132] (uav_tf2_test) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/uav_tf2_broadcaster.dir/src/uav_tf2_broadcaster.cpp.o\x1b[0m\n'}
+[1.990181] (uav_tf2_test) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tf2_listener.dir/src/tf2_listener.cpp.o\x1b[0m\n'}
+[2.003079] (-) TimerEvent: {}
+[2.078072] (learning_tf2_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_tf2_listener\x1b[0m\n'}
+[2.080216] (learning_tf2_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dynamic_frame_tf2_broadcaster\x1b[0m\n'}
+[2.085189] (learning_tf2_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fixed_frame_tf2_broadcaster\x1b[0m\n'}
+[2.096130] (learning_tf2_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_tf2_broadcaster\x1b[0m\n'}
+[2.103185] (-) TimerEvent: {}
+[2.164885] (learning_tf2_cpp) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o\x1b[0m\n'}
+[2.169574] (learning_tf2_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/fixed_frame_tf2_broadcaster.dir/src/fixed_frame_tf2_broadcaster.cpp.o\x1b[0m\n'}
+[2.176472] (learning_tf2_cpp) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o\x1b[0m\n'}
+[2.203287] (-) TimerEvent: {}
+[2.245763] (learning_tf2_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dynamic_frame_tf2_broadcaster.dir/src/dynamic_frame_tf2_broadcaster.cpp.o\x1b[0m\n'}
+[2.303409] (-) TimerEvent: {}
+[2.404210] (-) TimerEvent: {}
+[2.505167] (-) TimerEvent: {}
+[2.605901] (-) TimerEvent: {}
+[2.706918] (-) TimerEvent: {}
+[2.807485] (-) TimerEvent: {}
+[2.908555] (-) TimerEvent: {}
+[3.009265] (-) TimerEvent: {}
+[3.110177] (-) TimerEvent: {}
+[3.210871] (-) TimerEvent: {}
+[3.311631] (-) TimerEvent: {}
+[3.412561] (-) TimerEvent: {}
+[3.512873] (-) TimerEvent: {}
+[3.613196] (-) TimerEvent: {}
+[3.713761] (-) TimerEvent: {}
+[3.814163] (-) TimerEvent: {}
+[3.914459] (-) TimerEvent: {}
+[4.014793] (-) TimerEvent: {}
+[4.118864] (-) TimerEvent: {}
+[4.220773] (-) TimerEvent: {}
+[4.324118] (-) TimerEvent: {}
+[4.428006] (-) TimerEvent: {}
+[4.529663] (-) TimerEvent: {}
+[4.630042] (-) TimerEvent: {}
+[4.730325] (-) TimerEvent: {}
+[4.831301] (-) TimerEvent: {}
+[4.931702] (-) TimerEvent: {}
+[5.032004] (-) TimerEvent: {}
+[5.132318] (-) TimerEvent: {}
+[5.232746] (-) TimerEvent: {}
+[5.333127] (-) TimerEvent: {}
+[5.433869] (-) TimerEvent: {}
+[5.534416] (-) TimerEvent: {}
+[5.635104] (-) TimerEvent: {}
+[5.743259] (-) TimerEvent: {}
+[5.848561] (-) TimerEvent: {}
+[5.948876] (-) TimerEvent: {}
+[6.055295] (-) TimerEvent: {}
+[6.237035] (-) TimerEvent: {}
+[6.341616] (-) TimerEvent: {}
+[6.444498] (-) TimerEvent: {}
+[6.544862] (-) TimerEvent: {}
+[6.645616] (-) TimerEvent: {}
+[6.745981] (-) TimerEvent: {}
+[6.846325] (-) TimerEvent: {}
+[6.946727] (-) TimerEvent: {}
+[7.047502] (-) TimerEvent: {}
+[7.148197] (-) TimerEvent: {}
+[7.248536] (-) TimerEvent: {}
+[7.348848] (-) TimerEvent: {}
+[7.449211] (-) TimerEvent: {}
+[7.549615] (-) TimerEvent: {}
+[7.649940] (-) TimerEvent: {}
+[7.750232] (-) TimerEvent: {}
+[7.850522] (-) TimerEvent: {}
+[7.951179] (-) TimerEvent: {}
+[8.051506] (-) TimerEvent: {}
+[8.151855] (-) TimerEvent: {}
+[8.252207] (-) TimerEvent: {}
+[8.365526] (-) TimerEvent: {}
+[8.465880] (-) TimerEvent: {}
+[8.566217] (-) TimerEvent: {}
+[8.666594] (-) TimerEvent: {}
+[8.766905] (-) TimerEvent: {}
+[8.867260] (-) TimerEvent: {}
+[8.967574] (-) TimerEvent: {}
+[9.067912] (-) TimerEvent: {}
+[9.168229] (-) TimerEvent: {}
+[9.268573] (-) TimerEvent: {}
+[9.368877] (-) TimerEvent: {}
+[9.469390] (-) TimerEvent: {}
+[9.569730] (-) TimerEvent: {}
+[9.670062] (-) TimerEvent: {}
+[9.770397] (-) TimerEvent: {}
+[9.870791] (-) TimerEvent: {}
+[9.971154] (-) TimerEvent: {}
+[10.071755] (-) TimerEvent: {}
+[10.175527] (-) TimerEvent: {}
+[10.275831] (-) TimerEvent: {}
+[10.376138] (-) TimerEvent: {}
+[10.476880] (-) TimerEvent: {}
+[10.577206] (-) TimerEvent: {}
+[10.677932] (-) TimerEvent: {}
+[10.782314] (-) TimerEvent: {}
+[10.883751] (-) TimerEvent: {}
+[10.984092] (-) TimerEvent: {}
+[11.084386] (-) TimerEvent: {}
+[11.184723] (-) TimerEvent: {}
+[11.285359] (-) TimerEvent: {}
+[11.385729] (-) TimerEvent: {}
+[11.486099] (-) TimerEvent: {}
+[11.586593] (-) TimerEvent: {}
+[11.686958] (-) TimerEvent: {}
+[11.787264] (-) TimerEvent: {}
+[11.887564] (-) TimerEvent: {}
+[11.987859] (-) TimerEvent: {}
+[12.088180] (-) TimerEvent: {}
+[12.188519] (-) TimerEvent: {}
+[12.288816] (-) TimerEvent: {}
+[12.398567] (-) TimerEvent: {}
+[12.498891] (-) TimerEvent: {}
+[12.618073] (-) TimerEvent: {}
+[12.718428] (-) TimerEvent: {}
+[12.818748] (-) TimerEvent: {}
+[12.919056] (-) TimerEvent: {}
+[13.019475] (-) TimerEvent: {}
+[13.119776] (-) TimerEvent: {}
+[13.220154] (-) TimerEvent: {}
+[13.320514] (-) TimerEvent: {}
+[13.421112] (-) TimerEvent: {}
+[13.521466] (-) TimerEvent: {}
+[13.626851] (-) TimerEvent: {}
+[13.727186] (-) TimerEvent: {}
+[13.827891] (-) TimerEvent: {}
+[13.928804] (-) TimerEvent: {}
+[14.029125] (-) TimerEvent: {}
+[14.130375] (-) TimerEvent: {}
+[14.230944] (-) TimerEvent: {}
+[14.331252] (-) TimerEvent: {}
+[14.431560] (-) TimerEvent: {}
+[14.531863] (-) TimerEvent: {}
+[14.633534] (-) TimerEvent: {}
+[14.734696] (-) TimerEvent: {}
+[14.846565] (-) TimerEvent: {}
+[14.968405] (-) TimerEvent: {}
+[15.068735] (-) TimerEvent: {}
+[15.169075] (-) TimerEvent: {}
+[15.269503] (-) TimerEvent: {}
+[15.369857] (-) TimerEvent: {}
+[15.454443] (uav_tf2_test) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable tf2_listener\x1b[0m\n'}
+[15.469975] (-) TimerEvent: {}
+[15.570279] (-) TimerEvent: {}
+[15.670750] (-) TimerEvent: {}
+[15.771214] (-) TimerEvent: {}
+[15.871628] (-) TimerEvent: {}
+[15.971987] (-) TimerEvent: {}
+[15.993337] (uav_tf2_test) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable uav_node\x1b[0m\n'}
+[16.069672] (uav_tf2_test) StdoutLine: {'line': b'[ 64%] Built target tf2_listener\n'}
+[16.072089] (-) TimerEvent: {}
+[16.172415] (-) TimerEvent: {}
+[16.189349] (learning_tf2_cpp) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable dynamic_frame_tf2_broadcaster\x1b[0m\n'}
+[16.272548] (-) TimerEvent: {}
+[16.372963] (-) TimerEvent: {}
+[16.473341] (-) TimerEvent: {}
+[16.492029] (uav_tf2_test) StdoutLine: {'line': b'[ 64%] Built target uav_node\n'}
+[16.573455] (-) TimerEvent: {}
+[16.674119] (-) TimerEvent: {}
+[16.679192] (learning_tf2_cpp) StdoutLine: {'line': b'[ 62%] Built target dynamic_frame_tf2_broadcaster\n'}
+[16.714966] (uav_tf2_test) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable camera_node\x1b[0m\n'}
+[16.715196] (uav_tf2_test) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable lidar_node\x1b[0m\n'}
+[16.760760] (learning_tf2_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable fixed_frame_tf2_broadcaster\x1b[0m\n'}
+[16.774251] (-) TimerEvent: {}
+[16.874617] (-) TimerEvent: {}
+[16.941163] (uav_urdf_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable state_publisher\x1b[0m\n'}
+[16.974736] (-) TimerEvent: {}
+[17.012508] (uav_tf2_test) StdoutLine: {'line': b'[ 78%] Built target camera_node\n'}
+[17.074849] (-) TimerEvent: {}
+[17.185447] (-) TimerEvent: {}
+[17.192292] (uav_tf2_test) StdoutLine: {'line': b'[ 78%] Built target lidar_node\n'}
+[17.235662] (learning_tf2_cpp) StdoutLine: {'line': b'[ 75%] Built target fixed_frame_tf2_broadcaster\n'}
+[17.299197] (-) TimerEvent: {}
+[17.399615] (-) TimerEvent: {}
+[17.500017] (-) TimerEvent: {}
+[17.584343] (uav_urdf_demo) StdoutLine: {'line': b'[100%] Built target state_publisher\n'}
+[17.600218] (-) TimerEvent: {}
+[17.603284] (uav_urdf_demo) CommandEnded: {'returncode': 0}
+[17.654043] (uav_urdf_demo) JobProgress: {'identifier': 'uav_urdf_demo', 'progress': 'install'}
+[17.670326] (uav_urdf_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ccl/ROS2_UAV/build/uav_urdf_demo'], 'cwd': '/home/ccl/ROS2_UAV/build/uav_urdf_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ccl'), ('LC_TIME', 'en_US.UTF-8'), ('GIO_MODULE_DIR', '/home/ccl/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1674'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/ccl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/157/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/ccl/.nvm/versions/node/v20.11.1/bin'), ('NVM_INC', '/home/ccl/.nvm/versions/node/v20.11.1/include/node'), ('GTK_IM_MODULE_FILE', '/home/ccl/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/157/usr/share/code/code'), ('MANAGERPID', '1572'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22899'), ('NVM_DIR', '/home/ccl/.nvm'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ccl'), ('JOURNAL_STREAM', '8:51098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'ccl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/ccl/.nvm/versions/node/v20.11.1/bin:/home/ccl/ardupilot/Tools/autotest:/usr/lib/ccache:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/ccl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ccl/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1717,unix/ubuntu:/tmp/.ICE-unix/1717'), ('GTK_EXE_PREFIX', '/snap/code/157/usr'), ('INVOCATION_ID', 'cabaa2b973c1490e8f819080811eb6f9'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/157/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9e64f6363a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ccl/snap/code/157/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ccl/ROS2_UAV/build/uav_urdf_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/ccl/snap/code/157/.local/share:/home/ccl/snap/code/157:/snap/code/157/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[17.684475] (uav_urdf_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.685233] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/launch\n'}
+[17.686768] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/launch/uav_urdf.launch.py\n'}
+[17.687694] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/urdf\n'}
+[17.688017] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/urdf/refrence.urdf.xml\n'}
+[17.688741] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/urdf/uav.urdf.xml\n'}
+[17.689292] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/lib/uav_urdf_demo/state_publisher\n'}
+[17.691046] (uav_urdf_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/ccl/ROS2_UAV/install/uav_urdf_demo/lib/uav_urdf_demo/state_publisher" to ""\n'}
+[17.692638] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/ament_index/resource_index/package_run_dependencies/uav_urdf_demo\n'}
+[17.693568] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/ament_index/resource_index/parent_prefix_path/uav_urdf_demo\n'}
+[17.698280] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/environment/ament_prefix_path.sh\n'}
+[17.699596] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/environment/ament_prefix_path.dsv\n'}
+[17.700490] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/environment/path.sh\n'}
+[17.700632] (-) TimerEvent: {}
+[17.702803] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/environment/path.dsv\n'}
+[17.703291] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/local_setup.bash\n'}
+[17.703668] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/local_setup.sh\n'}
+[17.704129] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/local_setup.zsh\n'}
+[17.704482] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/local_setup.dsv\n'}
+[17.704589] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/package.dsv\n'}
+[17.704758] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/ament_index/resource_index/packages/uav_urdf_demo\n'}
+[17.705503] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/cmake/uav_urdf_demoConfig.cmake\n'}
+[17.706195] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/cmake/uav_urdf_demoConfig-version.cmake\n'}
+[17.707485] (uav_urdf_demo) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_urdf_demo/share/uav_urdf_demo/package.xml\n'}
+[17.719099] (uav_urdf_demo) CommandEnded: {'returncode': 0}
+[17.756799] (learning_tf2_cpp) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable turtle_tf2_listener\x1b[0m\n'}
+[17.802026] (-) TimerEvent: {}
+[17.805547] (uav_urdf_demo) JobEnded: {'identifier': 'uav_urdf_demo', 'rc': 0}
+[17.902159] (-) TimerEvent: {}
+[18.002478] (-) TimerEvent: {}
+[18.013139] (learning_tf2_cpp) StdoutLine: {'line': b'[ 87%] Built target turtle_tf2_listener\n'}
+[18.102609] (-) TimerEvent: {}
+[18.202977] (-) TimerEvent: {}
+[18.303314] (-) TimerEvent: {}
+[18.403621] (-) TimerEvent: {}
+[18.503908] (-) TimerEvent: {}
+[18.604229] (-) TimerEvent: {}
+[18.704504] (-) TimerEvent: {}
+[18.804786] (-) TimerEvent: {}
+[18.905077] (-) TimerEvent: {}
+[19.005361] (-) TimerEvent: {}
+[19.105624] (-) TimerEvent: {}
+[19.205968] (-) TimerEvent: {}
+[19.306361] (-) TimerEvent: {}
+[19.406790] (-) TimerEvent: {}
+[19.507195] (-) TimerEvent: {}
+[19.544595] (uav_tf2_test) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable lidar_tf2_broadcaster\x1b[0m\n'}
+[19.608307] (-) TimerEvent: {}
+[19.672887] (learning_tf2_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_tf2_broadcaster\x1b[0m\n'}
+[19.708480] (-) TimerEvent: {}
+[19.746136] (uav_tf2_test) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable camera_tf2_broadcaster\x1b[0m\n'}
+[19.808626] (-) TimerEvent: {}
+[19.908999] (-) TimerEvent: {}
+[19.922099] (uav_tf2_test) StdoutLine: {'line': b'[ 92%] Built target lidar_tf2_broadcaster\n'}
+[20.009218] (-) TimerEvent: {}
+[20.034543] (learning_tf2_cpp) StdoutLine: {'line': b'[100%] Built target turtle_tf2_broadcaster\n'}
+[20.045959] (learning_tf2_cpp) CommandEnded: {'returncode': 0}
+[20.115983] (-) TimerEvent: {}
+[20.116125] (uav_tf2_test) StdoutLine: {'line': b'[ 92%] Built target camera_tf2_broadcaster\n'}
+[20.129759] (uav_tf2_test) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable uav_tf2_broadcaster\x1b[0m\n'}
+[20.154940] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'install'}
+[20.156673] (learning_tf2_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ccl/ROS2_UAV/build/learning_tf2_cpp'], 'cwd': '/home/ccl/ROS2_UAV/build/learning_tf2_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ccl'), ('LC_TIME', 'en_US.UTF-8'), ('GIO_MODULE_DIR', '/home/ccl/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1674'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/ccl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/157/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/ccl/.nvm/versions/node/v20.11.1/bin'), ('NVM_INC', '/home/ccl/.nvm/versions/node/v20.11.1/include/node'), ('GTK_IM_MODULE_FILE', '/home/ccl/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/157/usr/share/code/code'), ('MANAGERPID', '1572'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22899'), ('NVM_DIR', '/home/ccl/.nvm'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ccl'), ('JOURNAL_STREAM', '8:51098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'ccl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/ccl/.nvm/versions/node/v20.11.1/bin:/home/ccl/ardupilot/Tools/autotest:/usr/lib/ccache:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/ccl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ccl/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1717,unix/ubuntu:/tmp/.ICE-unix/1717'), ('GTK_EXE_PREFIX', '/snap/code/157/usr'), ('INVOCATION_ID', 'cabaa2b973c1490e8f819080811eb6f9'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/157/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9e64f6363a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ccl/snap/code/157/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ccl/ROS2_UAV/build/learning_tf2_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/ccl/snap/code/157/.local/share:/home/ccl/snap/code/157:/snap/code/157/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[20.165254] (learning_tf2_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.165516] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/learning_tf2_cpp/lib/learning_tf2_cpp/dynamic_frame_tf2_broadcaster\n'}
+[20.166985] (learning_tf2_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/ccl/ROS2_UAV/install/learning_tf2_cpp/lib/learning_tf2_cpp/dynamic_frame_tf2_broadcaster" to ""\n'}
+[20.167083] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/learning_tf2_cpp/lib/learning_tf2_cpp/fixed_frame_tf2_broadcaster\n'}
+[20.168574] (learning_tf2_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/ccl/ROS2_UAV/install/learning_tf2_cpp/lib/learning_tf2_cpp/fixed_frame_tf2_broadcaster" to ""\n'}
+[20.168681] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster\n'}
+[20.171706] (learning_tf2_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/ccl/ROS2_UAV/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster" to ""\n'}
+[20.171805] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener\n'}
+[20.173437] (learning_tf2_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/ccl/ROS2_UAV/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener" to ""\n'}
+[20.173539] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/launch\n'}
+[20.173782] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_dynamic_frame_demo.launch.py\n'}
+[20.174263] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_fixed_frame_demo.launch.py\n'}
+[20.174575] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_demo.launch.py\n'}
+[20.175336] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp\n'}
+[20.175424] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp\n'}
+[20.175538] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh\n'}
+[20.175920] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv\n'}
+[20.176026] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh\n'}
+[20.176090] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv\n'}
+[20.176213] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash\n'}
+[20.176396] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh\n'}
+[20.176860] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh\n'}
+[20.177111] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv\n'}
+[20.177366] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv\n'}
+[20.177586] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp\n'}
+[20.177757] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake\n'}
+[20.177941] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake\n'}
+[20.178052] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml\n'}
+[20.179879] (learning_tf2_cpp) CommandEnded: {'returncode': 0}
+[20.216140] (-) TimerEvent: {}
+[20.227861] (learning_tf2_cpp) JobEnded: {'identifier': 'learning_tf2_cpp', 'rc': 0}
+[20.316253] (-) TimerEvent: {}
+[20.416612] (-) TimerEvent: {}
+[20.440982] (uav_tf2_test) StdoutLine: {'line': b'[100%] Built target uav_tf2_broadcaster\n'}
+[20.452666] (uav_tf2_test) CommandEnded: {'returncode': 0}
+[20.516758] (-) TimerEvent: {}
+[20.527850] (uav_tf2_test) JobProgress: {'identifier': 'uav_tf2_test', 'progress': 'install'}
+[20.528260] (uav_tf2_test) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ccl/ROS2_UAV/build/uav_tf2_test'], 'cwd': '/home/ccl/ROS2_UAV/build/uav_tf2_test', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ccl'), ('LC_TIME', 'en_US.UTF-8'), ('GIO_MODULE_DIR', '/home/ccl/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1674'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/ccl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/157/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/ccl/.nvm/versions/node/v20.11.1/bin'), ('NVM_INC', '/home/ccl/.nvm/versions/node/v20.11.1/include/node'), ('GTK_IM_MODULE_FILE', '/home/ccl/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/157/usr/share/code/code'), ('MANAGERPID', '1572'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22899'), ('NVM_DIR', '/home/ccl/.nvm'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ccl'), ('JOURNAL_STREAM', '8:51098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'ccl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/ccl/.nvm/versions/node/v20.11.1/bin:/home/ccl/ardupilot/Tools/autotest:/usr/lib/ccache:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/ccl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ccl/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1717,unix/ubuntu:/tmp/.ICE-unix/1717'), ('GTK_EXE_PREFIX', '/snap/code/157/usr'), ('INVOCATION_ID', 'cabaa2b973c1490e8f819080811eb6f9'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/157/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9e64f6363a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ccl/snap/code/157/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ccl/ROS2_UAV/build/uav_tf2_test'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/ccl/snap/code/157/.local/share:/home/ccl/snap/code/157:/snap/code/157/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[20.538058] (uav_tf2_test) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.538347] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/camera_node\n'}
+[20.539542] (uav_tf2_test) StdoutLine: {'line': b'-- Set runtime path of "/home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/camera_node" to ""\n'}
+[20.539714] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/lidar_node\n'}
+[20.540951] (uav_tf2_test) StdoutLine: {'line': b'-- Set runtime path of "/home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/lidar_node" to ""\n'}
+[20.541119] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/uav_node\n'}
+[20.542313] (uav_tf2_test) StdoutLine: {'line': b'-- Set runtime path of "/home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/uav_node" to ""\n'}
+[20.542392] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/camera_tf2_broadcaster\n'}
+[20.546277] (uav_tf2_test) StdoutLine: {'line': b'-- Set runtime path of "/home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/camera_tf2_broadcaster" to ""\n'}
+[20.546615] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/uav_tf2_broadcaster\n'}
+[20.550346] (uav_tf2_test) StdoutLine: {'line': b'-- Set runtime path of "/home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/uav_tf2_broadcaster" to ""\n'}
+[20.550542] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/lidar_tf2_broadcaster\n'}
+[20.553673] (uav_tf2_test) StdoutLine: {'line': b'-- Set runtime path of "/home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/lidar_tf2_broadcaster" to ""\n'}
+[20.553898] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/tf2_listener\n'}
+[20.554538] (uav_tf2_test) StdoutLine: {'line': b'-- Set runtime path of "/home/ccl/ROS2_UAV/install/uav_tf2_test/lib/uav_tf2_test/tf2_listener" to ""\n'}
+[20.554650] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/launch\n'}
+[20.554887] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/launch/uav_tf2_test.launch.py\n'}
+[20.555675] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/ament_index/resource_index/package_run_dependencies/uav_tf2_test\n'}
+[20.555832] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/ament_index/resource_index/parent_prefix_path/uav_tf2_test\n'}
+[20.556578] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/environment/ament_prefix_path.sh\n'}
+[20.556737] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/environment/ament_prefix_path.dsv\n'}
+[20.556834] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/environment/path.sh\n'}
+[20.557022] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/environment/path.dsv\n'}
+[20.557110] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/local_setup.bash\n'}
+[20.557353] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/local_setup.sh\n'}
+[20.557867] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/local_setup.zsh\n'}
+[20.558022] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/local_setup.dsv\n'}
+[20.558278] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/package.dsv\n'}
+[20.558480] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/ament_index/resource_index/packages/uav_tf2_test\n'}
+[20.558790] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/cmake/uav_tf2_testConfig.cmake\n'}
+[20.558893] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/cmake/uav_tf2_testConfig-version.cmake\n'}
+[20.558951] (uav_tf2_test) StdoutLine: {'line': b'-- Installing: /home/ccl/ROS2_UAV/install/uav_tf2_test/share/uav_tf2_test/package.xml\n'}
+[20.561541] (uav_tf2_test) CommandEnded: {'returncode': 0}
+[20.616989] (-) TimerEvent: {}
+[20.619329] (uav_tf2_test) JobEnded: {'identifier': 'uav_tf2_test', 'rc': 0}
+[20.620456] (-) EventReactorShutdown: {}
