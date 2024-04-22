@@ -1,8 +1,0 @@
-[0.058s] Invoking command in '/home/ccl/ros2_ws/build/uav_tf2_test': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ros2_ws/build/uav_tf2_test -- -j8 -l8
-[0.203s] [ 14%] Built target camera_node
-[0.207s] [ 28%] Built target camera_tf2_broadcaster
-[0.209s] [ 42%] Built target lidar_node
-[0.213s] [ 57%] Built target tf2_listener
-[0.228s] [ 71%] Built target uav_node
-[0.232s] [ 85%] Built target uav_tf2_broadcaster
-[0.242s] [100%] Built target lidar_tf2_broadcaster

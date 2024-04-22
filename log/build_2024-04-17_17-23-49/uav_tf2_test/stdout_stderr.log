@@ -1,7 +1,0 @@
-[ 14%] Built target camera_node
-[ 28%] Built target camera_tf2_broadcaster
-[ 42%] Built target lidar_node
-[ 57%] Built target tf2_listener
-[ 71%] Built target uav_node
-[ 85%] Built target uav_tf2_broadcaster
-[100%] Built target lidar_tf2_broadcaster

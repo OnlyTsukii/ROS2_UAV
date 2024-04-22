@@ -1,9 +1,0 @@
-[35m[1mScanning dependencies of target state_publisher[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/state_publisher.dir/src/state_publisher.cpp.o[0m
-/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp: In constructor ‘StatePublisher::StatePublisher()’:
-/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:28:41: error: unable to find numeric literal operator ‘operator""ms’
-   28 |         timer = this->create_wall_timer(30ms, std::bind(&StatePublisher::timer_callback, this));
-      |                                         ^~~~
-make[2]: *** [CMakeFiles/state_publisher.dir/build.make:63: CMakeFiles/state_publisher.dir/src/state_publisher.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/state_publisher.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

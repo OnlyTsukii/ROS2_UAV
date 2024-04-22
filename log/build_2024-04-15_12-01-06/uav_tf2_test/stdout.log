@@ -1,8 +1,0 @@
-[35m[1mScanning dependencies of target tf2_listener[0m
-[ 14%] Built target lidar_node
-[ 28%] Built target camera_node
-[ 42%] Built target uav_node
-[ 57%] Built target camera_tf2_broadcaster
-[ 71%] Built target uav_tf2_broadcaster
-[ 85%] Built target lidar_tf2_broadcaster
-[ 92%] [32mBuilding CXX object CMakeFiles/tf2_listener.dir/src/tf2_listener.cpp.o[0m
