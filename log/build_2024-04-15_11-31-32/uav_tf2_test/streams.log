@@ -1,0 +1,80 @@
+[0.029s] Invoking command in '/home/ccl/ros2_ws/build/uav_tf2_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ros2_ws/build/uav_tf2_test -- -j8 -l8
+[0.143s] [35m[1mScanning dependencies of target tf2_listener[0m
+[0.165s] [ 14%] Built target camera_tf2_broadcaster
+[0.166s] [ 28%] Built target uav_node
+[0.166s] [ 42%] Built target lidar_node
+[0.168s] [ 57%] Built target camera_node
+[0.173s] [ 71%] Built target lidar_tf2_broadcaster
+[0.175s] [ 85%] Built target uav_tf2_broadcaster
+[0.236s] [ 92%] [32mBuilding CXX object CMakeFiles/tf2_listener.dir/src/tf2_listener.cpp.o[0m
+[2.855s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp: In constructor ‘FrameListener::FrameListener()’:
+[2.855s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:22:5: error: ‘source_frame_1’ was not declared in this scope
+[2.855s]    22 |     source_frame_1 = this->declare_parameter<std::string>("source_frame", "camera");
+[2.855s]       |     ^~~~~~~~~~~~~~
+[2.856s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:23:5: error: ‘source_frame_2’ was not declared in this scope
+[2.856s]    23 |     source_frame_2 = this->declare_parameter<std::string>("source_frame", "lidar");
+[2.856s]       |     ^~~~~~~~~~~~~~
+[2.856s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp: In member function ‘void FrameListener::on_timer()’:
+[2.856s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:37:33: error: ‘source_frame_1’ was not declared in this scope
+[2.857s]    37 |     std::string fromFrameRel1 = source_frame_1.c_str();
+[2.857s]       |                                 ^~~~~~~~~~~~~~
+[2.857s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:38:33: error: ‘source_frame_2’ was not declared in this scope
+[2.857s]    38 |     std::string fromFrameRel2 = source_frame_2.c_str();
+[2.857s]       |                                 ^~~~~~~~~~~~~~
+[2.857s] In file included from /opt/ros/galactic/include/rclcpp/client.hpp:40,
+[2.857s]                  from /opt/ros/galactic/include/rclcpp/callback_group.hpp:23,
+[2.857s]                  from /opt/ros/galactic/include/rclcpp/any_executable.hpp:20,
+[2.857s]                  from /opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25,
+[2.857s]                  from /opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18,
+[2.858s]                  from /opt/ros/galactic/include/rclcpp/executor_options.hpp:20,
+[2.858s]                  from /opt/ros/galactic/include/rclcpp/executor.hpp:36,
+[2.858s]                  from /opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26,
+[2.858s]                  from /opt/ros/galactic/include/rclcpp/executors.hpp:21,
+[2.858s]                  from /opt/ros/galactic/include/rclcpp/rclcpp.hpp:156,
+[2.858s]                  from /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:8:
+[2.858s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:51:57: error: ‘using TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’ {aka ‘struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’} has no member named ‘translation’
+[2.858s]    51 |           fromFrameRel1.c_str(), toFrameRel.c_str(), t1.translation.x,
+[2.858s]       |                                                         ^~~~~~~~~~~
+[2.858s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:52:14: error: ‘using TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’ {aka ‘struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’} has no member named ‘translation’
+[2.859s]    52 |           t1.translation.y, t1.translation.z, t1.rotation.x,
+[2.859s]       |              ^~~~~~~~~~~
+[2.859s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:52:32: error: ‘using TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’ {aka ‘struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’} has no member named ‘translation’
+[2.859s]    52 |           t1.translation.y, t1.translation.z, t1.rotation.x,
+[2.860s]       |                                ^~~~~~~~~~~
+[2.860s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:52:50: error: ‘using TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’ {aka ‘struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’} has no member named ‘rotation’
+[2.861s]    52 |           t1.translation.y, t1.translation.z, t1.rotation.x,
+[2.861s]       |                                                  ^~~~~~~~
+[2.861s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:53:14: error: ‘using TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’ {aka ‘struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’} has no member named ‘rotation’
+[2.863s]    53 |           t1.rotation.y, t1.rotation.z, t1.rotation.w
+[2.864s]       |              ^~~~~~~~
+[2.865s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:53:29: error: ‘using TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’ {aka ‘struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’} has no member named ‘rotation’
+[2.865s]    53 |           t1.rotation.y, t1.rotation.z, t1.rotation.w
+[2.865s]       |                             ^~~~~~~~
+[2.866s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:53:44: error: ‘using TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’ {aka ‘struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’} has no member named ‘rotation’
+[2.866s]    53 |           t1.rotation.y, t1.rotation.z, t1.rotation.w
+[2.867s]       |                                            ^~~~~~~~
+[2.869s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:68:57: error: ‘using TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’ {aka ‘struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’} has no member named ‘translation’
+[2.871s]    68 |           fromFrameRel2.c_str(), toFrameRel.c_str(), t2.translation.x,
+[2.872s]       |                                                         ^~~~~~~~~~~
+[2.873s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:69:14: error: ‘using TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’ {aka ‘struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’} has no member named ‘translation’
+[2.874s]    69 |           t2.translation.y, t2.translation.z, t2.rotation.x,
+[2.874s]       |              ^~~~~~~~~~~
+[2.874s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:69:32: error: ‘using TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’ {aka ‘struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’} has no member named ‘translation’
+[2.875s]    69 |           t2.translation.y, t2.translation.z, t2.rotation.x,
+[2.875s]       |                                ^~~~~~~~~~~
+[2.875s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:69:50: error: ‘using TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’ {aka ‘struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’} has no member named ‘rotation’
+[2.875s]    69 |           t2.translation.y, t2.translation.z, t2.rotation.x,
+[2.875s]       |                                                  ^~~~~~~~
+[2.875s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:70:14: error: ‘using TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’ {aka ‘struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’} has no member named ‘rotation’
+[2.875s]    70 |           t2.rotation.y, t2.rotation.z, t2.rotation.w
+[2.875s]       |              ^~~~~~~~
+[2.876s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:70:29: error: ‘using TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’ {aka ‘struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’} has no member named ‘rotation’
+[2.876s]    70 |           t2.rotation.y, t2.rotation.z, t2.rotation.w
+[2.876s]       |                             ^~~~~~~~
+[2.876s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:70:44: error: ‘using TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’ {aka ‘struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >’} has no member named ‘rotation’
+[2.876s]    70 |           t2.rotation.y, t2.rotation.z, t2.rotation.w
+[2.876s]       |                                            ^~~~~~~~
+[2.876s] make[2]: *** [CMakeFiles/tf2_listener.dir/build.make:63: CMakeFiles/tf2_listener.dir/src/tf2_listener.cpp.o] Error 1
+[2.876s] make[1]: *** [CMakeFiles/Makefile2:279: CMakeFiles/tf2_listener.dir/all] Error 2
+[2.877s] make: *** [Makefile:141: all] Error 2
+[2.877s] Invoked command in '/home/ccl/ros2_ws/build/uav_tf2_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ros2_ws/build/uav_tf2_test -- -j8 -l8

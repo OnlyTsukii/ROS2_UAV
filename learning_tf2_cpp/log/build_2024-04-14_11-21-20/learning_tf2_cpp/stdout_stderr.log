@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target turtle_tf2_listener[0m
+[ 25%] Built target dynamic_frame_tf2_broadcaster
+[ 50%] Built target fixed_frame_tf2_broadcaster
+[ 75%] Built target turtle_tf2_broadcaster
+[ 87%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o[0m
+/home/ccl/ros2_ws/learning_tf2_cpp/src/turtle_tf2_listener.cpp: In member function ‘void FrameListener::on_timer()’:
+/home/ccl/ros2_ws/learning_tf2_cpp/src/turtle_tf2_listener.cpp:60:29: error: ‘class FrameListener’ has no member named ‘get_lock’; did you mean ‘get_clock’?
+   60 |    rclcpp::Time now = this->get_lock()->now();
+      |                             ^~~~~~~~
+      |                             get_clock
+make[2]: *** [CMakeFiles/turtle_tf2_listener.dir/build.make:63: CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/turtle_tf2_listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

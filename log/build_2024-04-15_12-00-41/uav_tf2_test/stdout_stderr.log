@@ -1,0 +1,53 @@
+[35m[1mScanning dependencies of target tf2_listener[0m
+[ 14%] Built target uav_tf2_broadcaster
+[ 28%] Built target camera_node
+[ 42%] Built target uav_node
+[ 57%] Built target camera_tf2_broadcaster
+[ 71%] Built target lidar_tf2_broadcaster
+[ 85%] Built target lidar_node
+[ 92%] [32mBuilding CXX object CMakeFiles/tf2_listener.dir/src/tf2_listener.cpp.o[0m
+In file included from /opt/ros/galactic/include/rclcpp/client.hpp:40,
+                 from /opt/ros/galactic/include/rclcpp/callback_group.hpp:23,
+                 from /opt/ros/galactic/include/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/galactic/include/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/galactic/include/rclcpp/executor.hpp:36,
+                 from /opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26,
+                 from /opt/ros/galactic/include/rclcpp/executors.hpp:21,
+                 from /opt/ros/galactic/include/rclcpp/rclcpp.hpp:156,
+                 from /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:8:
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp: In member function ‘void FrameListener::on_timer()’:
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:85:11: error: ‘fsource_frame_2’ was not declared in this scope; did you mean ‘source_frame_2’?
+   85 |           fsource_frame_2, source_frame_1, t3.transform.translation.x,
+      |           ^~~~~~~~~~~~~~~
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:91:33: warning: format ‘%s’ expects argument of type ‘char*’, but argument 5 has type ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} [-Wformat=]
+   91 |             this->get_logger(), "Could not transform %s to %s: %s",
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:91:55: note: format string is defined here
+   91 |             this->get_logger(), "Could not transform %s to %s: %s",
+      |                                                      ~^
+      |                                                       |
+      |                                                       char*
+In file included from /opt/ros/galactic/include/rclcpp/client.hpp:40,
+                 from /opt/ros/galactic/include/rclcpp/callback_group.hpp:23,
+                 from /opt/ros/galactic/include/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/galactic/include/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/galactic/include/rclcpp/executor.hpp:36,
+                 from /opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26,
+                 from /opt/ros/galactic/include/rclcpp/executors.hpp:21,
+                 from /opt/ros/galactic/include/rclcpp/rclcpp.hpp:156,
+                 from /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:8:
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:91:33: warning: format ‘%s’ expects argument of type ‘char*’, but argument 6 has type ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} [-Wformat=]
+   91 |             this->get_logger(), "Could not transform %s to %s: %s",
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:91:61: note: format string is defined here
+   91 |             this->get_logger(), "Could not transform %s to %s: %s",
+      |                                                            ~^
+      |                                                             |
+      |                                                             char*
+make[2]: *** [CMakeFiles/tf2_listener.dir/build.make:63: CMakeFiles/tf2_listener.dir/src/tf2_listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:279: CMakeFiles/tf2_listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

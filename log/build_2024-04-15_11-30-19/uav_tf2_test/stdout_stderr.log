@@ -1,0 +1,50 @@
+[35m[1mScanning dependencies of target tf2_listener[0m
+[ 14%] Built target camera_node
+[ 28%] Built target lidar_node
+[ 42%] Built target uav_node
+[ 57%] Built target uav_tf2_broadcaster
+[ 71%] Built target lidar_tf2_broadcaster
+[ 85%] Built target camera_tf2_broadcaster
+[ 92%] [32mBuilding CXX object CMakeFiles/tf2_listener.dir/src/tf2_listener.cpp.o[0m
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp: In constructor ‘FrameListener::FrameListener()’:
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:22:5: error: ‘source_frame_1’ was not declared in this scope
+   22 |     source_frame_1 = this->declare_parameter<std::string>("source_frame", "camera");
+      |     ^~~~~~~~~~~~~~
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:23:5: error: ‘source_frame_2’ was not declared in this scope
+   23 |     source_frame_2 = this->declare_parameter<std::string>("source_frame", "lidar");
+      |     ^~~~~~~~~~~~~~
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp: In member function ‘void FrameListener::on_timer()’:
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:37:33: error: ‘source_frame_1’ was not declared in this scope
+   37 |     std::string fromFrameRel1 = source_frame_1.c_str();
+      |                                 ^~~~~~~~~~~~~~
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:38:33: error: ‘source_frame_2’ was not declared in this scope
+   38 |     std::string fromFrameRel2 = source_frame_2.c_str();
+      |                                 ^~~~~~~~~~~~~~
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:46:9: error: ‘t1’ was not declared in this scope; did you mean ‘tm’?
+   46 |         t1 = tf_buffer_->lookupTransform(
+      |         ^~
+      |         tm
+In file included from /opt/ros/galactic/include/rclcpp/client.hpp:40,
+                 from /opt/ros/galactic/include/rclcpp/callback_group.hpp:23,
+                 from /opt/ros/galactic/include/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/galactic/include/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/galactic/include/rclcpp/executor.hpp:36,
+                 from /opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26,
+                 from /opt/ros/galactic/include/rclcpp/executors.hpp:21,
+                 from /opt/ros/galactic/include/rclcpp/rclcpp.hpp:156,
+                 from /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:8:
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:58:13: error: ‘fromFrameRel’ was not declared in this scope; did you mean ‘fromFrameRel2’?
+   58 |             fromFrameRel.c_str(), toFrameRel1.c_str(), ex.what());
+      |             ^~~~~~~~~~~~
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:58:35: error: ‘toFrameRel1’ was not declared in this scope; did you mean ‘toFrameRel’?
+   58 |             fromFrameRel.c_str(), toFrameRel1.c_str(), ex.what());
+      |                                   ^~~~~~~~~~~
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:63:9: error: ‘t2’ was not declared in this scope; did you mean ‘tf2’?
+   63 |         t2 = tf_buffer_->lookupTransform(
+      |         ^~
+      |         tf2
+make[2]: *** [CMakeFiles/tf2_listener.dir/build.make:63: CMakeFiles/tf2_listener.dir/src/tf2_listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:279: CMakeFiles/tf2_listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

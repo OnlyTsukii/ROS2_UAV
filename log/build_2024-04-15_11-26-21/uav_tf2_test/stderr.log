@@ -1,0 +1,202 @@
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:56:29: warning: missing terminating " character
+   56 |         this->get_logger(), "Transform %s to %s successfully,
+      |                             ^
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:57:69: warning: missing terminating " character
+   57 |             result: p_x %f p_y %f p_z %f r_x %f r_y %f r_z %f r_w %f",
+      |                                                                     ^
+In file included from /opt/ros/galactic/include/rclcpp/client.hpp:40,
+                 from /opt/ros/galactic/include/rclcpp/callback_group.hpp:23,
+                 from /opt/ros/galactic/include/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/galactic/include/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/galactic/include/rclcpp/executor.hpp:36,
+                 from /opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26,
+                 from /opt/ros/galactic/include/rclcpp/executors.hpp:21,
+                 from /opt/ros/galactic/include/rclcpp/rclcpp.hpp:156,
+                 from /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:8:
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:56:29: error: missing terminating " character
+   56 |         this->get_logger(), "Transform %s to %s successfully,
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:57:69: error: missing terminating " character
+   57 |             result: p_x %f p_y %f p_z %f r_x %f r_y %f r_z %f r_w %f",
+      |                                                                     ^~
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:74:29: warning: missing terminating " character
+   74 |         this->get_logger(), "Transform %s to %s successfully,
+      |                             ^
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:75:69: warning: missing terminating " character
+   75 |             result: p_x %f p_y %f p_z %f r_x %f r_y %f r_z %f r_w %f",
+      |                                                                     ^
+In file included from /opt/ros/galactic/include/rclcpp/client.hpp:40,
+                 from /opt/ros/galactic/include/rclcpp/callback_group.hpp:23,
+                 from /opt/ros/galactic/include/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/galactic/include/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/galactic/include/rclcpp/executor.hpp:36,
+                 from /opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26,
+                 from /opt/ros/galactic/include/rclcpp/executors.hpp:21,
+                 from /opt/ros/galactic/include/rclcpp/rclcpp.hpp:156,
+                 from /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:8:
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:74:29: error: missing terminating " character
+   74 |         this->get_logger(), "Transform %s to %s successfully,
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:75:69: error: missing terminating " character
+   75 |             result: p_x %f p_y %f p_z %f r_x %f r_y %f r_z %f r_w %f",
+      |                                                                     ^~
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp: In constructor ‘FrameListener::FrameListener()’:
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:22:5: error: ‘source_frame_1’ was not declared in this scope
+   22 |     source_frame_1 = this->declare_parameter<std::string>("source_frame", "camera");
+      |     ^~~~~~~~~~~~~~
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:23:5: error: ‘source_frame_2’ was not declared in this scope
+   23 |     source_frame_2 = this->declare_parameter<std::string>("source_frame", "lidar");
+      |     ^~~~~~~~~~~~~~
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp: In member function ‘void FrameListener::on_timer()’:
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:37:33: error: ‘source_frame_1’ was not declared in this scope
+   37 |     std::string fromFrameRel1 = source_frame_1.c_str();
+      |                                 ^~~~~~~~~~~~~~
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:38:33: error: ‘source_frame_2’ was not declared in this scope
+   38 |     std::string fromFrameRel2 = source_frame_2.c_str();
+      |                                 ^~~~~~~~~~~~~~
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:46:9: error: ‘t1’ was not declared in this scope; did you mean ‘tm’?
+   46 |         t1 = tf_buffer_->lookupTransform(
+      |         ^~
+      |         tm
+In file included from /opt/ros/galactic/include/rclcpp/client.hpp:40,
+                 from /opt/ros/galactic/include/rclcpp/callback_group.hpp:23,
+                 from /opt/ros/galactic/include/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/galactic/include/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/galactic/include/rclcpp/executor.hpp:36,
+                 from /opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26,
+                 from /opt/ros/galactic/include/rclcpp/executors.hpp:21,
+                 from /opt/ros/galactic/include/rclcpp/rclcpp.hpp:156,
+                 from /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:8:
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:51:13: error: ‘fromFrameRel’ was not declared in this scope; did you mean ‘fromFrameRel2’?
+   51 |             fromFrameRel.c_str(), toFrameRel1.c_str(), ex.what());
+      |             ^~~~~~~~~~~~
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:51:35: error: ‘toFrameRel1’ was not declared in this scope; did you mean ‘toFrameRel’?
+   51 |             fromFrameRel.c_str(), toFrameRel1.c_str(), ex.what());
+      |                                   ^~~~~~~~~~~
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:57:19: error: found ‘:’ in nested-name-specifier, expected ‘::’
+   57 |             result: p_x %f p_y %f p_z %f r_x %f r_y %f r_z %f r_w %f",
+      |                   ^
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:57:13: error: ‘result’ has not been declared
+   57 |             result: p_x %f p_y %f p_z %f r_x %f r_y %f r_z %f r_w %f",
+      |             ^~~~~~
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:57:26: error: ‘f’ was not declared in this scope
+   57 |             result: p_x %f p_y %f p_z %f r_x %f r_y %f r_z %f r_w %f",
+      |                          ^
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:58:52: error: ‘t1’ was not declared in this scope; did you mean ‘tm’?
+   58 |         fromFrameRel1.c_str(), toFrameRel.c_str(), t1.translation.x,
+      |                                                    ^~
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:63:5: error: expected ‘;’ before ‘try’
+   63 |     try {
+      |     ^~~
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:64:9: error: ‘t2’ was not declared in this scope; did you mean ‘tf2’?
+   64 |         t2 = tf_buffer_->lookupTransform(
+      |         ^~
+      |         tf2
+In file included from /opt/ros/galactic/include/rclcpp/client.hpp:40,
+                 from /opt/ros/galactic/include/rclcpp/callback_group.hpp:23,
+                 from /opt/ros/galactic/include/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/galactic/include/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/galactic/include/rclcpp/executor.hpp:36,
+                 from /opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26,
+                 from /opt/ros/galactic/include/rclcpp/executors.hpp:21,
+                 from /opt/ros/galactic/include/rclcpp/rclcpp.hpp:156,
+                 from /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:8:
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:75:19: error: found ‘:’ in nested-name-specifier, expected ‘::’
+   75 |             result: p_x %f p_y %f p_z %f r_x %f r_y %f r_z %f r_w %f",
+      |                   ^
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:75:13: error: ‘result’ has not been declared
+   75 |             result: p_x %f p_y %f p_z %f r_x %f r_y %f r_z %f r_w %f",
+      |             ^~~~~~
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:75:26: error: ‘f’ was not declared in this scope
+   75 |             result: p_x %f p_y %f p_z %f r_x %f r_y %f r_z %f r_w %f",
+      |                          ^
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:76:52: error: ‘t2’ was not declared in this scope; did you mean ‘tf2’?
+   76 |         fromFrameRel2.c_str(), toFrameRel.c_str(), t2.translation.x,
+      |                                                    ^~
+/home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:81:3: error: expected ‘;’ before ‘}’ token
+   81 |   }
+      |   ^
+make[2]: *** [CMakeFiles/tf2_listener.dir/build.make:63: CMakeFiles/tf2_listener.dir/src/tf2_listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:279: CMakeFiles/tf2_listener.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+/home/ccl/ros2_ws/uav_tf2_test/src/lidar_tf2_broadcaster.cpp: In member function ‘void FramePublisher::handle_lidar_pose(std::shared_ptr<geometry_msgs::msg::Pose_<std::allocator<void> > >)’:
+/home/ccl/ros2_ws/uav_tf2_test/src/lidar_tf2_broadcaster.cpp:41:46: error: base operand of ‘->’ has non-pointer type ‘geometry_msgs::msg::Pose_<std::allocator<void> >::_position_type’ {aka ‘geometry_msgs::msg::Point_<std::allocator<void> >’}
+   41 |     t.transform.translation.x = msg->position->x;
+      |                                              ^~
+/home/ccl/ros2_ws/uav_tf2_test/src/lidar_tf2_broadcaster.cpp:42:46: error: base operand of ‘->’ has non-pointer type ‘geometry_msgs::msg::Pose_<std::allocator<void> >::_position_type’ {aka ‘geometry_msgs::msg::Point_<std::allocator<void> >’}
+   42 |     t.transform.translation.y = msg->position->y;
+      |                                              ^~
+/home/ccl/ros2_ws/uav_tf2_test/src/lidar_tf2_broadcaster.cpp:43:46: error: base operand of ‘->’ has non-pointer type ‘geometry_msgs::msg::Pose_<std::allocator<void> >::_position_type’ {aka ‘geometry_msgs::msg::Point_<std::allocator<void> >’}
+   43 |     t.transform.translation.z = msg->position->z;
+      |                                              ^~
+/home/ccl/ros2_ws/uav_tf2_test/src/lidar_tf2_broadcaster.cpp:45:46: error: base operand of ‘->’ has non-pointer type ‘geometry_msgs::msg::Pose_<std::allocator<void> >::_orientation_type’ {aka ‘geometry_msgs::msg::Quaternion_<std::allocator<void> >’}
+   45 |     t.transform.rotation.x = msg->orientation->x;
+      |                                              ^~
+/home/ccl/ros2_ws/uav_tf2_test/src/lidar_tf2_broadcaster.cpp:46:46: error: base operand of ‘->’ has non-pointer type ‘geometry_msgs::msg::Pose_<std::allocator<void> >::_orientation_type’ {aka ‘geometry_msgs::msg::Quaternion_<std::allocator<void> >’}
+   46 |     t.transform.rotation.y = msg->orientation->y;
+      |                                              ^~
+/home/ccl/ros2_ws/uav_tf2_test/src/lidar_tf2_broadcaster.cpp:47:46: error: base operand of ‘->’ has non-pointer type ‘geometry_msgs::msg::Pose_<std::allocator<void> >::_orientation_type’ {aka ‘geometry_msgs::msg::Quaternion_<std::allocator<void> >’}
+   47 |     t.transform.rotation.z = msg->orientation->z;
+      |                                              ^~
+/home/ccl/ros2_ws/uav_tf2_test/src/lidar_tf2_broadcaster.cpp:48:46: error: base operand of ‘->’ has non-pointer type ‘geometry_msgs::msg::Pose_<std::allocator<void> >::_orientation_type’ {aka ‘geometry_msgs::msg::Quaternion_<std::allocator<void> >’}
+   48 |     t.transform.rotation.w = msg->orientation->w;
+      |                                              ^~
+make[2]: *** [CMakeFiles/lidar_tf2_broadcaster.dir/build.make:63: CMakeFiles/lidar_tf2_broadcaster.dir/src/lidar_tf2_broadcaster.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:252: CMakeFiles/lidar_tf2_broadcaster.dir/all] Error 2
+/home/ccl/ros2_ws/uav_tf2_test/src/uav_tf2_broadcaster.cpp: In member function ‘void FramePublisher::handle_uav_pose(std::shared_ptr<geometry_msgs::msg::Pose_<std::allocator<void> > >)’:
+/home/ccl/ros2_ws/uav_tf2_test/src/uav_tf2_broadcaster.cpp:41:46: error: base operand of ‘->’ has non-pointer type ‘geometry_msgs::msg::Pose_<std::allocator<void> >::_position_type’ {aka ‘geometry_msgs::msg::Point_<std::allocator<void> >’}
+   41 |     t.transform.translation.x = msg->position->x;
+      |                                              ^~
+/home/ccl/ros2_ws/uav_tf2_test/src/uav_tf2_broadcaster.cpp:42:46: error: base operand of ‘->’ has non-pointer type ‘geometry_msgs::msg::Pose_<std::allocator<void> >::_position_type’ {aka ‘geometry_msgs::msg::Point_<std::allocator<void> >’}
+   42 |     t.transform.translation.y = msg->position->y;
+      |                                              ^~
+/home/ccl/ros2_ws/uav_tf2_test/src/uav_tf2_broadcaster.cpp:43:46: error: base operand of ‘->’ has non-pointer type ‘geometry_msgs::msg::Pose_<std::allocator<void> >::_position_type’ {aka ‘geometry_msgs::msg::Point_<std::allocator<void> >’}
+   43 |     t.transform.translation.z = msg->position->z;
+      |                                              ^~
+/home/ccl/ros2_ws/uav_tf2_test/src/uav_tf2_broadcaster.cpp:45:46: error: base operand of ‘->’ has non-pointer type ‘geometry_msgs::msg::Pose_<std::allocator<void> >::_orientation_type’ {aka ‘geometry_msgs::msg::Quaternion_<std::allocator<void> >’}
+   45 |     t.transform.rotation.x = msg->orientation->x;
+      |                                              ^~
+/home/ccl/ros2_ws/uav_tf2_test/src/uav_tf2_broadcaster.cpp:46:46: error: base operand of ‘->’ has non-pointer type ‘geometry_msgs::msg::Pose_<std::allocator<void> >::_orientation_type’ {aka ‘geometry_msgs::msg::Quaternion_<std::allocator<void> >’}
+   46 |     t.transform.rotation.y = msg->orientation->y;
+      |                                              ^~
+/home/ccl/ros2_ws/uav_tf2_test/src/uav_tf2_broadcaster.cpp:47:46: error: base operand of ‘->’ has non-pointer type ‘geometry_msgs::msg::Pose_<std::allocator<void> >::_orientation_type’ {aka ‘geometry_msgs::msg::Quaternion_<std::allocator<void> >’}
+   47 |     t.transform.rotation.z = msg->orientation->z;
+      |                                              ^~
+/home/ccl/ros2_ws/uav_tf2_test/src/uav_tf2_broadcaster.cpp:48:46: error: base operand of ‘->’ has non-pointer type ‘geometry_msgs::msg::Pose_<std::allocator<void> >::_orientation_type’ {aka ‘geometry_msgs::msg::Quaternion_<std::allocator<void> >’}
+   48 |     t.transform.rotation.w = msg->orientation->w;
+      |                                              ^~
+make[2]: *** [CMakeFiles/uav_tf2_broadcaster.dir/build.make:63: CMakeFiles/uav_tf2_broadcaster.dir/src/uav_tf2_broadcaster.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:225: CMakeFiles/uav_tf2_broadcaster.dir/all] Error 2
+/home/ccl/ros2_ws/uav_tf2_test/src/camera_tf2_broadcaster.cpp: In member function ‘void FramePublisher::handle_camera_pose(std::shared_ptr<geometry_msgs::msg::Pose_<std::allocator<void> > >)’:
+/home/ccl/ros2_ws/uav_tf2_test/src/camera_tf2_broadcaster.cpp:41:46: error: base operand of ‘->’ has non-pointer type ‘geometry_msgs::msg::Pose_<std::allocator<void> >::_position_type’ {aka ‘geometry_msgs::msg::Point_<std::allocator<void> >’}
+   41 |     t.transform.translation.x = msg->position->x;
+      |                                              ^~
+/home/ccl/ros2_ws/uav_tf2_test/src/camera_tf2_broadcaster.cpp:42:46: error: base operand of ‘->’ has non-pointer type ‘geometry_msgs::msg::Pose_<std::allocator<void> >::_position_type’ {aka ‘geometry_msgs::msg::Point_<std::allocator<void> >’}
+   42 |     t.transform.translation.y = msg->position->y;
+      |                                              ^~
+/home/ccl/ros2_ws/uav_tf2_test/src/camera_tf2_broadcaster.cpp:43:46: error: base operand of ‘->’ has non-pointer type ‘geometry_msgs::msg::Pose_<std::allocator<void> >::_position_type’ {aka ‘geometry_msgs::msg::Point_<std::allocator<void> >’}
+   43 |     t.transform.translation.z = msg->position->z;
+      |                                              ^~
+/home/ccl/ros2_ws/uav_tf2_test/src/camera_tf2_broadcaster.cpp:45:46: error: base operand of ‘->’ has non-pointer type ‘geometry_msgs::msg::Pose_<std::allocator<void> >::_orientation_type’ {aka ‘geometry_msgs::msg::Quaternion_<std::allocator<void> >’}
+   45 |     t.transform.rotation.x = msg->orientation->x;
+      |                                              ^~
+/home/ccl/ros2_ws/uav_tf2_test/src/camera_tf2_broadcaster.cpp:46:46: error: base operand of ‘->’ has non-pointer type ‘geometry_msgs::msg::Pose_<std::allocator<void> >::_orientation_type’ {aka ‘geometry_msgs::msg::Quaternion_<std::allocator<void> >’}
+   46 |     t.transform.rotation.y = msg->orientation->y;
+      |                                              ^~
+/home/ccl/ros2_ws/uav_tf2_test/src/camera_tf2_broadcaster.cpp:47:46: error: base operand of ‘->’ has non-pointer type ‘geometry_msgs::msg::Pose_<std::allocator<void> >::_orientation_type’ {aka ‘geometry_msgs::msg::Quaternion_<std::allocator<void> >’}
+   47 |     t.transform.rotation.z = msg->orientation->z;
+      |                                              ^~
+/home/ccl/ros2_ws/uav_tf2_test/src/camera_tf2_broadcaster.cpp:48:46: error: base operand of ‘->’ has non-pointer type ‘geometry_msgs::msg::Pose_<std::allocator<void> >::_orientation_type’ {aka ‘geometry_msgs::msg::Quaternion_<std::allocator<void> >’}
+   48 |     t.transform.rotation.w = msg->orientation->w;
+      |                                              ^~
+make[2]: *** [CMakeFiles/camera_tf2_broadcaster.dir/build.make:63: CMakeFiles/camera_tf2_broadcaster.dir/src/camera_tf2_broadcaster.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:198: CMakeFiles/camera_tf2_broadcaster.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

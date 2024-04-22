@@ -1,0 +1,28 @@
+[0.041s] Invoking command in '/home/ccl/ros2_ws/build/uav_tf2_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ros2_ws/build/uav_tf2_test -- -j8 -l8
+[0.155s] [35m[1mScanning dependencies of target tf2_listener[0m
+[0.157s] [ 14%] Built target lidar_node
+[0.165s] [ 28%] Built target camera_node
+[0.170s] [ 42%] Built target uav_node
+[0.190s] [ 57%] Built target camera_tf2_broadcaster
+[0.202s] [ 71%] Built target uav_tf2_broadcaster
+[0.204s] [ 85%] Built target lidar_tf2_broadcaster
+[0.242s] [ 92%] [32mBuilding CXX object CMakeFiles/tf2_listener.dir/src/tf2_listener.cpp.o[0m
+[2.827s] In file included from /opt/ros/galactic/include/rclcpp/client.hpp:40,
+[2.827s]                  from /opt/ros/galactic/include/rclcpp/callback_group.hpp:23,
+[2.827s]                  from /opt/ros/galactic/include/rclcpp/any_executable.hpp:20,
+[2.828s]                  from /opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25,
+[2.828s]                  from /opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18,
+[2.828s]                  from /opt/ros/galactic/include/rclcpp/executor_options.hpp:20,
+[2.828s]                  from /opt/ros/galactic/include/rclcpp/executor.hpp:36,
+[2.828s]                  from /opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26,
+[2.829s]                  from /opt/ros/galactic/include/rclcpp/executors.hpp:21,
+[2.829s]                  from /opt/ros/galactic/include/rclcpp/rclcpp.hpp:156,
+[2.829s]                  from /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:8:
+[2.829s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp: In member function ‘void FrameListener::on_timer()’:
+[2.829s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:85:11: error: ‘fsource_frame_2’ was not declared in this scope; did you mean ‘source_frame_2’?
+[2.829s]    85 |           fsource_frame_2, source_frame_1, t3.transform.translation.x,
+[2.829s]       |           ^~~~~~~~~~~~~~~
+[2.829s] make[2]: *** [CMakeFiles/tf2_listener.dir/build.make:63: CMakeFiles/tf2_listener.dir/src/tf2_listener.cpp.o] Error 1
+[2.829s] make[1]: *** [CMakeFiles/Makefile2:279: CMakeFiles/tf2_listener.dir/all] Error 2
+[2.830s] make: *** [Makefile:141: all] Error 2
+[2.833s] Invoked command in '/home/ccl/ros2_ws/build/uav_tf2_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ros2_ws/build/uav_tf2_test -- -j8 -l8

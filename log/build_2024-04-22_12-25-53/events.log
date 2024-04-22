@@ -1,0 +1,175 @@
+[0.000000] (-) TimerEvent: {}
+[0.000146] (-) JobUnselected: {'identifier': 'learning_tf2_cpp'}
+[0.000193] (-) JobUnselected: {'identifier': 'uav_tf2_test'}
+[0.000218] (uav_urdf_demo) JobQueued: {'identifier': 'uav_urdf_demo', 'dependencies': OrderedDict()}
+[0.000248] (uav_urdf_demo) JobStarted: {'identifier': 'uav_urdf_demo'}
+[0.009224] (uav_urdf_demo) JobProgress: {'identifier': 'uav_urdf_demo', 'progress': 'cmake'}
+[0.010733] (uav_urdf_demo) JobProgress: {'identifier': 'uav_urdf_demo', 'progress': 'build'}
+[0.010807] (uav_urdf_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ccl/ros2_ws/build/uav_urdf_demo', '--', '-j8', '-l8'], 'cwd': '/home/ccl/ros2_ws/build/uav_urdf_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ccl'), ('LC_TIME', 'en_US.UTF-8'), ('GIO_MODULE_DIR', '/home/ccl/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1674'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/ccl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/157/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/ccl/.nvm/versions/node/v20.11.1/bin'), ('NVM_INC', '/home/ccl/.nvm/versions/node/v20.11.1/include/node'), ('GTK_IM_MODULE_FILE', '/home/ccl/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/157/usr/share/code/code'), ('MANAGERPID', '1572'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3795'), ('NVM_DIR', '/home/ccl/.nvm'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ccl'), ('JOURNAL_STREAM', '8:51098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'ccl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ccl/ardupilot/Tools/autotest:/usr/lib/ccache:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/ccl/.local/bin:/opt/ros/galactic/bin:/home/ccl/.nvm/versions/node/v20.11.1/bin:/home/ccl/ardupilot/Tools/autotest:/usr/lib/ccache:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/ccl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ccl/.local/bin:/home/ccl/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1717,unix/ubuntu:/tmp/.ICE-unix/1717'), ('GTK_EXE_PREFIX', '/snap/code/157/usr'), ('INVOCATION_ID', 'cabaa2b973c1490e8f819080811eb6f9'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/157/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-22131dd205.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ccl/snap/code/157/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ccl/ros2_ws/build/uav_urdf_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/ccl/snap/code/157/.local/share:/home/ccl/snap/code/157:/snap/code/157/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.040208] (uav_urdf_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.056330] (uav_urdf_demo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.098805] (uav_urdf_demo) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[0.099311] (-) TimerEvent: {}
+[0.115150] (uav_urdf_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.117524] (uav_urdf_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.199606] (-) TimerEvent: {}
+[0.202146] (uav_urdf_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.256658] (uav_urdf_demo) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.284441] (uav_urdf_demo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.285554] (uav_urdf_demo) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.297924] (uav_urdf_demo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.299811] (-) TimerEvent: {}
+[0.384010] (uav_urdf_demo) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[0.400053] (-) TimerEvent: {}
+[0.429405] (uav_urdf_demo) StdoutLine: {'line': b'-- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)\n'}
+[0.435614] (uav_urdf_demo) StdoutLine: {'line': b'-- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)\n'}
+[0.500169] (-) TimerEvent: {}
+[0.600525] (-) TimerEvent: {}
+[0.645162] (uav_urdf_demo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[0.689626] (uav_urdf_demo) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.690848] (uav_urdf_demo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.690982] (uav_urdf_demo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.691040] (uav_urdf_demo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.691747] (uav_urdf_demo) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.691859] (uav_urdf_demo) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.692127] (uav_urdf_demo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.692455] (uav_urdf_demo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.692741] (uav_urdf_demo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.693553] (uav_urdf_demo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.693628] (uav_urdf_demo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.693876] (uav_urdf_demo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.696259] (uav_urdf_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.700624] (-) TimerEvent: {}
+[0.705142] (uav_urdf_demo) StdoutLine: {'line': b'-- Generating done\n'}
+[0.706615] (uav_urdf_demo) StdoutLine: {'line': b'-- Build files have been written to: /home/ccl/ros2_ws/build/uav_urdf_demo\n'}
+[0.731153] (uav_urdf_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target state_publisher\x1b[0m\n'}
+[0.765187] (uav_urdf_demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/state_publisher.dir/src/state_publisher.cpp.o\x1b[0m\n'}
+[0.800868] (-) TimerEvent: {}
+[0.901180] (-) TimerEvent: {}
+[1.001517] (-) TimerEvent: {}
+[1.101887] (-) TimerEvent: {}
+[1.202364] (-) TimerEvent: {}
+[1.302803] (-) TimerEvent: {}
+[1.403120] (-) TimerEvent: {}
+[1.503504] (-) TimerEvent: {}
+[1.603893] (-) TimerEvent: {}
+[1.704298] (-) TimerEvent: {}
+[1.804653] (-) TimerEvent: {}
+[1.905005] (-) TimerEvent: {}
+[2.005354] (-) TimerEvent: {}
+[2.105881] (-) TimerEvent: {}
+[2.206300] (-) TimerEvent: {}
+[2.306764] (-) TimerEvent: {}
+[2.407221] (-) TimerEvent: {}
+[2.507784] (-) TimerEvent: {}
+[2.608323] (-) TimerEvent: {}
+[2.708671] (-) TimerEvent: {}
+[2.809022] (-) TimerEvent: {}
+[2.909423] (-) TimerEvent: {}
+[3.009958] (-) TimerEvent: {}
+[3.110504] (-) TimerEvent: {}
+[3.210921] (-) TimerEvent: {}
+[3.311213] (-) TimerEvent: {}
+[3.338791] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:64:5: error: \xe2\x80\x98geometry_msgs_TransformStamped\xe2\x80\x99 does not name a type\n'}
+[3.339016] (uav_urdf_demo) StderrLine: {'line': b'   64 |     geometry_msgs_TransformStamped transform_stamped;\n'}
+[3.339236] (uav_urdf_demo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[3.339311] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:66:2: error: expected \xe2\x80\x98;\xe2\x80\x99 after class definition\n'}
+[3.339372] (uav_urdf_demo) StderrLine: {'line': b'   66 | }\n'}
+[3.339436] (uav_urdf_demo) StderrLine: {'line': b'      |  ^\n'}
+[3.339495] (uav_urdf_demo) StderrLine: {'line': b'      |  ;\n'}
+[3.339550] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp: In constructor \xe2\x80\x98StatePublisher::StatePublisher()\xe2\x80\x99:\n'}
+[3.339605] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:25:9: error: \xe2\x80\x98transform_stamped\xe2\x80\x99 was not declared in this scope\n'}
+[3.339671] (uav_urdf_demo) StderrLine: {'line': b'   25 |         transform_stamped.header.frame_id = "odom";\n'}
+[3.339724] (uav_urdf_demo) StderrLine: {'line': b'      |         ^~~~~~~~~~~~~~~~~\n'}
+[3.339778] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp: In lambda function:\n'}
+[3.339828] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:33:13: error: \xe2\x80\x98transform_stamped\xe2\x80\x99 is not captured\n'}
+[3.339882] (uav_urdf_demo) StderrLine: {'line': b'   33 |             transform_stamped.header.stamp = this->get_clock()->now();\n'}
+[3.339933] (uav_urdf_demo) StderrLine: {'line': b'      |             ^~~~~~~~~~~~~~~~~\n'}
+[3.339985] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:28:36: note: the lambda has no capture-default\n'}
+[3.340036] (uav_urdf_demo) StderrLine: {'line': b'   28 |         auto timer_callback = [this]() -> void {\n'}
+[3.340087] (uav_urdf_demo) StderrLine: {'line': b'      |                                    ^\n'}
+[3.340191] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:25:9: note: \xe2\x80\x98<typeprefixerror>transform_stamped\xe2\x80\x99 declared here\n'}
+[3.340255] (uav_urdf_demo) StderrLine: {'line': b'   25 |         transform_stamped.header.frame_id = "odom";\n'}
+[3.340311] (uav_urdf_demo) StderrLine: {'line': b'      |         ^~~~~~~~~~~~~~~~~\n'}
+[3.340514] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:35:13: error: \xe2\x80\x98transform_stamped\xe2\x80\x99 is not captured\n'}
+[3.340647] (uav_urdf_demo) StderrLine: {'line': b'   35 |             transform_stamped.transform.translation.x = step * direction;\n'}
+[3.340752] (uav_urdf_demo) StderrLine: {'line': b'      |             ^~~~~~~~~~~~~~~~~\n'}
+[3.340856] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:28:36: note: the lambda has no capture-default\n'}
+[3.340971] (uav_urdf_demo) StderrLine: {'line': b'   28 |         auto timer_callback = [this]() -> void {\n'}
+[3.341035] (uav_urdf_demo) StderrLine: {'line': b'      |                                    ^\n'}
+[3.341089] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:25:9: note: \xe2\x80\x98<typeprefixerror>transform_stamped\xe2\x80\x99 declared here\n'}
+[3.341141] (uav_urdf_demo) StderrLine: {'line': b'   25 |         transform_stamped.header.frame_id = "odom";\n'}
+[3.341197] (uav_urdf_demo) StderrLine: {'line': b'      |         ^~~~~~~~~~~~~~~~~\n'}
+[3.341249] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:36:13: error: \xe2\x80\x98transform_stamped\xe2\x80\x99 is not captured\n'}
+[3.341302] (uav_urdf_demo) StderrLine: {'line': b'   36 |             transform_stamped.transform.translation.y = 0;\n'}
+[3.341355] (uav_urdf_demo) StderrLine: {'line': b'      |             ^~~~~~~~~~~~~~~~~\n'}
+[3.341408] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:28:36: note: the lambda has no capture-default\n'}
+[3.341461] (uav_urdf_demo) StderrLine: {'line': b'   28 |         auto timer_callback = [this]() -> void {\n'}
+[3.341513] (uav_urdf_demo) StderrLine: {'line': b'      |                                    ^\n'}
+[3.341578] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:25:9: note: \xe2\x80\x98<typeprefixerror>transform_stamped\xe2\x80\x99 declared here\n'}
+[3.341659] (uav_urdf_demo) StderrLine: {'line': b'   25 |         transform_stamped.header.frame_id = "odom";\n'}
+[3.341748] (uav_urdf_demo) StderrLine: {'line': b'      |         ^~~~~~~~~~~~~~~~~\n'}
+[3.341927] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:37:13: error: \xe2\x80\x98transform_stamped\xe2\x80\x99 is not captured\n'}
+[3.342034] (uav_urdf_demo) StderrLine: {'line': b'   37 |             transform_stamped.transform.translation.z = 0;\n'}
+[3.342133] (uav_urdf_demo) StderrLine: {'line': b'      |             ^~~~~~~~~~~~~~~~~\n'}
+[3.342231] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:28:36: note: the lambda has no capture-default\n'}
+[3.342329] (uav_urdf_demo) StderrLine: {'line': b'   28 |         auto timer_callback = [this]() -> void {\n'}
+[3.342429] (uav_urdf_demo) StderrLine: {'line': b'      |                                    ^\n'}
+[3.342527] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:25:9: note: \xe2\x80\x98<typeprefixerror>transform_stamped\xe2\x80\x99 declared here\n'}
+[3.342628] (uav_urdf_demo) StderrLine: {'line': b'   25 |         transform_stamped.header.frame_id = "odom";\n'}
+[3.342727] (uav_urdf_demo) StderrLine: {'line': b'      |         ^~~~~~~~~~~~~~~~~\n'}
+[3.342825] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:39:13: error: \xe2\x80\x98transform_stamped\xe2\x80\x99 is not captured\n'}
+[3.342923] (uav_urdf_demo) StderrLine: {'line': b'   39 |             transform_stamped.transform.rotation.x = 0;\n'}
+[3.343023] (uav_urdf_demo) StderrLine: {'line': b'      |             ^~~~~~~~~~~~~~~~~\n'}
+[3.343119] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:28:36: note: the lambda has no capture-default\n'}
+[3.343216] (uav_urdf_demo) StderrLine: {'line': b'   28 |         auto timer_callback = [this]() -> void {\n'}
+[3.343313] (uav_urdf_demo) StderrLine: {'line': b'      |                                    ^\n'}
+[3.343410] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:25:9: note: \xe2\x80\x98<typeprefixerror>transform_stamped\xe2\x80\x99 declared here\n'}
+[3.343508] (uav_urdf_demo) StderrLine: {'line': b'   25 |         transform_stamped.header.frame_id = "odom";\n'}
+[3.343605] (uav_urdf_demo) StderrLine: {'line': b'      |         ^~~~~~~~~~~~~~~~~\n'}
+[3.343701] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:40:13: error: \xe2\x80\x98transform_stamped\xe2\x80\x99 is not captured\n'}
+[3.344191] (uav_urdf_demo) StderrLine: {'line': b'   40 |             transform_stamped.transform.rotation.y = 0;\n'}
+[3.344433] (uav_urdf_demo) StderrLine: {'line': b'      |             ^~~~~~~~~~~~~~~~~\n'}
+[3.345234] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:28:36: note: the lambda has no capture-default\n'}
+[3.345320] (uav_urdf_demo) StderrLine: {'line': b'   28 |         auto timer_callback = [this]() -> void {\n'}
+[3.345375] (uav_urdf_demo) StderrLine: {'line': b'      |                                    ^\n'}
+[3.345773] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:25:9: note: \xe2\x80\x98<typeprefixerror>transform_stamped\xe2\x80\x99 declared here\n'}
+[3.345937] (uav_urdf_demo) StderrLine: {'line': b'   25 |         transform_stamped.header.frame_id = "odom";\n'}
+[3.346043] (uav_urdf_demo) StderrLine: {'line': b'      |         ^~~~~~~~~~~~~~~~~\n'}
+[3.346141] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:41:13: error: \xe2\x80\x98transform_stamped\xe2\x80\x99 is not captured\n'}
+[3.346240] (uav_urdf_demo) StderrLine: {'line': b'   41 |             transform_stamped.transform.rotation.x = 0;\n'}
+[3.347753] (uav_urdf_demo) StderrLine: {'line': b'      |             ^~~~~~~~~~~~~~~~~\n'}
+[3.347863] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:28:36: note: the lambda has no capture-default\n'}
+[3.347944] (uav_urdf_demo) StderrLine: {'line': b'   28 |         auto timer_callback = [this]() -> void {\n'}
+[3.348509] (uav_urdf_demo) StderrLine: {'line': b'      |                                    ^\n'}
+[3.348665] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:25:9: note: \xe2\x80\x98<typeprefixerror>transform_stamped\xe2\x80\x99 declared here\n'}
+[3.349426] (uav_urdf_demo) StderrLine: {'line': b'   25 |         transform_stamped.header.frame_id = "odom";\n'}
+[3.349501] (uav_urdf_demo) StderrLine: {'line': b'      |         ^~~~~~~~~~~~~~~~~\n'}
+[3.349556] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:42:13: error: \xe2\x80\x98transform_stamped\xe2\x80\x99 is not captured\n'}
+[3.349616] (uav_urdf_demo) StderrLine: {'line': b'   42 |             transform_stamped.transform.rotation.w = 1;\n'}
+[3.349669] (uav_urdf_demo) StderrLine: {'line': b'      |             ^~~~~~~~~~~~~~~~~\n'}
+[3.349735] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:28:36: note: the lambda has no capture-default\n'}
+[3.349789] (uav_urdf_demo) StderrLine: {'line': b'   28 |         auto timer_callback = [this]() -> void {\n'}
+[3.349841] (uav_urdf_demo) StderrLine: {'line': b'      |                                    ^\n'}
+[3.349892] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:25:9: note: \xe2\x80\x98<typeprefixerror>transform_stamped\xe2\x80\x99 declared here\n'}
+[3.349945] (uav_urdf_demo) StderrLine: {'line': b'   25 |         transform_stamped.header.frame_id = "odom";\n'}
+[3.349997] (uav_urdf_demo) StderrLine: {'line': b'      |         ^~~~~~~~~~~~~~~~~\n'}
+[3.350048] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:45:43: error: \xe2\x80\x98transform_stamped\xe2\x80\x99 is not captured\n'}
+[3.350101] (uav_urdf_demo) StderrLine: {'line': b'   45 |             tf_broadcaster->sendTransform(transform_stamped);\n'}
+[3.350152] (uav_urdf_demo) StderrLine: {'line': b'      |                                           ^~~~~~~~~~~~~~~~~\n'}
+[3.350209] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:28:36: note: the lambda has no capture-default\n'}
+[3.350261] (uav_urdf_demo) StderrLine: {'line': b'   28 |         auto timer_callback = [this]() -> void {\n'}
+[3.350317] (uav_urdf_demo) StderrLine: {'line': b'      |                                    ^\n'}
+[3.350369] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:25:9: note: \xe2\x80\x98<typeprefixerror>transform_stamped\xe2\x80\x99 declared here\n'}
+[3.350421] (uav_urdf_demo) StderrLine: {'line': b'   25 |         transform_stamped.header.frame_id = "odom";\n'}
+[3.350472] (uav_urdf_demo) StderrLine: {'line': b'      |         ^~~~~~~~~~~~~~~~~\n'}
+[3.350524] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp: In constructor \xe2\x80\x98StatePublisher::StatePublisher()\xe2\x80\x99:\n'}
+[3.350578] (uav_urdf_demo) StderrLine: {'line': b'/home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:53:41: error: unable to find numeric literal operator \xe2\x80\x98operator""ms\xe2\x80\x99\n'}
+[3.350627] (uav_urdf_demo) StderrLine: {'line': b'   53 |         timer = this->create_wall_timer(30ms, timer_callback);\n'}
+[3.350677] (uav_urdf_demo) StderrLine: {'line': b'      |                                         ^~~~\n'}
+[3.350730] (uav_urdf_demo) StderrLine: {'line': b'make[2]: *** [CMakeFiles/state_publisher.dir/build.make:63: CMakeFiles/state_publisher.dir/src/state_publisher.cpp.o] Error 1\n'}
+[3.350784] (uav_urdf_demo) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/state_publisher.dir/all] Error 2\n'}
+[3.350840] (uav_urdf_demo) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.350902] (uav_urdf_demo) CommandEnded: {'returncode': 2}
+[3.381038] (uav_urdf_demo) JobEnded: {'identifier': 'uav_urdf_demo', 'rc': 2}
+[3.391920] (-) EventReactorShutdown: {}

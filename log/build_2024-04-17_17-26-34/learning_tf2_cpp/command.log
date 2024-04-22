@@ -1,0 +1,4 @@
+Invoking command in '/home/ccl/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ros2_ws/build/learning_tf2_cpp -- -j8 -l8
+Invoked command in '/home/ccl/ros2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ros2_ws/build/learning_tf2_cpp -- -j8 -l8
+Invoking command in '/home/ccl/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ros2_ws/build/learning_tf2_cpp
+Invoked command in '/home/ccl/ros2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ros2_ws/build/learning_tf2_cpp

@@ -1,0 +1,133 @@
+[0.204s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.204s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1f34285610>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1f34285610>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1f34224970>)
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.253s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ccl/ros2_ws/learning_tf2_cpp'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'learning_tf2_cpp'
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.288s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/ccl/ros2_ws/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.288s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ccl/ros2_ws/install/examples_rclpy_pointcloud_publisher' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.289s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ccl/ros2_ws/install/examples_rclpy_minimal_subscriber' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.289s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ccl/ros2_ws/install/examples_rclpy_minimal_service' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.289s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ccl/ros2_ws/install/examples_rclpy_minimal_publisher' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.289s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ccl/ros2_ws/install/examples_rclpy_minimal_client' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.289s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_server' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.289s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_client' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.289s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ccl/ros2_ws/install/examples_rclpy_guard_conditions' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.289s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ccl/ros2_ws/install/examples_rclpy_executors' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.289s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ccl/ros2_ws/install/examples_rclcpp_multithreaded_executor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.289s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ccl/ros2_ws/install/examples_rclcpp_minimal_timer' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.289s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ccl/ros2_ws/install/examples_rclcpp_minimal_subscriber' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.289s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ccl/ros2_ws/install/examples_rclcpp_minimal_service' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.289s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ccl/ros2_ws/install/examples_rclcpp_minimal_publisher' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.289s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ccl/ros2_ws/install/examples_rclcpp_minimal_composition' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.290s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ccl/ros2_ws/install/examples_rclcpp_minimal_client' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.290s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ccl/ros2_ws/install/examples_rclcpp_minimal_action_server' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.290s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ccl/ros2_ws/install/examples_rclcpp_minimal_action_client' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.290s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ccl/ros2_ws/install/examples_rclcpp_cbg_executor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.290s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ccl/ros2_ws/install/examples_rclcpp_multithreaded_executor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.290s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ccl/ros2_ws/install/examples_rclcpp_minimal_timer' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.290s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ccl/ros2_ws/install/examples_rclcpp_minimal_subscriber' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.290s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ccl/ros2_ws/install/examples_rclcpp_minimal_service' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.290s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ccl/ros2_ws/install/examples_rclcpp_minimal_publisher' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.290s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ccl/ros2_ws/install/examples_rclcpp_minimal_composition' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.290s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ccl/ros2_ws/install/examples_rclcpp_minimal_client' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.290s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ccl/ros2_ws/install/examples_rclcpp_minimal_action_server' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.291s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ccl/ros2_ws/install/examples_rclcpp_minimal_action_client' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.291s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ccl/ros2_ws/install/examples_rclcpp_cbg_executor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.294s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/galactic
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_target' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.358s] DEBUG:colcon.colcon_core.verb:Building package 'learning_tf2_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ccl/ros2_ws/learning_tf2_cpp/build/learning_tf2_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp', 'merge_install': False, 'path': '/home/ccl/ros2_ws/learning_tf2_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.358s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.359s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.360s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ccl/ros2_ws/learning_tf2_cpp' with build type 'ament_cmake'
+[0.360s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ccl/ros2_ws/learning_tf2_cpp'
+[0.363s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.363s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.363s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ccl/ros2_ws/learning_tf2_cpp/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ccl/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ccl/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ccl/ros2_ws/install/examples_rclpy_minimal_service:/home/ccl/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ccl/ros2_ws/install/examples_rclpy_minimal_client:/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ccl/ros2_ws/install/examples_rclpy_guard_conditions:/home/ccl/ros2_ws/install/examples_rclpy_executors:/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ros2_ws/learning_tf2_cpp/build/learning_tf2_cpp -- -j8 -l8
+[2.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ccl/ros2_ws/learning_tf2_cpp/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ccl/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ccl/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ccl/ros2_ws/install/examples_rclpy_minimal_service:/home/ccl/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ccl/ros2_ws/install/examples_rclpy_minimal_client:/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ccl/ros2_ws/install/examples_rclpy_guard_conditions:/home/ccl/ros2_ws/install/examples_rclpy_executors:/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ros2_ws/learning_tf2_cpp/build/learning_tf2_cpp -- -j8 -l8
+[2.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ccl/ros2_ws/learning_tf2_cpp/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ccl/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ccl/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ccl/ros2_ws/install/examples_rclpy_minimal_service:/home/ccl/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ccl/ros2_ws/install/examples_rclpy_minimal_client:/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ccl/ros2_ws/install/examples_rclpy_guard_conditions:/home/ccl/ros2_ws/install/examples_rclpy_executors:/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ros2_ws/learning_tf2_cpp/build/learning_tf2_cpp
+[2.467s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_tf2_cpp)
+[2.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ccl/ros2_ws/learning_tf2_cpp/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ccl/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ccl/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ccl/ros2_ws/install/examples_rclpy_minimal_service:/home/ccl/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ccl/ros2_ws/install/examples_rclpy_minimal_client:/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ccl/ros2_ws/install/examples_rclpy_guard_conditions:/home/ccl/ros2_ws/install/examples_rclpy_executors:/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ros2_ws/learning_tf2_cpp/build/learning_tf2_cpp
+[2.472s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp' for CMake module files
+[2.473s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp' for CMake config files
+[2.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_tf2_cpp', 'cmake_prefix_path')
+[2.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/hook/cmake_prefix_path.ps1'
+[2.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/hook/cmake_prefix_path.dsv'
+[2.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/hook/cmake_prefix_path.sh'
+[2.477s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/lib'
+[2.477s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/bin'
+[2.477s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/lib/pkgconfig/learning_tf2_cpp.pc'
+[2.478s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/lib/python3.8/site-packages'
+[2.478s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/bin'
+[2.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/package.ps1'
+[2.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv'
+[2.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/package.sh'
+[2.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/package.bash'
+[2.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/package.zsh'
+[2.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/colcon-core/packages/learning_tf2_cpp)
+[2.534s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_tf2_cpp)
+[2.535s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp' for CMake module files
+[2.536s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp' for CMake config files
+[2.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_tf2_cpp', 'cmake_prefix_path')
+[2.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/hook/cmake_prefix_path.ps1'
+[2.538s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/hook/cmake_prefix_path.dsv'
+[2.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/hook/cmake_prefix_path.sh'
+[2.539s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/lib'
+[2.539s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/bin'
+[2.539s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/lib/pkgconfig/learning_tf2_cpp.pc'
+[2.540s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/lib/python3.8/site-packages'
+[2.540s] Level 1:colcon.colcon_core.environment:checking '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/bin'
+[2.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/package.ps1'
+[2.541s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv'
+[2.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/package.sh'
+[2.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/package.bash'
+[2.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/package.zsh'
+[2.543s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/colcon-core/packages/learning_tf2_cpp)
+[2.543s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.545s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.545s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.545s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.553s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.553s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.553s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.572s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.572s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ccl/ros2_ws/learning_tf2_cpp/install/local_setup.ps1'
+[2.573s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ccl/ros2_ws/learning_tf2_cpp/install/_local_setup_util_ps1.py'
+[2.574s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ccl/ros2_ws/learning_tf2_cpp/install/setup.ps1'
+[2.575s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ccl/ros2_ws/learning_tf2_cpp/install/local_setup.sh'
+[2.576s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ccl/ros2_ws/learning_tf2_cpp/install/_local_setup_util_sh.py'
+[2.577s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ccl/ros2_ws/learning_tf2_cpp/install/setup.sh'
+[2.578s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ccl/ros2_ws/learning_tf2_cpp/install/local_setup.bash'
+[2.578s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ccl/ros2_ws/learning_tf2_cpp/install/setup.bash'
+[2.579s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ccl/ros2_ws/learning_tf2_cpp/install/local_setup.zsh'
+[2.580s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ccl/ros2_ws/learning_tf2_cpp/install/setup.zsh'

@@ -1,0 +1,2 @@
+Invoking command in '/home/ccl/ros2_ws/build/joint_state_publisher': /usr/bin/cmake /home/ccl/ros2_ws/joint_state_publisher/joint_state_publisher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ccl/ros2_ws/install/joint_state_publisher
+Invoked command in '/home/ccl/ros2_ws/build/joint_state_publisher' returned '1': /usr/bin/cmake /home/ccl/ros2_ws/joint_state_publisher/joint_state_publisher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ccl/ros2_ws/install/joint_state_publisher

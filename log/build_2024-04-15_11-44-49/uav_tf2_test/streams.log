@@ -1,0 +1,44 @@
+[0.029s] Invoking command in '/home/ccl/ros2_ws/build/uav_tf2_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ros2_ws/build/uav_tf2_test -- -j8 -l8
+[0.138s] [35m[1mScanning dependencies of target camera_tf2_broadcaster[0m
+[0.156s] [35m[1mScanning dependencies of target lidar_tf2_broadcaster[0m
+[0.162s] [ 14%] Built target camera_node
+[0.206s] [ 28%] Built target uav_tf2_broadcaster
+[0.207s] [ 42%] Built target lidar_node
+[0.216s] [ 57%] Built target uav_node
+[0.225s] [ 71%] Built target tf2_listener
+[0.229s] [ 78%] [32mBuilding CXX object CMakeFiles/camera_tf2_broadcaster.dir/src/camera_tf2_broadcaster.cpp.o[0m
+[0.243s] [ 85%] [32mBuilding CXX object CMakeFiles/lidar_tf2_broadcaster.dir/src/lidar_tf2_broadcaster.cpp.o[0m
+[7.156s] [ 92%] [32m[1mLinking CXX executable camera_tf2_broadcaster[0m
+[7.156s] [100%] [32m[1mLinking CXX executable lidar_tf2_broadcaster[0m
+[7.938s] [100%] Built target camera_tf2_broadcaster
+[7.940s] [100%] Built target lidar_tf2_broadcaster
+[7.960s] Invoked command in '/home/ccl/ros2_ws/build/uav_tf2_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ros2_ws/build/uav_tf2_test -- -j8 -l8
+[8.091s] Invoking command in '/home/ccl/ros2_ws/build/uav_tf2_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ros2_ws/build/uav_tf2_test
+[8.106s] -- Install configuration: ""
+[8.107s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_tf2_test/lib/uav_tf2_test/camera_node
+[8.109s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_tf2_test/lib/uav_tf2_test/lidar_node
+[8.111s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_tf2_test/lib/uav_tf2_test/uav_node
+[8.113s] -- Installing: /home/ccl/ros2_ws/install/uav_tf2_test/lib/uav_tf2_test/camera_tf2_broadcaster
+[8.125s] -- Set runtime path of "/home/ccl/ros2_ws/install/uav_tf2_test/lib/uav_tf2_test/camera_tf2_broadcaster" to ""
+[8.126s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_tf2_test/lib/uav_tf2_test/uav_tf2_broadcaster
+[8.128s] -- Installing: /home/ccl/ros2_ws/install/uav_tf2_test/lib/uav_tf2_test/lidar_tf2_broadcaster
+[8.138s] -- Set runtime path of "/home/ccl/ros2_ws/install/uav_tf2_test/lib/uav_tf2_test/lidar_tf2_broadcaster" to ""
+[8.139s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_tf2_test/lib/uav_tf2_test/tf2_listener
+[8.140s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_tf2_test/share/uav_tf2_test/launch
+[8.140s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_tf2_test/share/uav_tf2_test/launch/uav_tf2_test.launch.py
+[8.141s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_tf2_test/share/ament_index/resource_index/package_run_dependencies/uav_tf2_test
+[8.141s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_tf2_test/share/ament_index/resource_index/parent_prefix_path/uav_tf2_test
+[8.141s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_tf2_test/share/uav_tf2_test/environment/ament_prefix_path.sh
+[8.141s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_tf2_test/share/uav_tf2_test/environment/ament_prefix_path.dsv
+[8.141s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_tf2_test/share/uav_tf2_test/environment/path.sh
+[8.142s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_tf2_test/share/uav_tf2_test/environment/path.dsv
+[8.142s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_tf2_test/share/uav_tf2_test/local_setup.bash
+[8.142s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_tf2_test/share/uav_tf2_test/local_setup.sh
+[8.142s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_tf2_test/share/uav_tf2_test/local_setup.zsh
+[8.142s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_tf2_test/share/uav_tf2_test/local_setup.dsv
+[8.143s] -- Installing: /home/ccl/ros2_ws/install/uav_tf2_test/share/uav_tf2_test/package.dsv
+[8.143s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_tf2_test/share/ament_index/resource_index/packages/uav_tf2_test
+[8.143s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_tf2_test/share/uav_tf2_test/cmake/uav_tf2_testConfig.cmake
+[8.143s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_tf2_test/share/uav_tf2_test/cmake/uav_tf2_testConfig-version.cmake
+[8.143s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_tf2_test/share/uav_tf2_test/package.xml
+[8.146s] Invoked command in '/home/ccl/ros2_ws/build/uav_tf2_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ros2_ws/build/uav_tf2_test

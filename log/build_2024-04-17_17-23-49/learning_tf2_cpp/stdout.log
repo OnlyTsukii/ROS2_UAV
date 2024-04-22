@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target turtle_tf2_broadcaster[0m
+[35m[1mScanning dependencies of target dynamic_frame_tf2_broadcaster[0m
+[35m[1mScanning dependencies of target turtle_tf2_listener[0m
+[35m[1mScanning dependencies of target fixed_frame_tf2_broadcaster[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/dynamic_frame_tf2_broadcaster.dir/src/dynamic_frame_tf2_broadcaster.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/fixed_frame_tf2_broadcaster.dir/src/fixed_frame_tf2_broadcaster.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable dynamic_frame_tf2_broadcaster[0m
+[ 75%] [32m[1mLinking CXX executable fixed_frame_tf2_broadcaster[0m
+[ 87%] [32m[1mLinking CXX executable turtle_tf2_broadcaster[0m
+[ 87%] Built target fixed_frame_tf2_broadcaster
+[ 87%] Built target dynamic_frame_tf2_broadcaster
+[ 87%] Built target turtle_tf2_broadcaster
+[100%] [32m[1mLinking CXX executable turtle_tf2_listener[0m
+[100%] Built target turtle_tf2_listener

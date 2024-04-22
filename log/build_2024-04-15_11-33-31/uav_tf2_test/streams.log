@@ -1,0 +1,31 @@
+[0.031s] Invoking command in '/home/ccl/ros2_ws/build/uav_tf2_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ros2_ws/build/uav_tf2_test -- -j8 -l8
+[0.146s] [35m[1mScanning dependencies of target tf2_listener[0m
+[0.161s] [ 14%] Built target uav_node
+[0.174s] [ 28%] Built target lidar_node
+[0.175s] [ 42%] Built target camera_tf2_broadcaster
+[0.176s] [ 57%] Built target camera_node
+[0.186s] [ 71%] Built target uav_tf2_broadcaster
+[0.189s] [ 85%] Built target lidar_tf2_broadcaster
+[0.241s] [ 92%] [32mBuilding CXX object CMakeFiles/tf2_listener.dir/src/tf2_listener.cpp.o[0m
+[2.803s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp: In constructor ‘FrameListener::FrameListener()’:
+[2.803s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:22:5: error: ‘source_frame_1’ was not declared in this scope; did you mean ‘suorce_frame_1’?
+[2.803s]    22 |     source_frame_1 = this->declare_parameter<std::string>("source_frame1", "camera");
+[2.803s]       |     ^~~~~~~~~~~~~~
+[2.804s]       |     suorce_frame_1
+[2.804s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:23:5: error: ‘source_frame_2’ was not declared in this scope; did you mean ‘suorce_frame_2’?
+[2.804s]    23 |     source_frame_2 = this->declare_parameter<std::string>("source_frame2", "lidar");
+[2.804s]       |     ^~~~~~~~~~~~~~
+[2.805s]       |     suorce_frame_2
+[2.805s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp: In member function ‘void FrameListener::on_timer()’:
+[2.805s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:37:33: error: ‘source_frame_1’ was not declared in this scope; did you mean ‘suorce_frame_1’?
+[2.805s]    37 |     std::string fromFrameRel1 = source_frame_1.c_str();
+[2.805s]       |                                 ^~~~~~~~~~~~~~
+[2.805s]       |                                 suorce_frame_1
+[2.805s] /home/ccl/ros2_ws/uav_tf2_test/src/tf2_listener.cpp:38:33: error: ‘source_frame_2’ was not declared in this scope; did you mean ‘suorce_frame_2’?
+[2.805s]    38 |     std::string fromFrameRel2 = source_frame_2.c_str();
+[2.806s]       |                                 ^~~~~~~~~~~~~~
+[2.806s]       |                                 suorce_frame_2
+[2.806s] make[2]: *** [CMakeFiles/tf2_listener.dir/build.make:63: CMakeFiles/tf2_listener.dir/src/tf2_listener.cpp.o] Error 1
+[2.806s] make[1]: *** [CMakeFiles/Makefile2:279: CMakeFiles/tf2_listener.dir/all] Error 2
+[2.806s] make: *** [Makefile:141: all] Error 2
+[2.809s] Invoked command in '/home/ccl/ros2_ws/build/uav_tf2_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ros2_ws/build/uav_tf2_test -- -j8 -l8

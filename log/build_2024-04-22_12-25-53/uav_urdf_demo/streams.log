@@ -1,0 +1,133 @@
+[0.015s] Invoking command in '/home/ccl/ros2_ws/build/uav_urdf_demo': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ros2_ws/build/uav_urdf_demo -- -j8 -l8
+[0.040s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.056s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.099s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.115s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.117s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.202s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.257s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.284s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.285s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.298s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.384s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.429s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[0.435s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[0.645s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.690s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.691s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.691s] -- Configured cppcheck include dirs: 
+[0.691s] -- Configured cppcheck exclude dirs and/or files: 
+[0.692s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.692s] -- Configured cpplint exclude dirs and/or files: 
+[0.692s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.692s] -- Added test 'lint_cmake' to check CMake code style
+[0.693s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.693s] -- Added test 'uncrustify' to check C / C++ code style
+[0.693s] -- Configured uncrustify additional arguments: 
+[0.694s] -- Added test 'xmllint' to check XML markup files
+[0.696s] -- Configuring done
+[0.705s] -- Generating done
+[0.706s] -- Build files have been written to: /home/ccl/ros2_ws/build/uav_urdf_demo
+[0.731s] [35m[1mScanning dependencies of target state_publisher[0m
+[0.765s] [ 50%] [32mBuilding CXX object CMakeFiles/state_publisher.dir/src/state_publisher.cpp.o[0m
+[3.339s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:64:5: error: ‘geometry_msgs_TransformStamped’ does not name a type
+[3.339s]    64 |     geometry_msgs_TransformStamped transform_stamped;
+[3.339s]       |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[3.339s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:66:2: error: expected ‘;’ after class definition
+[3.339s]    66 | }
+[3.339s]       |  ^
+[3.339s]       |  ;
+[3.339s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp: In constructor ‘StatePublisher::StatePublisher()’:
+[3.339s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:25:9: error: ‘transform_stamped’ was not declared in this scope
+[3.339s]    25 |         transform_stamped.header.frame_id = "odom";
+[3.339s]       |         ^~~~~~~~~~~~~~~~~
+[3.340s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp: In lambda function:
+[3.340s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:33:13: error: ‘transform_stamped’ is not captured
+[3.340s]    33 |             transform_stamped.header.stamp = this->get_clock()->now();
+[3.340s]       |             ^~~~~~~~~~~~~~~~~
+[3.340s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:28:36: note: the lambda has no capture-default
+[3.340s]    28 |         auto timer_callback = [this]() -> void {
+[3.340s]       |                                    ^
+[3.340s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:25:9: note: ‘<typeprefixerror>transform_stamped’ declared here
+[3.340s]    25 |         transform_stamped.header.frame_id = "odom";
+[3.340s]       |         ^~~~~~~~~~~~~~~~~
+[3.340s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:35:13: error: ‘transform_stamped’ is not captured
+[3.340s]    35 |             transform_stamped.transform.translation.x = step * direction;
+[3.341s]       |             ^~~~~~~~~~~~~~~~~
+[3.341s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:28:36: note: the lambda has no capture-default
+[3.341s]    28 |         auto timer_callback = [this]() -> void {
+[3.341s]       |                                    ^
+[3.341s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:25:9: note: ‘<typeprefixerror>transform_stamped’ declared here
+[3.341s]    25 |         transform_stamped.header.frame_id = "odom";
+[3.341s]       |         ^~~~~~~~~~~~~~~~~
+[3.341s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:36:13: error: ‘transform_stamped’ is not captured
+[3.341s]    36 |             transform_stamped.transform.translation.y = 0;
+[3.341s]       |             ^~~~~~~~~~~~~~~~~
+[3.341s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:28:36: note: the lambda has no capture-default
+[3.341s]    28 |         auto timer_callback = [this]() -> void {
+[3.341s]       |                                    ^
+[3.341s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:25:9: note: ‘<typeprefixerror>transform_stamped’ declared here
+[3.341s]    25 |         transform_stamped.header.frame_id = "odom";
+[3.342s]       |         ^~~~~~~~~~~~~~~~~
+[3.342s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:37:13: error: ‘transform_stamped’ is not captured
+[3.342s]    37 |             transform_stamped.transform.translation.z = 0;
+[3.342s]       |             ^~~~~~~~~~~~~~~~~
+[3.342s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:28:36: note: the lambda has no capture-default
+[3.342s]    28 |         auto timer_callback = [this]() -> void {
+[3.342s]       |                                    ^
+[3.342s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:25:9: note: ‘<typeprefixerror>transform_stamped’ declared here
+[3.342s]    25 |         transform_stamped.header.frame_id = "odom";
+[3.343s]       |         ^~~~~~~~~~~~~~~~~
+[3.343s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:39:13: error: ‘transform_stamped’ is not captured
+[3.343s]    39 |             transform_stamped.transform.rotation.x = 0;
+[3.343s]       |             ^~~~~~~~~~~~~~~~~
+[3.343s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:28:36: note: the lambda has no capture-default
+[3.343s]    28 |         auto timer_callback = [this]() -> void {
+[3.343s]       |                                    ^
+[3.343s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:25:9: note: ‘<typeprefixerror>transform_stamped’ declared here
+[3.343s]    25 |         transform_stamped.header.frame_id = "odom";
+[3.343s]       |         ^~~~~~~~~~~~~~~~~
+[3.344s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:40:13: error: ‘transform_stamped’ is not captured
+[3.344s]    40 |             transform_stamped.transform.rotation.y = 0;
+[3.345s]       |             ^~~~~~~~~~~~~~~~~
+[3.345s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:28:36: note: the lambda has no capture-default
+[3.345s]    28 |         auto timer_callback = [this]() -> void {
+[3.345s]       |                                    ^
+[3.346s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:25:9: note: ‘<typeprefixerror>transform_stamped’ declared here
+[3.346s]    25 |         transform_stamped.header.frame_id = "odom";
+[3.346s]       |         ^~~~~~~~~~~~~~~~~
+[3.346s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:41:13: error: ‘transform_stamped’ is not captured
+[3.347s]    41 |             transform_stamped.transform.rotation.x = 0;
+[3.348s]       |             ^~~~~~~~~~~~~~~~~
+[3.348s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:28:36: note: the lambda has no capture-default
+[3.348s]    28 |         auto timer_callback = [this]() -> void {
+[3.348s]       |                                    ^
+[3.349s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:25:9: note: ‘<typeprefixerror>transform_stamped’ declared here
+[3.349s]    25 |         transform_stamped.header.frame_id = "odom";
+[3.349s]       |         ^~~~~~~~~~~~~~~~~
+[3.349s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:42:13: error: ‘transform_stamped’ is not captured
+[3.349s]    42 |             transform_stamped.transform.rotation.w = 1;
+[3.349s]       |             ^~~~~~~~~~~~~~~~~
+[3.350s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:28:36: note: the lambda has no capture-default
+[3.350s]    28 |         auto timer_callback = [this]() -> void {
+[3.350s]       |                                    ^
+[3.350s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:25:9: note: ‘<typeprefixerror>transform_stamped’ declared here
+[3.350s]    25 |         transform_stamped.header.frame_id = "odom";
+[3.350s]       |         ^~~~~~~~~~~~~~~~~
+[3.350s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:45:43: error: ‘transform_stamped’ is not captured
+[3.350s]    45 |             tf_broadcaster->sendTransform(transform_stamped);
+[3.350s]       |                                           ^~~~~~~~~~~~~~~~~
+[3.350s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:28:36: note: the lambda has no capture-default
+[3.350s]    28 |         auto timer_callback = [this]() -> void {
+[3.350s]       |                                    ^
+[3.350s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:25:9: note: ‘<typeprefixerror>transform_stamped’ declared here
+[3.350s]    25 |         transform_stamped.header.frame_id = "odom";
+[3.350s]       |         ^~~~~~~~~~~~~~~~~
+[3.350s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp: In constructor ‘StatePublisher::StatePublisher()’:
+[3.350s] /home/ccl/ros2_ws/uav_urdf_demo/src/state_publisher.cpp:53:41: error: unable to find numeric literal operator ‘operator""ms’
+[3.350s]    53 |         timer = this->create_wall_timer(30ms, timer_callback);
+[3.350s]       |                                         ^~~~
+[3.351s] make[2]: *** [CMakeFiles/state_publisher.dir/build.make:63: CMakeFiles/state_publisher.dir/src/state_publisher.cpp.o] Error 1
+[3.351s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/state_publisher.dir/all] Error 2
+[3.351s] make: *** [Makefile:141: all] Error 2
+[3.351s] Invoked command in '/home/ccl/ros2_ws/build/uav_urdf_demo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ros2_ws/build/uav_urdf_demo -- -j8 -l8

@@ -1,0 +1,36 @@
+[0.032s] Invoking command in '/home/ccl/ros2_ws/learning_tf2_cpp/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ccl/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ccl/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ccl/ros2_ws/install/examples_rclpy_minimal_service:/home/ccl/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ccl/ros2_ws/install/examples_rclpy_minimal_client:/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ccl/ros2_ws/install/examples_rclpy_guard_conditions:/home/ccl/ros2_ws/install/examples_rclpy_executors:/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ros2_ws/learning_tf2_cpp/build/learning_tf2_cpp -- -j8 -l8
+[0.112s] [35m[1mScanning dependencies of target turtle_tf2_listener[0m
+[0.139s] [ 25%] Built target fixed_frame_tf2_broadcaster
+[0.139s] [ 50%] Built target turtle_tf2_broadcaster
+[0.148s] [ 75%] Built target dynamic_frame_tf2_broadcaster
+[0.190s] [ 87%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o[0m
+[4.259s] [100%] [32m[1mLinking CXX executable turtle_tf2_listener[0m
+[4.698s] [100%] Built target turtle_tf2_listener
+[4.717s] Invoked command in '/home/ccl/ros2_ws/learning_tf2_cpp/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ccl/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ccl/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ccl/ros2_ws/install/examples_rclpy_minimal_service:/home/ccl/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ccl/ros2_ws/install/examples_rclpy_minimal_client:/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ccl/ros2_ws/install/examples_rclpy_guard_conditions:/home/ccl/ros2_ws/install/examples_rclpy_executors:/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ros2_ws/learning_tf2_cpp/build/learning_tf2_cpp -- -j8 -l8
+[4.815s] Invoking command in '/home/ccl/ros2_ws/learning_tf2_cpp/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ccl/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ccl/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ccl/ros2_ws/install/examples_rclpy_minimal_service:/home/ccl/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ccl/ros2_ws/install/examples_rclpy_minimal_client:/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ccl/ros2_ws/install/examples_rclpy_guard_conditions:/home/ccl/ros2_ws/install/examples_rclpy_executors:/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ros2_ws/learning_tf2_cpp/build/learning_tf2_cpp
+[4.827s] -- Install configuration: ""
+[4.828s] -- Up-to-date: /home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/lib/learning_tf2_cpp/dynamic_frame_tf2_broadcaster
+[4.830s] -- Up-to-date: /home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/lib/learning_tf2_cpp/fixed_frame_tf2_broadcaster
+[4.832s] -- Up-to-date: /home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster
+[4.834s] -- Installing: /home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener
+[4.839s] -- Set runtime path of "/home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener" to ""
+[4.839s] -- Up-to-date: /home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/launch
+[4.839s] -- Up-to-date: /home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_dynamic_frame_demo.launch.py
+[4.840s] -- Up-to-date: /home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_fixed_frame_demo.launch.py
+[4.840s] -- Up-to-date: /home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_demo.launch.py
+[4.840s] -- Up-to-date: /home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[4.840s] -- Up-to-date: /home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[4.841s] -- Up-to-date: /home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[4.841s] -- Up-to-date: /home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[4.841s] -- Up-to-date: /home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[4.841s] -- Up-to-date: /home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[4.841s] -- Up-to-date: /home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[4.841s] -- Up-to-date: /home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[4.842s] -- Up-to-date: /home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[4.842s] -- Up-to-date: /home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[4.842s] -- Installing: /home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[4.842s] -- Up-to-date: /home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[4.842s] -- Up-to-date: /home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[4.842s] -- Up-to-date: /home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[4.842s] -- Up-to-date: /home/ccl/ros2_ws/learning_tf2_cpp/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[4.846s] Invoked command in '/home/ccl/ros2_ws/learning_tf2_cpp/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ccl/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ccl/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ccl/ros2_ws/install/examples_rclpy_minimal_service:/home/ccl/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ccl/ros2_ws/install/examples_rclpy_minimal_client:/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ccl/ros2_ws/install/examples_rclpy_guard_conditions:/home/ccl/ros2_ws/install/examples_rclpy_executors:/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ros2_ws/learning_tf2_cpp/build/learning_tf2_cpp

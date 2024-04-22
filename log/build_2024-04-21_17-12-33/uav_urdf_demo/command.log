@@ -1,0 +1,6 @@
+Invoking command in '/home/ccl/ros2_ws/build/uav_urdf_demo': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ccl/ros2_ws/uav_urdf_demo -DCMAKE_INSTALL_PREFIX=/home/ccl/ros2_ws/install/uav_urdf_demo
+Invoked command in '/home/ccl/ros2_ws/build/uav_urdf_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ccl/ros2_ws/uav_urdf_demo -DCMAKE_INSTALL_PREFIX=/home/ccl/ros2_ws/install/uav_urdf_demo
+Invoking command in '/home/ccl/ros2_ws/build/uav_urdf_demo': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ros2_ws/build/uav_urdf_demo -- -j8 -l8
+Invoked command in '/home/ccl/ros2_ws/build/uav_urdf_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ros2_ws/build/uav_urdf_demo -- -j8 -l8
+Invoking command in '/home/ccl/ros2_ws/build/uav_urdf_demo': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ros2_ws/build/uav_urdf_demo
+Invoked command in '/home/ccl/ros2_ws/build/uav_urdf_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ros2_ws/build/uav_urdf_demo

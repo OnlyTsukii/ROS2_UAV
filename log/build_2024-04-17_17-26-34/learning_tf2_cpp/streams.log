@@ -1,0 +1,36 @@
+[0.053s] Invoking command in '/home/ccl/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ros2_ws/build/learning_tf2_cpp -- -j8 -l8
+[0.177s] [ 25%] Built target turtle_tf2_broadcaster
+[0.186s] [ 50%] Built target dynamic_frame_tf2_broadcaster
+[0.193s] [ 75%] Built target fixed_frame_tf2_broadcaster
+[0.195s] [100%] Built target turtle_tf2_listener
+[0.224s] Invoked command in '/home/ccl/ros2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ros2_ws/build/learning_tf2_cpp -- -j8 -l8
+[0.319s] Invoking command in '/home/ccl/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ros2_ws/build/learning_tf2_cpp
+[0.333s] -- Install configuration: ""
+[0.333s] -- Installing: /home/ccl/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/dynamic_frame_tf2_broadcaster
+[0.338s] -- Set runtime path of "/home/ccl/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/dynamic_frame_tf2_broadcaster" to ""
+[0.338s] -- Installing: /home/ccl/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/fixed_frame_tf2_broadcaster
+[0.350s] -- Set runtime path of "/home/ccl/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/fixed_frame_tf2_broadcaster" to ""
+[0.351s] -- Installing: /home/ccl/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster
+[0.352s] -- Set runtime path of "/home/ccl/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster" to ""
+[0.352s] -- Installing: /home/ccl/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener
+[0.358s] -- Set runtime path of "/home/ccl/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener" to ""
+[0.358s] -- Installing: /home/ccl/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch
+[0.359s] -- Installing: /home/ccl/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_dynamic_frame_demo.launch.py
+[0.359s] -- Installing: /home/ccl/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_fixed_frame_demo.launch.py
+[0.360s] -- Installing: /home/ccl/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_demo.launch.py
+[0.362s] -- Installing: /home/ccl/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[0.362s] -- Installing: /home/ccl/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[0.363s] -- Installing: /home/ccl/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[0.364s] -- Installing: /home/ccl/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[0.364s] -- Installing: /home/ccl/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[0.364s] -- Installing: /home/ccl/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[0.365s] -- Installing: /home/ccl/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[0.365s] -- Installing: /home/ccl/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[0.365s] -- Installing: /home/ccl/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[0.366s] -- Installing: /home/ccl/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[0.366s] -- Installing: /home/ccl/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[0.366s] -- Installing: /home/ccl/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[0.367s] -- Installing: /home/ccl/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[0.367s] -- Installing: /home/ccl/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[0.367s] -- Installing: /home/ccl/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[0.373s] Invoked command in '/home/ccl/ros2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ros2_ws/build/learning_tf2_cpp

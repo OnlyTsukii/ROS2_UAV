@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.000175] (learning_tf2_cpp) JobQueued: {'identifier': 'learning_tf2_cpp', 'dependencies': OrderedDict()}
+[0.000290] (learning_tf2_cpp) JobStarted: {'identifier': 'learning_tf2_cpp'}
+[0.016087] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'cmake'}
+[0.019252] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'build'}
+[0.019323] (learning_tf2_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ccl/ros2_ws/learning_tf2_cpp/build/learning_tf2_cpp', '--', '-j8', '-l8'], 'cwd': '/home/ccl/ros2_ws/learning_tf2_cpp/build/learning_tf2_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'ccl'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('SSH_AGENT_PID', '1658'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ccl/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/ccl'), ('OLDPWD', '/home/ccl/ros2_ws/learning_tf2_cpp/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('NVM_BIN', '/home/ccl/.nvm/versions/node/v20.11.1/bin'), ('NVM_INC', '/home/ccl/.nvm/versions/node/v20.11.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1556'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/ccl/.nvm'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/ccl/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ccl'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:56019'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ccl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/ccl/.nvm/versions/node/v20.11.1/bin:/home/ccl/ardupilot/Tools/autotest:/usr/lib/ccache:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/ccl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ccl/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1736,unix/ubuntu:/tmp/.ICE-unix/1736'), ('INVOCATION_ID', '63f181d937224077a4efdca028704b07'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e69b0635_65ab_4264_a276_989c09cd6391'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ccl/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ccl/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ccl/ros2_ws/install/examples_rclpy_minimal_service:/home/ccl/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ccl/ros2_ws/install/examples_rclpy_minimal_client:/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ccl/ros2_ws/install/examples_rclpy_guard_conditions:/home/ccl/ros2_ws/install/examples_rclpy_executors:/home/ccl/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/ccl/ros2_ws/install/examples_rclcpp_minimal_timer:/home/ccl/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/ccl/ros2_ws/install/examples_rclcpp_minimal_service:/home/ccl/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/ccl/ros2_ws/install/examples_rclcpp_minimal_composition:/home/ccl/ros2_ws/install/examples_rclcpp_minimal_client:/home/ccl/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/ccl/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/ccl/ros2_ws/install/examples_rclcpp_cbg_executor:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ccl/ros2_ws/learning_tf2_cpp/build/learning_tf2_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ccl/ros2_ws/build/examples_rclpy_pointcloud_publisher:/home/ccl/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.8/site-packages:/home/ccl/ros2_ws/build/examples_rclpy_minimal_subscriber:/home/ccl/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/ccl/ros2_ws/build/examples_rclpy_minimal_service:/home/ccl/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/ccl/ros2_ws/build/examples_rclpy_minimal_publisher:/home/ccl/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/ccl/ros2_ws/build/examples_rclpy_minimal_client:/home/ccl/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/ccl/ros2_ws/build/examples_rclpy_minimal_action_server:/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/ccl/ros2_ws/build/examples_rclpy_minimal_action_client:/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/ccl/ros2_ws/build/examples_rclpy_guard_conditions:/home/ccl/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.8/site-packages:/home/ccl/ros2_ws/build/examples_rclpy_executors:/home/ccl/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ccl/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/ccl/ros2_ws/install/examples_rclcpp_minimal_timer:/home/ccl/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/ccl/ros2_ws/install/examples_rclcpp_minimal_service:/home/ccl/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/ccl/ros2_ws/install/examples_rclcpp_minimal_composition:/home/ccl/ros2_ws/install/examples_rclcpp_minimal_client:/home/ccl/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/ccl/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/ccl/ros2_ws/install/examples_rclcpp_cbg_executor:/home/ccl/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ccl/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ccl/ros2_ws/install/examples_rclpy_minimal_service:/home/ccl/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ccl/ros2_ws/install/examples_rclpy_minimal_client:/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ccl/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ccl/ros2_ws/install/examples_rclpy_guard_conditions:/home/ccl/ros2_ws/install/examples_rclpy_executors:/opt/ros/galactic')]), 'shell': False}
+[0.093992] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.098821] (-) TimerEvent: {}
+[0.122922] (learning_tf2_cpp) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.198376] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[0.198974] (-) TimerEvent: {}
+[0.229240] (learning_tf2_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.234033] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.299303] (-) TimerEvent: {}
+[0.382568] (learning_tf2_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399486] (-) TimerEvent: {}
+[0.471565] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.499779] (-) TimerEvent: {}
+[0.523793] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.526459] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.547555] (learning_tf2_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.600101] (-) TimerEvent: {}
+[0.681360] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)\n'}
+[0.693061] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)\n'}
+[0.700294] (-) TimerEvent: {}
+[0.800831] (-) TimerEvent: {}
+[0.901481] (-) TimerEvent: {}
+[1.001984] (-) TimerEvent: {}
+[1.007914] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found turtlesim: 1.3.4 (/opt/ros/galactic/share/turtlesim/cmake)\n'}
+[1.060975] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[1.102333] (-) TimerEvent: {}
+[1.136299] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.172670] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.172851] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.172946] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.202519] (-) TimerEvent: {}
+[1.204767] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.204897] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.209149] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.217848] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.222067] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.254721] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.254904] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.259174] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.268690] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.286730] (learning_tf2_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[1.289413] (learning_tf2_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/ccl/ros2_ws/learning_tf2_cpp/build/learning_tf2_cpp\n'}
+[1.302706] (-) TimerEvent: {}
+[1.332340] (learning_tf2_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_tf2_broadcaster\x1b[0m\n'}
+[1.403013] (-) TimerEvent: {}
+[1.433925] (learning_tf2_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o\x1b[0m\n'}
+[1.503287] (-) TimerEvent: {}
+[1.603817] (-) TimerEvent: {}
+[1.704337] (-) TimerEvent: {}
+[1.804779] (-) TimerEvent: {}
+[1.905201] (-) TimerEvent: {}
+[2.005622] (-) TimerEvent: {}
+[2.106080] (-) TimerEvent: {}
+[2.206508] (-) TimerEvent: {}
+[2.307020] (-) TimerEvent: {}
+[2.407535] (-) TimerEvent: {}
+[2.508027] (-) TimerEvent: {}
+[2.608619] (-) TimerEvent: {}
+[2.709109] (-) TimerEvent: {}
+[2.809528] (-) TimerEvent: {}
+[2.910039] (-) TimerEvent: {}
+[3.010577] (-) TimerEvent: {}
+[3.111030] (-) TimerEvent: {}
+[3.211456] (-) TimerEvent: {}
+[3.311989] (-) TimerEvent: {}
+[3.412437] (-) TimerEvent: {}
+[3.512921] (-) TimerEvent: {}
+[3.613393] (-) TimerEvent: {}
+[3.713846] (-) TimerEvent: {}
+[3.814267] (-) TimerEvent: {}
+[3.914764] (-) TimerEvent: {}
+[4.015354] (-) TimerEvent: {}
+[4.115831] (-) TimerEvent: {}
+[4.216334] (-) TimerEvent: {}
+[4.316757] (-) TimerEvent: {}
+[4.417171] (-) TimerEvent: {}
+[4.517641] (-) TimerEvent: {}
+[4.618209] (-) TimerEvent: {}
+[4.718695] (-) TimerEvent: {}
+[4.819194] (-) TimerEvent: {}
+[4.919720] (-) TimerEvent: {}
+[5.020135] (-) TimerEvent: {}
+[5.120619] (-) TimerEvent: {}
+[5.221016] (-) TimerEvent: {}
+[5.321533] (-) TimerEvent: {}
+[5.422053] (-) TimerEvent: {}
+[5.522482] (-) TimerEvent: {}
+[5.622935] (-) TimerEvent: {}
+[5.723409] (-) TimerEvent: {}
+[5.823918] (-) TimerEvent: {}
+[5.924449] (-) TimerEvent: {}
+[6.024925] (-) TimerEvent: {}
+[6.125402] (-) TimerEvent: {}
+[6.225865] (-) TimerEvent: {}
+[6.326279] (-) TimerEvent: {}
+[6.426685] (-) TimerEvent: {}
+[6.527159] (-) TimerEvent: {}
+[6.627649] (-) TimerEvent: {}
+[6.728090] (-) TimerEvent: {}
+[6.828515] (-) TimerEvent: {}
+[6.928921] (-) TimerEvent: {}
+[7.029524] (-) TimerEvent: {}
+[7.130011] (-) TimerEvent: {}
+[7.230430] (-) TimerEvent: {}
+[7.330899] (-) TimerEvent: {}
+[7.431318] (-) TimerEvent: {}
+[7.531738] (-) TimerEvent: {}
+[7.632222] (-) TimerEvent: {}
+[7.732700] (-) TimerEvent: {}
+[7.833307] (-) TimerEvent: {}
+[7.933871] (-) TimerEvent: {}
+[8.034478] (-) TimerEvent: {}
+[8.134953] (-) TimerEvent: {}
+[8.235515] (-) TimerEvent: {}
+[8.305172] (learning_tf2_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_tf2_broadcaster\x1b[0m\n'}
+[8.335767] (-) TimerEvent: {}
+[8.436206] (-) TimerEvent: {}
+[8.536617] (-) TimerEvent: {}
+[8.637076] (-) TimerEvent: {}
+[8.737576] (-) TimerEvent: {}
+[8.838085] (-) TimerEvent: {}
+[8.929946] (learning_tf2_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o: in function `rclcpp::create_subscription_factory<turtlesim::msg::Pose_<std::allocator<void> >, FramePublisher::FramePublisher()::{lambda(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)#1}&, std::allocator<void>, turtlesim::msg::Pose_<std::allocator<void> >, rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> > >, rclcpp::message_memory_strategy::MessageMemoryStrategy>(FramePublisher::FramePublisher()::{lambda(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)#1}&, rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> > const&, rclcpp::message_memory_strategy::MessageMemoryStrategy::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<turtlesim::msg::Pose_<std::allocator<void> > > >)::{lambda(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&)#1}::operator()(rclcpp::node_interfaces::NodeBaseInterface, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, rclcpp::QoS const) const':\n"}
+[8.930669] (learning_tf2_cpp) StderrLine: {'line': b"turtle_tf2_broadcaster.cpp:(.text._ZZN6rclcpp27create_subscription_factoryIN9turtlesim3msg5Pose_ISaIvEEERZN14FramePublisherC4EvEUlSt10shared_ptrIS5_EE_S4_S5_NS_12SubscriptionIS5_S4_NS_23message_memory_strategy21MessageMemoryStrategyIS5_S4_EEEESE_EENS_19SubscriptionFactoryEOT0_RKNS_32SubscriptionOptionsWithAllocatorIT1_EENT4_9SharedPtrES7_INS_16topic_statistics27SubscriptionTopicStatisticsIT2_EEEENKUlPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSEE_clESX_S15_S18_[_ZZN6rclcpp27create_subscription_factoryIN9turtlesim3msg5Pose_ISaIvEEERZN14FramePublisherC4EvEUlSt10shared_ptrIS5_EE_S4_S5_NS_12SubscriptionIS5_S4_NS_23message_memory_strategy21MessageMemoryStrategyIS5_S4_EEEESE_EENS_19SubscriptionFactoryEOT0_RKNS_32SubscriptionOptionsWithAllocatorIT1_EENT4_9SharedPtrES7_INS_16topic_statistics27SubscriptionTopicStatisticsIT2_EEEENKUlPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSEE_clESX_S15_S18_]+0x5c): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<turtlesim::msg::Pose_<std::allocator<void> > >()'\n"}
+[8.931010] (learning_tf2_cpp) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[8.933576] (learning_tf2_cpp) StderrLine: {'line': b'make[2]: *** [CMakeFiles/turtle_tf2_broadcaster.dir/build.make:166: turtle_tf2_broadcaster] Error 1\n'}
+[8.933973] (learning_tf2_cpp) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/turtle_tf2_broadcaster.dir/all] Error 2\n'}
+[8.934257] (learning_tf2_cpp) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[8.938328] (learning_tf2_cpp) CommandEnded: {'returncode': 2}
+[8.939151] (-) TimerEvent: {}
+[9.011109] (learning_tf2_cpp) JobEnded: {'identifier': 'learning_tf2_cpp', 'rc': 2}
+[9.021939] (-) EventReactorShutdown: {}

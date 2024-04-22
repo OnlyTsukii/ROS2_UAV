@@ -1,0 +1,31 @@
+[0.016s] Invoking command in '/home/ccl/ros2_ws/build/uav_urdf_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ros2_ws/build/uav_urdf_demo -- -j8 -l8
+[0.058s] [35m[1mScanning dependencies of target state_publisher[0m
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/state_publisher.dir/src/state_publisher.cpp.o[0m
+[3.191s] [100%] [32m[1mLinking CXX executable state_publisher[0m
+[3.379s] [100%] Built target state_publisher
+[3.389s] Invoked command in '/home/ccl/ros2_ws/build/uav_urdf_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ccl/ros2_ws/build/uav_urdf_demo -- -j8 -l8
+[3.430s] Invoking command in '/home/ccl/ros2_ws/build/uav_urdf_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ros2_ws/build/uav_urdf_demo
+[3.436s] -- Install configuration: ""
+[3.436s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_urdf_demo/share/uav_urdf_demo/launch
+[3.437s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_urdf_demo/share/uav_urdf_demo/launch/uav_urdf.launch.py
+[3.437s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_urdf_demo/share/uav_urdf_demo/urdf
+[3.437s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_urdf_demo/share/uav_urdf_demo/urdf/refrence.urdf.xml
+[3.437s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_urdf_demo/share/uav_urdf_demo/urdf/uav.urdf.xml
+[3.437s] -- Installing: /home/ccl/ros2_ws/install/uav_urdf_demo/lib/uav_urdf_demo/state_publisher
+[3.438s] -- Set runtime path of "/home/ccl/ros2_ws/install/uav_urdf_demo/lib/uav_urdf_demo/state_publisher" to ""
+[3.438s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_urdf_demo/share/ament_index/resource_index/package_run_dependencies/uav_urdf_demo
+[3.438s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_urdf_demo/share/ament_index/resource_index/parent_prefix_path/uav_urdf_demo
+[3.438s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_urdf_demo/share/uav_urdf_demo/environment/ament_prefix_path.sh
+[3.439s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_urdf_demo/share/uav_urdf_demo/environment/ament_prefix_path.dsv
+[3.439s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_urdf_demo/share/uav_urdf_demo/environment/path.sh
+[3.439s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_urdf_demo/share/uav_urdf_demo/environment/path.dsv
+[3.439s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_urdf_demo/share/uav_urdf_demo/local_setup.bash
+[3.440s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_urdf_demo/share/uav_urdf_demo/local_setup.sh
+[3.440s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_urdf_demo/share/uav_urdf_demo/local_setup.zsh
+[3.440s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_urdf_demo/share/uav_urdf_demo/local_setup.dsv
+[3.440s] -- Installing: /home/ccl/ros2_ws/install/uav_urdf_demo/share/uav_urdf_demo/package.dsv
+[3.440s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_urdf_demo/share/ament_index/resource_index/packages/uav_urdf_demo
+[3.440s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_urdf_demo/share/uav_urdf_demo/cmake/uav_urdf_demoConfig.cmake
+[3.440s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_urdf_demo/share/uav_urdf_demo/cmake/uav_urdf_demoConfig-version.cmake
+[3.440s] -- Up-to-date: /home/ccl/ros2_ws/install/uav_urdf_demo/share/uav_urdf_demo/package.xml
+[3.442s] Invoked command in '/home/ccl/ros2_ws/build/uav_urdf_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ccl/ros2_ws/build/uav_urdf_demo
